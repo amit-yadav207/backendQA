@@ -1,0 +1,2137 @@
+2025-05-28 19:30:26,477 - INFO - Starting NITJ AI Chatbot backend
+2025-05-28 19:30:26,477 - DEBUG - Google API key configured
+2025-05-28 19:30:43,349 - INFO - Starting NITJ AI Chatbot backend
+2025-05-28 19:30:43,349 - DEBUG - Google API key configured
+2025-05-28 19:31:22,268 - INFO - Checking internet connectivity
+2025-05-28 19:31:22,366 - INFO - Internet connectivity confirmed
+2025-05-28 19:31:22,368 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:31:22,368 - DEBUG - FAISS index exists: False
+2025-05-28 19:31:22,368 - INFO - Checking internet connectivity
+2025-05-28 19:31:22,496 - INFO - Internet connectivity confirmed
+2025-05-28 19:31:22,498 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:31:22,498 - DEBUG - FAISS index exists: False
+2025-05-28 19:33:25,286 - INFO - Checking internet connectivity
+2025-05-28 19:33:25,367 - INFO - Internet connectivity confirmed
+2025-05-28 19:33:25,368 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:33:25,369 - DEBUG - FAISS index exists: False
+2025-05-28 19:33:25,371 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:33:25,371 - DEBUG - FAISS index exists: False
+2025-05-28 19:33:25,372 - INFO - Checking internet connectivity
+2025-05-28 19:33:25,425 - INFO - Internet connectivity confirmed
+2025-05-28 19:34:35,955 - INFO - Checking internet connectivity
+2025-05-28 19:34:36,071 - INFO - Internet connectivity confirmed
+2025-05-28 19:34:36,072 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:34:36,072 - DEBUG - FAISS index exists: False
+2025-05-28 19:34:36,072 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:34:36,072 - DEBUG - FAISS index exists: False
+2025-05-28 19:34:36,072 - INFO - Checking internet connectivity
+2025-05-28 19:34:36,149 - INFO - Internet connectivity confirmed
+2025-05-28 19:34:39,474 - INFO - Extracting text from 1 PDF documents
+2025-05-28 19:34:40,221 - DEBUG - Text extracted from PDF: health_samp_accomodation.pdf
+2025-05-28 19:34:40,221 - DEBUG - Cleaning text input
+2025-05-28 19:34:40,221 - DEBUG - Text cleaned successfully
+2025-05-28 19:34:40,221 - INFO - PDF text extraction completed, length: 25807 characters
+2025-05-28 19:34:40,221 - INFO - Splitting text into chunks
+2025-05-28 19:34:40,221 - DEBUG - Text split into 51 chunks
+2025-05-28 19:34:40,221 - INFO - Creating FAISS vector store with 51 text chunks
+2025-05-28 19:34:43,955 - ERROR - Error creating FAISS vector store: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+2025-05-28 19:34:43,955 - ERROR - Error processing PDFs: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+2025-05-28 19:35:03,620 - INFO - Loading FAISS vector store
+2025-05-28 19:35:03,621 - ERROR - Error loading FAISS vector store: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+2025-05-28 19:35:03,622 - ERROR - Error processing user question: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+2025-05-28 19:35:10,335 - INFO - Checking internet connectivity
+2025-05-28 19:35:10,585 - INFO - Internet connectivity confirmed
+2025-05-28 19:35:10,589 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:35:10,589 - DEBUG - FAISS index exists: False
+2025-05-28 19:35:10,593 - INFO - Checking internet connectivity
+2025-05-28 19:35:10,680 - INFO - Internet connectivity confirmed
+2025-05-28 19:35:10,681 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:35:10,682 - DEBUG - FAISS index exists: False
+2025-05-28 19:35:31,179 - INFO - Checking internet connectivity
+2025-05-28 19:35:31,314 - INFO - Internet connectivity confirmed
+2025-05-28 19:35:31,314 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:35:31,314 - DEBUG - FAISS index exists: False
+2025-05-28 19:35:31,314 - INFO - Checking internet connectivity
+2025-05-28 19:35:31,384 - INFO - Internet connectivity confirmed
+2025-05-28 19:35:31,384 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:35:31,384 - DEBUG - FAISS index exists: False
+2025-05-28 19:35:49,606 - INFO - Checking internet connectivity
+2025-05-28 19:35:49,682 - INFO - Internet connectivity confirmed
+2025-05-28 19:35:49,683 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:35:49,687 - DEBUG - FAISS index exists: False
+2025-05-28 19:35:49,687 - INFO - Checking internet connectivity
+2025-05-28 19:35:49,765 - INFO - Internet connectivity confirmed
+2025-05-28 19:35:49,765 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:35:49,765 - DEBUG - FAISS index exists: False
+2025-05-28 19:35:52,950 - INFO - Checking internet connectivity
+2025-05-28 19:35:53,065 - INFO - Internet connectivity confirmed
+2025-05-28 19:35:53,067 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:35:53,067 - DEBUG - FAISS index exists: False
+2025-05-28 19:35:53,067 - INFO - Checking internet connectivity
+2025-05-28 19:35:53,148 - INFO - Internet connectivity confirmed
+2025-05-28 19:35:53,150 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:35:53,151 - DEBUG - FAISS index exists: False
+2025-05-28 19:36:09,544 - INFO - Checking internet connectivity
+2025-05-28 19:36:09,631 - INFO - Internet connectivity confirmed
+2025-05-28 19:36:09,647 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:36:09,647 - DEBUG - FAISS index exists: False
+2025-05-28 19:36:09,652 - INFO - Checking internet connectivity
+2025-05-28 19:36:09,703 - INFO - Internet connectivity confirmed
+2025-05-28 19:36:09,705 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:36:09,705 - DEBUG - FAISS index exists: False
+2025-05-28 19:36:13,225 - INFO - Checking internet connectivity
+2025-05-28 19:36:13,329 - INFO - Internet connectivity confirmed
+2025-05-28 19:36:13,329 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:36:13,329 - DEBUG - FAISS index exists: False
+2025-05-28 19:36:13,329 - INFO - Checking internet connectivity
+2025-05-28 19:36:13,399 - INFO - Internet connectivity confirmed
+2025-05-28 19:36:13,399 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:36:13,399 - DEBUG - FAISS index exists: False
+2025-05-28 19:36:13,588 - INFO - Checking internet connectivity
+2025-05-28 19:36:13,664 - INFO - Internet connectivity confirmed
+2025-05-28 19:36:13,665 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:36:13,665 - DEBUG - FAISS index exists: False
+2025-05-28 19:36:13,665 - INFO - Checking internet connectivity
+2025-05-28 19:36:13,763 - INFO - Internet connectivity confirmed
+2025-05-28 19:36:13,765 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:36:13,766 - DEBUG - FAISS index exists: False
+2025-05-28 19:36:13,811 - INFO - Checking internet connectivity
+2025-05-28 19:36:13,866 - INFO - Internet connectivity confirmed
+2025-05-28 19:36:13,866 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:36:13,866 - DEBUG - FAISS index exists: False
+2025-05-28 19:36:13,866 - INFO - Checking internet connectivity
+2025-05-28 19:36:13,931 - INFO - Internet connectivity confirmed
+2025-05-28 19:36:13,931 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:36:13,931 - DEBUG - FAISS index exists: False
+2025-05-28 19:36:38,239 - INFO - Checking internet connectivity
+2025-05-28 19:36:38,340 - INFO - Internet connectivity confirmed
+2025-05-28 19:36:38,342 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:36:38,342 - DEBUG - FAISS index exists: False
+2025-05-28 19:36:38,343 - INFO - Checking internet connectivity
+2025-05-28 19:36:38,398 - INFO - Internet connectivity confirmed
+2025-05-28 19:36:38,400 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:36:38,400 - DEBUG - FAISS index exists: False
+2025-05-28 19:36:50,314 - INFO - Checking internet connectivity
+2025-05-28 19:36:50,429 - INFO - Internet connectivity confirmed
+2025-05-28 19:36:50,430 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:36:50,433 - DEBUG - FAISS index exists: False
+2025-05-28 19:36:50,433 - INFO - Checking internet connectivity
+2025-05-28 19:36:50,529 - INFO - Internet connectivity confirmed
+2025-05-28 19:36:50,530 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:36:50,530 - DEBUG - FAISS index exists: False
+2025-05-28 19:37:06,929 - INFO - Extracting text from 2 PDF documents
+2025-05-28 19:37:07,846 - DEBUG - Text extracted from PDF: health_samp_accomodation.pdf
+2025-05-28 19:37:08,996 - DEBUG - Text extracted from PDF: life at nitj 2.pdf
+2025-05-28 19:37:08,996 - DEBUG - Cleaning text input
+2025-05-28 19:37:08,996 - DEBUG - Text cleaned successfully
+2025-05-28 19:37:08,996 - INFO - PDF text extraction completed, length: 73701 characters
+2025-05-28 19:37:08,996 - INFO - Splitting text into chunks
+2025-05-28 19:37:08,996 - DEBUG - Text split into 147 chunks
+2025-05-28 19:37:08,996 - INFO - Creating FAISS vector store with 147 text chunks
+2025-05-28 19:37:18,012 - ERROR - Error creating FAISS vector store: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+2025-05-28 19:37:18,012 - ERROR - Error processing PDFs: Could not import faiss python package. Please install it with `pip install faiss-gpu` (for CUDA supported GPU) or `pip install faiss-cpu` (depending on Python version).
+2025-05-28 19:39:38,069 - INFO - Starting NITJ AI Chatbot backend
+2025-05-28 19:39:38,074 - DEBUG - Google API key configured
+2025-05-28 19:39:55,902 - INFO - Extracting text from 3 PDF documents
+2025-05-28 19:39:56,603 - DEBUG - Text extracted from PDF: health_samp_accomodation.pdf
+2025-05-28 19:39:57,353 - DEBUG - Text extracted from PDF: fest_amenties_scholarships.pdf
+2025-05-28 19:39:58,736 - DEBUG - Text extracted from PDF: life at nitj 2.pdf
+2025-05-28 19:39:58,736 - DEBUG - Cleaning text input
+2025-05-28 19:39:58,751 - DEBUG - Text cleaned successfully
+2025-05-28 19:39:58,751 - INFO - PDF text extraction completed, length: 93548 characters
+2025-05-28 19:39:58,751 - INFO - Splitting text into chunks
+2025-05-28 19:39:58,752 - DEBUG - Text split into 185 chunks
+2025-05-28 19:39:58,752 - INFO - Creating FAISS vector store with 185 text chunks
+2025-05-28 19:40:10,152 - INFO - FAISS vector store created and saved to 'faiss_index'
+2025-05-28 19:40:29,589 - INFO - Loading FAISS vector store
+2025-05-28 19:40:29,603 - INFO - FAISS vector store loaded successfully
+2025-05-28 19:40:30,533 - DEBUG - Retrieved 3 documents for question
+2025-05-28 19:40:30,533 - INFO - Checking internet connectivity
+2025-05-28 19:40:30,627 - INFO - Internet connectivity confirmed
+2025-05-28 19:40:30,627 - DEBUG - Initializing conversational chain
+2025-05-28 19:40:30,633 - DEBUG - Conversational chain initialized successfully
+2025-05-28 19:40:31,867 - ERROR - Error processing user question: Unknown field for Part: thought
+2025-05-28 19:44:02,579 - INFO - Starting NITJ AI Chatbot backend
+2025-05-28 19:44:02,579 - DEBUG - Google API key configured
+2025-05-28 19:44:11,102 - INFO - Checking internet connectivity
+2025-05-28 19:44:11,166 - INFO - Internet connectivity confirmed
+2025-05-28 19:44:11,166 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:44:11,166 - DEBUG - FAISS index exists: True
+2025-05-28 19:44:11,166 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:44:11,166 - DEBUG - FAISS index exists: True
+2025-05-28 19:44:11,166 - INFO - Checking internet connectivity
+2025-05-28 19:44:11,252 - INFO - Internet connectivity confirmed
+2025-05-28 19:44:43,221 - INFO - how many clubs at NITJ
+2025-05-28 19:44:43,221 - INFO - Loading FAISS vector store
+2025-05-28 19:44:43,285 - INFO - FAISS vector store loaded successfully
+2025-05-28 19:44:44,260 - DEBUG - Retrieved 3 documents for question
+2025-05-28 19:44:44,260 - INFO - Checking internet connectivity
+2025-05-28 19:44:44,340 - INFO - Internet connectivity confirmed
+2025-05-28 19:44:44,340 - DEBUG - Initializing conversational chain
+2025-05-28 19:44:44,340 - DEBUG - Conversational chain initialized successfully
+2025-05-28 19:44:44,340 - INFO - Got conversational Chain
+2025-05-28 19:44:45,459 - ERROR - Error processing user question: Unknown field for Part: thought
+2025-05-28 19:45:43,944 - INFO - Checking internet connectivity
+2025-05-28 19:45:44,015 - INFO - Internet connectivity confirmed
+2025-05-28 19:45:44,015 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:45:44,015 - DEBUG - FAISS index exists: True
+2025-05-28 19:45:44,015 - INFO - Checking internet connectivity
+2025-05-28 19:45:44,114 - INFO - Internet connectivity confirmed
+2025-05-28 19:45:44,115 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:45:44,115 - DEBUG - FAISS index exists: True
+2025-05-28 19:51:37,378 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:51:37,378 - DEBUG - FAISS index exists: True
+2025-05-28 19:51:40,435 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:51:40,436 - DEBUG - FAISS index exists: True
+2025-05-28 19:51:40,438 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:51:40,438 - DEBUG - FAISS index exists: True
+2025-05-28 19:52:01,072 - INFO - how many clubs at NITJ
+2025-05-28 19:52:01,072 - INFO - Loading FAISS vector store
+2025-05-28 19:52:01,077 - INFO - FAISS vector store loaded successfully
+2025-05-28 19:52:01,867 - DEBUG - Retrieved 3 documents for question
+2025-05-28 19:52:01,867 - INFO - Checking internet connectivity
+2025-05-28 19:52:01,979 - INFO - Internet connectivity confirmed
+2025-05-28 19:52:01,979 - DEBUG - Initializing conversational chain
+2025-05-28 19:52:01,979 - DEBUG - Conversational chain initialized successfully
+2025-05-28 19:52:01,979 - INFO - Got conversational Chain
+2025-05-28 19:52:03,252 - ERROR - Error processing user question: Unknown field for Part: thought
+2025-05-28 19:57:33,539 - INFO - Starting NITJ AI Chatbot backend
+2025-05-28 19:57:33,540 - DEBUG - Google API key configured
+2025-05-28 19:57:35,709 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:57:35,709 - DEBUG - FAISS index exists: True
+2025-05-28 19:57:35,711 - DEBUG - Checking if FAISS index exists
+2025-05-28 19:57:35,711 - DEBUG - FAISS index exists: True
+2025-05-28 19:59:51,670 - INFO - Received question: how many clubs at NITJ, offlineMode: True
+2025-05-28 19:59:51,670 - INFO - Loading FAISS vector store
+2025-05-28 19:59:51,779 - INFO - FAISS vector store loaded successfully
+2025-05-28 19:59:52,930 - DEBUG - Retrieved 3 documents for question
+2025-05-28 19:59:52,930 - INFO - Generating local LLM response for question: how many clubs at NITJ
+2025-05-28 19:59:52,944 - INFO - Loading local LLM (microsoft/phi-2)
+2025-05-28 20:00:04,683 - ERROR - Error loading local LLM: Using a `device_map`, `tp_plan`, `torch.device` context manager or setting `torch.set_default_device(device)` requires `accelerate`. You can install it with `pip install accelerate`
+2025-05-28 20:00:04,683 - ERROR - Error generating local LLM response: Using a `device_map`, `tp_plan`, `torch.device` context manager or setting `torch.set_default_device(device)` requires `accelerate`. You can install it with `pip install accelerate`
+2025-05-28 20:00:04,683 - ERROR - Error processing user question: Using a `device_map`, `tp_plan`, `torch.device` context manager or setting `torch.set_default_device(device)` requires `accelerate`. You can install it with `pip install accelerate`
+2025-05-28 20:00:50,791 - INFO - Starting NITJ AI Chatbot backend
+2025-05-28 20:00:50,791 - DEBUG - Google API key configured
+2025-05-28 20:01:01,100 - DEBUG - Checking if FAISS index exists
+2025-05-28 20:01:01,102 - DEBUG - FAISS index exists: True
+2025-05-28 20:01:01,106 - DEBUG - Checking if FAISS index exists
+2025-05-28 20:01:01,106 - DEBUG - FAISS index exists: True
+2025-05-28 20:01:11,067 - INFO - Received question: how many clubs at NITJ, offlineMode: True
+2025-05-28 20:01:11,068 - INFO - Loading FAISS vector store
+2025-05-28 20:01:11,109 - INFO - FAISS vector store loaded successfully
+2025-05-28 20:01:12,012 - DEBUG - Retrieved 3 documents for question
+2025-05-28 20:01:12,012 - INFO - Generating local LLM response for question: how many clubs at NITJ
+2025-05-28 20:01:12,012 - INFO - Loading local LLM (microsoft/phi-2)
+2025-05-28 21:35:43,823 - INFO - Starting NITJ AI Chatbot backend
+2025-05-28 21:35:43,829 - DEBUG - Google API key configured
+2025-05-28 21:36:08,906 - INFO - Starting NITJ AI Chatbot backend
+2025-05-28 21:36:08,906 - DEBUG - Google API key configured
+2025-05-28 21:39:26,778 - INFO - Starting NITJ AI Chatbot backend
+2025-05-28 21:39:26,778 - DEBUG - Google API key configured
+2025-05-28 21:39:48,314 - DEBUG - Checking if FAISS index exists
+2025-05-28 21:39:48,314 - DEBUG - FAISS index exists: True
+2025-05-28 21:39:48,314 - DEBUG - Checking if FAISS index exists
+2025-05-28 21:39:48,314 - DEBUG - FAISS index exists: True
+2025-05-28 21:39:59,823 - INFO - Received question: how many clubs at NITJ, offlineMode: True
+2025-05-28 21:39:59,824 - INFO - Loading FAISS vector store
+2025-05-28 21:40:00,279 - INFO - FAISS vector store loaded successfully
+2025-05-28 21:40:02,577 - DEBUG - Retrieved 3 documents for question
+2025-05-28 21:40:02,577 - INFO - Generating local LLM response for question: how many clubs at NITJ
+2025-05-28 21:40:02,577 - INFO - Loading local LLM (google/flan-t5-base)
+2025-05-28 21:45:17,384 - ERROR - Error loading local LLM: ('Connection broken: IncompleteRead(300239869 bytes read, 690105192 more expected)', IncompleteRead(300239869 bytes read, 690105192 more expected))
+2025-05-28 21:45:17,384 - ERROR - Error generating local LLM response: ('Connection broken: IncompleteRead(300239869 bytes read, 690105192 more expected)', IncompleteRead(300239869 bytes read, 690105192 more expected))
+2025-05-28 21:45:17,385 - ERROR - Error processing user question: ('Connection broken: IncompleteRead(300239869 bytes read, 690105192 more expected)', IncompleteRead(300239869 bytes read, 690105192 more expected))
+2025-05-28 21:45:49,978 - INFO - Starting NITJ AI Chatbot backend
+2025-05-28 21:45:49,986 - DEBUG - Google API key configured
+2025-05-28 21:45:50,448 - DEBUG - Checking if FAISS index exists
+2025-05-28 21:45:50,449 - DEBUG - FAISS index exists: True
+2025-05-28 21:45:50,452 - DEBUG - Checking if FAISS index exists
+2025-05-28 21:45:50,453 - DEBUG - FAISS index exists: True
+2025-05-28 21:45:59,621 - INFO - Received question: how many clubs at NITJ, offlineMode: True
+2025-05-28 21:45:59,621 - INFO - Loading FAISS vector store
+2025-05-28 21:45:59,813 - INFO - FAISS vector store loaded successfully
+2025-05-28 21:46:01,736 - DEBUG - Retrieved 3 documents for question
+2025-05-28 21:46:01,736 - INFO - Generating local LLM response for question: how many clubs at NITJ
+2025-05-28 21:46:01,736 - INFO - Loading local LLM (google/flan-t5-base)
+2025-05-28 21:46:56,151 - INFO - Local LLM loaded successfully
+2025-05-28 21:46:57,108 - DEBUG - Local LLM response generated: What is the name of the university that Ambedkar a
+2025-05-28 21:46:57,276 - DEBUG - Offline response generated: What is the name of the university that Ambedkar a
+2025-05-28 21:48:13,316 - INFO - Extracting text from 3 PDF documents
+2025-05-28 21:48:14,616 - DEBUG - Text extracted from PDF: health_samp_accomodation.pdf
+2025-05-28 21:48:15,400 - DEBUG - Text extracted from PDF: fest_amenties_scholarships.pdf
+2025-05-28 21:48:17,150 - DEBUG - Text extracted from PDF: life at nitj 2.pdf
+2025-05-28 21:48:17,150 - DEBUG - Cleaning text input
+2025-05-28 21:48:17,150 - DEBUG - Text cleaned successfully
+2025-05-28 21:48:17,150 - INFO - PDF text extraction completed, length: 93548 characters
+2025-05-28 21:48:17,150 - INFO - Splitting text into chunks
+2025-05-28 21:48:17,150 - DEBUG - Text split into 185 chunks
+2025-05-28 21:48:17,150 - INFO - Creating FAISS vector store with 185 text chunks
+2025-05-28 21:48:28,603 - INFO - FAISS vector store created and saved to 'faiss_index'
+2025-05-28 21:48:50,451 - INFO - Received question: how many clubs at NITJ, offlineMode: False
+2025-05-28 21:48:50,451 - INFO - Loading FAISS vector store
+2025-05-28 21:48:50,487 - INFO - FAISS vector store loaded successfully
+2025-05-28 21:48:52,210 - DEBUG - Retrieved 3 documents for question
+2025-05-28 21:48:52,212 - DEBUG - Initializing conversational chain
+2025-05-28 21:48:52,215 - DEBUG - Conversational chain initialized successfully
+2025-05-28 21:48:52,215 - INFO - Invoking conversational chain
+2025-05-28 21:48:54,568 - DEBUG - Online response generated: There are 20 cultural clubs listed in the provided
+2025-05-28 21:49:38,438 - INFO - Received question: how many clubs at NITJ, offlineMode: True
+2025-05-28 21:49:38,438 - INFO - Loading FAISS vector store
+2025-05-28 21:49:38,438 - INFO - FAISS vector store loaded successfully
+2025-05-28 21:49:40,283 - DEBUG - Retrieved 3 documents for question
+2025-05-28 21:49:40,283 - INFO - Generating local LLM response for question: how many clubs at NITJ
+2025-05-28 21:49:40,283 - INFO - Loading local LLM (google/flan-t5-base)
+2025-05-28 21:49:42,235 - INFO - Local LLM loaded successfully
+2025-05-28 21:49:43,714 - DEBUG - Local LLM response generated: What is the name of the institution that Dr. B.R. 
+2025-05-28 21:49:43,946 - DEBUG - Offline response generated: What is the name of the institution that Dr. B.R. 
+2025-05-28 21:51:56,219 - INFO - Starting NITJ AI Chatbot backend
+2025-05-28 21:51:56,219 - DEBUG - Google API key configured
+2025-05-28 21:53:10,777 - INFO - Starting NITJ AI Chatbot backend
+2025-05-28 21:53:10,777 - DEBUG - Google API key configured
+2025-05-28 21:53:20,042 - DEBUG - Checking if FAISS index exists
+2025-05-28 21:53:20,042 - DEBUG - FAISS index exists: True
+2025-05-28 21:53:20,042 - DEBUG - Checking if FAISS index exists
+2025-05-28 21:53:20,042 - DEBUG - FAISS index exists: True
+2025-05-28 21:53:30,750 - INFO - Received question: how many clubs at NITJ, offlineMode: True
+2025-05-28 21:53:30,751 - INFO - Loading FAISS vector store
+2025-05-28 21:53:30,951 - INFO - FAISS vector store loaded successfully
+2025-05-28 21:53:32,956 - DEBUG - Retrieved 3 documents for question
+2025-05-28 21:53:32,956 - INFO - Generating local LLM response for question: how many clubs at NITJ
+2025-05-28 21:53:32,956 - INFO - Loading local LLM (microsoft/phi-2)
+2025-05-28 21:59:08,473 - INFO - Local LLM loaded successfully
+2025-05-28 22:00:47,669 - DEBUG - Local LLM response generated: 18
+2025-05-28 22:00:47,867 - DEBUG - Offline response generated: 18
+2025-05-28 22:03:00,148 - INFO - Received question: who is Dr. Urvashi, offlineMode: True
+2025-05-28 22:03:00,157 - INFO - Loading FAISS vector store
+2025-05-28 22:03:00,319 - INFO - FAISS vector store loaded successfully
+2025-05-28 22:03:02,215 - DEBUG - Retrieved 3 documents for question
+2025-05-28 22:03:02,221 - INFO - Generating local LLM response for question: who is Dr. Urvashi
+2025-05-28 22:03:02,222 - INFO - Loading local LLM (microsoft/phi-2)
+2025-05-28 22:03:17,169 - INFO - Local LLM loaded successfully
+2025-05-28 22:05:15,681 - DEBUG - Local LLM response generated: Dr. Urvashi is an Assistant Professor in the Facul
+2025-05-28 22:05:15,847 - DEBUG - Offline response generated: Dr. Urvashi is an Assistant Professor in the Facul
+2025-05-29 01:38:43,919 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 01:38:43,939 - DEBUG - Google API key configured
+2025-05-29 01:39:07,950 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 01:39:07,953 - DEBUG - Google API key configured
+2025-05-29 01:39:47,117 - DEBUG - Checking if FAISS index exists
+2025-05-29 01:39:47,117 - DEBUG - FAISS index exists: True
+2025-05-29 01:39:47,119 - DEBUG - Checking if FAISS index exists
+2025-05-29 01:39:47,119 - DEBUG - FAISS index exists: True
+2025-05-29 01:40:01,015 - INFO - Received question: who is dr urvashi, offlineMode: False
+2025-05-29 01:40:01,016 - INFO - Loading FAISS vector store
+2025-05-29 01:40:01,425 - INFO - FAISS vector store loaded successfully
+2025-05-29 01:40:03,314 - DEBUG - Retrieved 3 documents for question
+2025-05-29 01:40:03,314 - DEBUG - Initializing conversational chain
+2025-05-29 01:40:03,322 - DEBUG - Conversational chain initialized successfully
+2025-05-29 01:40:03,322 - INFO - Invoking conversational chain
+2025-05-29 01:40:05,543 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor (Grade - 1) 
+2025-05-29 01:41:07,925 - INFO - Received question: who is dr amritpal singh, offlineMode: False
+2025-05-29 01:41:07,925 - INFO - Loading FAISS vector store
+2025-05-29 01:41:07,928 - INFO - FAISS vector store loaded successfully
+2025-05-29 01:41:09,698 - DEBUG - Retrieved 3 documents for question
+2025-05-29 01:41:09,699 - DEBUG - Initializing conversational chain
+2025-05-29 01:41:09,701 - DEBUG - Conversational chain initialized successfully
+2025-05-29 01:41:09,701 - INFO - Invoking conversational chain
+2025-05-29 01:41:11,933 - DEBUG - Online response generated: Dr. Amritpal Singh is an Assistant Professor (Grad
+2025-05-29 01:41:40,676 - INFO - Received question: who is doctor urvashi, offlineMode: True
+2025-05-29 01:41:40,676 - INFO - Loading FAISS vector store
+2025-05-29 01:41:40,682 - INFO - FAISS vector store loaded successfully
+2025-05-29 01:41:42,453 - DEBUG - Retrieved 3 documents for question
+2025-05-29 01:41:42,453 - INFO - Generating local LLM response for question: who is doctor urvashi
+2025-05-29 01:41:42,453 - INFO - Loading local LLM (microsoft/phi-2)
+2025-05-29 01:42:11,090 - INFO - Local LLM loaded successfully
+2025-05-29 01:52:34,620 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 01:52:34,678 - INFO - Initializing application
+2025-05-29 01:52:34,678 - INFO - Loading local LLM (microsoft/phi-2)
+2025-05-29 01:53:02,112 - INFO - Local LLM loaded successfully
+2025-05-29 01:53:19,720 - DEBUG - Checking if FAISS index exists
+2025-05-29 01:53:19,720 - DEBUG - FAISS index exists: True
+2025-05-29 01:53:19,720 - DEBUG - Checking if FAISS index exists
+2025-05-29 01:53:19,720 - DEBUG - FAISS index exists: True
+2025-05-29 01:53:37,658 - INFO - Received question: who is dr urvashi, offlineMode: False
+2025-05-29 01:53:37,658 - INFO - Loading FAISS vector store
+2025-05-29 01:53:43,622 - INFO - FAISS vector store loaded successfully
+2025-05-29 01:53:43,812 - ERROR - Error processing user question: 
+2025-05-29 01:55:21,489 - INFO - Shutting down application
+2025-05-29 01:55:49,453 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 01:55:49,506 - INFO - Initializing application
+2025-05-29 01:55:49,506 - INFO - Loading local LLM (microsoft/phi-2)
+2025-05-29 01:56:04,005 - INFO - Local LLM loaded successfully
+2025-05-29 01:56:11,203 - DEBUG - Checking if FAISS index exists
+2025-05-29 01:56:11,203 - DEBUG - FAISS index exists: True
+2025-05-29 01:56:11,214 - DEBUG - Checking if FAISS index exists
+2025-05-29 01:56:11,214 - DEBUG - FAISS index exists: True
+2025-05-29 01:56:18,143 - INFO - Received question: who is dr urvashi, offlineMode: False
+2025-05-29 01:56:18,143 - INFO - Loading FAISS vector store
+2025-05-29 01:56:24,936 - INFO - FAISS vector store loaded successfully
+2025-05-29 01:56:25,141 - ERROR - Error processing user question: 
+2025-05-29 01:56:40,417 - INFO - Shutting down application
+2025-05-29 01:56:54,011 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 01:56:54,058 - INFO - Initializing application
+2025-05-29 01:56:54,058 - INFO - Loading local LLM (microsoft/phi-2)
+2025-05-29 01:57:08,616 - INFO - Local LLM loaded successfully
+2025-05-29 01:57:18,532 - DEBUG - Checking if FAISS index exists
+2025-05-29 01:57:18,533 - DEBUG - FAISS index exists: False
+2025-05-29 01:57:18,536 - DEBUG - Checking if FAISS index exists
+2025-05-29 01:57:18,536 - DEBUG - FAISS index exists: False
+2025-05-29 01:57:25,537 - INFO - Received question: who is dr urvashi, offlineMode: False
+2025-05-29 01:57:25,537 - INFO - Loading FAISS vector store
+2025-05-29 01:57:31,528 - ERROR - Error loading FAISS vector store: Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\faiss\faiss\impl\io.cpp:68: Error: 'f' failed: could not open faiss_index\index.faiss for reading: No such file or directory
+2025-05-29 01:57:31,528 - ERROR - Error processing user question: Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\faiss\faiss\impl\io.cpp:68: Error: 'f' failed: could not open faiss_index\index.faiss for reading: No such file or directory
+2025-05-29 01:59:09,388 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 01:59:09,388 - DEBUG - Google API key configured
+2025-05-29 01:59:44,116 - DEBUG - Checking if FAISS index exists
+2025-05-29 01:59:44,118 - DEBUG - FAISS index exists: False
+2025-05-29 01:59:44,118 - DEBUG - Checking if FAISS index exists
+2025-05-29 01:59:44,118 - DEBUG - FAISS index exists: False
+2025-05-29 01:59:52,993 - INFO - Received question: who is Dr Urvashi, offlineMode: False
+2025-05-29 01:59:52,993 - INFO - Loading FAISS vector store
+2025-05-29 01:59:53,089 - ERROR - Error loading FAISS vector store: Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\faiss\faiss\impl\io.cpp:68: Error: 'f' failed: could not open faiss_index\index.faiss for reading: No such file or directory
+2025-05-29 01:59:53,089 - ERROR - Error processing user question: Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\faiss\faiss\impl\io.cpp:68: Error: 'f' failed: could not open faiss_index\index.faiss for reading: No such file or directory
+2025-05-29 02:05:44,259 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 02:05:44,259 - DEBUG - Google API key configured
+2025-05-29 02:06:16,661 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 02:06:16,709 - INFO - Initializing application
+2025-05-29 02:06:16,709 - INFO - Loading local LLM (microsoft/phi-2)
+2025-05-29 02:06:29,486 - INFO - Local LLM loaded successfully
+2025-05-29 02:06:40,342 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:06:40,342 - DEBUG - FAISS index exists: False
+2025-05-29 02:06:40,358 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:06:40,358 - DEBUG - FAISS index exists: False
+2025-05-29 02:06:40,358 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:06:40,358 - DEBUG - FAISS index exists: False
+2025-05-29 02:06:40,358 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:06:40,358 - DEBUG - FAISS index exists: False
+2025-05-29 02:06:52,709 - INFO - Received question: who is dr Urvashi, offlineMode: False
+2025-05-29 02:06:52,709 - INFO - Loading FAISS vector store
+2025-05-29 02:06:59,636 - ERROR - Error loading FAISS vector store: Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\faiss\faiss\impl\io.cpp:68: Error: 'f' failed: could not open faiss_index\index.faiss for reading: No such file or directory
+2025-05-29 02:06:59,636 - ERROR - Error processing user question: Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\faiss\faiss\impl\io.cpp:68: Error: 'f' failed: could not open faiss_index\index.faiss for reading: No such file or directory
+2025-05-29 02:07:52,986 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:07:52,986 - DEBUG - FAISS index exists: False
+2025-05-29 02:07:52,988 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:07:52,988 - DEBUG - FAISS index exists: False
+2025-05-29 02:08:12,060 - INFO - Extracting text from 3 PDF documents
+2025-05-29 02:08:12,894 - DEBUG - Text extracted from PDF: health_samp_accomodation.pdf
+2025-05-29 02:08:13,502 - DEBUG - Text extracted from PDF: fest_amenties_scholarships.pdf
+2025-05-29 02:08:14,691 - DEBUG - Text extracted from PDF: life at nitj 2.pdf
+2025-05-29 02:08:14,691 - DEBUG - Cleaning text input
+2025-05-29 02:08:14,691 - DEBUG - Text cleaned successfully
+2025-05-29 02:08:14,691 - INFO - PDF text extraction completed, length: 93548 characters
+2025-05-29 02:08:14,691 - INFO - Splitting text into chunks
+2025-05-29 02:08:14,691 - DEBUG - Text split into 185 chunks
+2025-05-29 02:08:14,691 - INFO - Creating FAISS vector store with 185 text chunks
+2025-05-29 02:08:25,030 - INFO - FAISS vector store created and saved to 'faiss_index'
+2025-05-29 02:08:48,727 - INFO - Received question: who is Dr Urvashi, offlineMode: False
+2025-05-29 02:08:48,727 - INFO - Loading FAISS vector store
+2025-05-29 02:08:52,540 - INFO - FAISS vector store loaded successfully
+2025-05-29 02:08:52,661 - DEBUG - Retrieved 3 documents for question
+2025-05-29 02:08:52,661 - INFO - Generating local LLM response for question: who is Dr Urvashi
+2025-05-29 02:12:28,939 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 02:12:28,939 - DEBUG - Google API key configured
+2025-05-29 02:12:50,835 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:12:50,838 - DEBUG - FAISS index exists: True
+2025-05-29 02:12:50,838 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:12:50,838 - DEBUG - FAISS index exists: True
+2025-05-29 02:13:15,787 - INFO - Received question: who is Dr Urvashi, offlineMode: False
+2025-05-29 02:13:15,787 - INFO - Loading FAISS vector store
+2025-05-29 02:13:15,967 - INFO - FAISS vector store loaded successfully
+2025-05-29 02:13:17,186 - ERROR - Error processing user question: 
+2025-05-29 02:19:08,558 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:19:08,559 - DEBUG - FAISS index exists: True
+2025-05-29 02:19:08,562 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:19:08,563 - DEBUG - FAISS index exists: True
+2025-05-29 02:19:28,057 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:19:28,057 - DEBUG - FAISS index exists: False
+2025-05-29 02:19:28,057 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:19:28,057 - DEBUG - FAISS index exists: False
+2025-05-29 02:19:37,751 - INFO - Extracting text from 3 PDF documents
+2025-05-29 02:19:38,353 - DEBUG - Text extracted from PDF: health_samp_accomodation.pdf
+2025-05-29 02:19:38,769 - DEBUG - Text extracted from PDF: fest_amenties_scholarships.pdf
+2025-05-29 02:19:39,872 - DEBUG - Text extracted from PDF: life at nitj 2.pdf
+2025-05-29 02:19:39,872 - DEBUG - Cleaning text input
+2025-05-29 02:19:39,872 - DEBUG - Text cleaned successfully
+2025-05-29 02:19:39,872 - INFO - PDF text extraction completed, length: 93548 characters
+2025-05-29 02:19:39,872 - INFO - Splitting text into chunks
+2025-05-29 02:19:39,872 - DEBUG - Text split into 185 chunks
+2025-05-29 02:19:39,872 - INFO - Creating FAISS vector store with 185 text chunks
+2025-05-29 02:19:57,069 - INFO - FAISS vector store created and saved to 'faiss_index'
+2025-05-29 02:20:10,704 - INFO - Received question: who is Dr urvashi, offlineMode: False
+2025-05-29 02:20:10,705 - INFO - Loading FAISS vector store
+2025-05-29 02:20:10,734 - INFO - FAISS vector store loaded successfully
+2025-05-29 02:20:13,070 - DEBUG - Retrieved 3 documents for question
+2025-05-29 02:20:13,070 - DEBUG - Initializing conversational chain
+2025-05-29 02:20:13,070 - DEBUG - Conversational chain initialized successfully
+2025-05-29 02:20:13,070 - INFO - Invoking conversational chain
+2025-05-29 02:20:15,473 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor (Grade-1) in
+2025-05-29 02:21:07,128 - INFO - Received question: who is dr urvashi, offlineMode: False
+2025-05-29 02:21:07,128 - INFO - Loading FAISS vector store
+2025-05-29 02:21:07,132 - INFO - FAISS vector store loaded successfully
+2025-05-29 02:21:09,180 - DEBUG - Retrieved 3 documents for question
+2025-05-29 02:21:09,180 - DEBUG - Initializing conversational chain
+2025-05-29 02:21:09,180 - DEBUG - Conversational chain initialized successfully
+2025-05-29 02:21:09,180 - INFO - Invoking conversational chain
+2025-05-29 02:21:11,494 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor (Grade - 1) 
+2025-05-29 02:25:20,703 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:25:20,703 - DEBUG - FAISS index exists: True
+2025-05-29 02:25:20,705 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:25:20,707 - DEBUG - FAISS index exists: True
+2025-05-29 02:27:24,320 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 02:27:24,322 - DEBUG - Google API key configured
+2025-05-29 02:28:15,028 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:28:15,028 - DEBUG - FAISS index exists: True
+2025-05-29 02:28:15,028 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:28:15,028 - DEBUG - FAISS index exists: True
+2025-05-29 02:29:26,646 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:29:26,646 - DEBUG - FAISS index exists: True
+2025-05-29 02:29:26,648 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:29:26,648 - DEBUG - FAISS index exists: True
+2025-05-29 02:33:24,917 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 02:33:24,917 - DEBUG - Google API key configured
+2025-05-29 02:33:34,767 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:33:34,771 - DEBUG - FAISS index exists: True
+2025-05-29 02:33:34,771 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:33:34,771 - DEBUG - FAISS index exists: True
+2025-05-29 02:35:05,009 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:35:05,010 - DEBUG - FAISS index exists: True
+2025-05-29 02:35:05,011 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:35:05,011 - DEBUG - FAISS index exists: True
+2025-05-29 02:35:05,012 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:35:05,012 - DEBUG - FAISS index exists: True
+2025-05-29 02:35:05,013 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:35:05,013 - DEBUG - FAISS index exists: True
+2025-05-29 02:35:26,445 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 02:35:26,445 - DEBUG - Google API key configured
+2025-05-29 02:35:32,929 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:35:32,929 - DEBUG - FAISS index exists: True
+2025-05-29 02:35:32,929 - DEBUG - Checking if FAISS index exists
+2025-05-29 02:35:32,929 - DEBUG - FAISS index exists: True
+2025-05-29 10:25:59,833 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 10:25:59,849 - DEBUG - Google API key configured
+2025-05-29 10:26:28,311 - INFO - Extracting text from 3 PDF documents
+2025-05-29 10:26:28,695 - DEBUG - Text extracted from PDF: health_samp_accomodation.pdf
+2025-05-29 10:26:28,963 - DEBUG - Text extracted from PDF: fest_amenties_scholarships.pdf
+2025-05-29 10:26:29,578 - DEBUG - Text extracted from PDF: life at nitj 2.pdf
+2025-05-29 10:26:29,578 - DEBUG - Cleaning text input
+2025-05-29 10:26:29,578 - DEBUG - Text cleaned successfully
+2025-05-29 10:26:29,578 - INFO - PDF text extraction completed, length: 93548 characters
+2025-05-29 10:26:29,578 - INFO - Splitting text into chunks
+2025-05-29 10:26:29,578 - DEBUG - Text split into 185 chunks
+2025-05-29 10:26:29,578 - INFO - Creating FAISS vector store with 185 text chunks
+2025-05-29 10:26:44,605 - INFO - FAISS vector store created and saved to 'faiss_index'
+2025-05-29 10:26:54,689 - INFO - Received question: who is DR urvashi, offlineMode: False
+2025-05-29 10:26:54,689 - INFO - Loading FAISS vector store
+2025-05-29 10:26:54,718 - INFO - FAISS vector store loaded successfully
+2025-05-29 10:26:56,790 - DEBUG - Retrieved 3 documents for question
+2025-05-29 10:26:56,790 - DEBUG - Initializing conversational chain
+2025-05-29 10:26:56,790 - DEBUG - Conversational chain initialized successfully
+2025-05-29 10:26:56,790 - INFO - Invoking conversational chain
+2025-05-29 10:26:59,003 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor in Computer 
+2025-05-29 10:30:39,076 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:30:39,076 - DEBUG - FAISS index exists: True
+2025-05-29 10:30:39,076 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:30:39,076 - DEBUG - FAISS index exists: True
+2025-05-29 10:30:43,022 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:30:43,022 - DEBUG - FAISS index exists: True
+2025-05-29 10:30:43,022 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:30:43,022 - DEBUG - FAISS index exists: True
+2025-05-29 10:30:49,763 - INFO - Received question: who is DR urvashi, offlineMode: False
+2025-05-29 10:30:49,763 - INFO - Loading FAISS vector store
+2025-05-29 10:30:49,770 - INFO - FAISS vector store loaded successfully
+2025-05-29 10:30:51,852 - DEBUG - Retrieved 3 documents for question
+2025-05-29 10:30:51,852 - DEBUG - Initializing conversational chain
+2025-05-29 10:30:51,856 - DEBUG - Conversational chain initialized successfully
+2025-05-29 10:30:51,856 - INFO - Invoking conversational chain
+2025-05-29 10:30:54,009 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor in Computer 
+2025-05-29 10:38:08,037 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:38:08,037 - DEBUG - FAISS index exists: True
+2025-05-29 10:38:08,037 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:38:08,037 - DEBUG - FAISS index exists: True
+2025-05-29 10:38:45,082 - INFO - Received question: who is Dr urvashi, offlineMode: False
+2025-05-29 10:38:45,083 - INFO - Loading FAISS vector store
+2025-05-29 10:38:45,093 - INFO - FAISS vector store loaded successfully
+2025-05-29 10:38:47,017 - DEBUG - Retrieved 3 documents for question
+2025-05-29 10:38:47,017 - DEBUG - Initializing conversational chain
+2025-05-29 10:38:47,017 - DEBUG - Conversational chain initialized successfully
+2025-05-29 10:38:47,017 - INFO - Invoking conversational chain
+2025-05-29 10:38:49,366 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor (Grade 1) in
+2025-05-29 10:39:52,056 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:39:52,056 - DEBUG - FAISS index exists: True
+2025-05-29 10:39:52,056 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:39:52,056 - DEBUG - FAISS index exists: True
+2025-05-29 10:39:57,060 - INFO - Received question: who is Dr urvashi, offlineMode: False
+2025-05-29 10:39:57,060 - INFO - Loading FAISS vector store
+2025-05-29 10:39:57,066 - INFO - FAISS vector store loaded successfully
+2025-05-29 10:39:58,987 - DEBUG - Retrieved 3 documents for question
+2025-05-29 10:39:58,987 - DEBUG - Initializing conversational chain
+2025-05-29 10:39:58,987 - DEBUG - Conversational chain initialized successfully
+2025-05-29 10:39:58,987 - INFO - Invoking conversational chain
+2025-05-29 10:40:01,346 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor (Grade-1) in
+2025-05-29 10:40:40,082 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:40:40,082 - DEBUG - FAISS index exists: True
+2025-05-29 10:40:50,684 - INFO - Received question: who is dr urvashi, offlineMode: False
+2025-05-29 10:40:50,684 - INFO - Loading FAISS vector store
+2025-05-29 10:40:50,692 - INFO - FAISS vector store loaded successfully
+2025-05-29 10:40:52,542 - DEBUG - Retrieved 3 documents for question
+2025-05-29 10:40:52,542 - DEBUG - Initializing conversational chain
+2025-05-29 10:40:52,542 - DEBUG - Conversational chain initialized successfully
+2025-05-29 10:40:52,542 - INFO - Invoking conversational chain
+2025-05-29 10:40:54,759 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor (Grade - 1) 
+2025-05-29 10:41:46,077 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:41:46,077 - DEBUG - FAISS index exists: True
+2025-05-29 10:41:46,081 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:41:46,081 - DEBUG - FAISS index exists: True
+2025-05-29 10:41:50,872 - INFO - Received question: who is dr urvashi, offlineMode: False
+2025-05-29 10:41:50,872 - INFO - Loading FAISS vector store
+2025-05-29 10:41:50,892 - INFO - FAISS vector store loaded successfully
+2025-05-29 10:41:52,865 - DEBUG - Retrieved 3 documents for question
+2025-05-29 10:41:52,865 - DEBUG - Initializing conversational chain
+2025-05-29 10:41:52,872 - DEBUG - Conversational chain initialized successfully
+2025-05-29 10:41:52,872 - INFO - Invoking conversational chain
+2025-05-29 10:41:53,783 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor (Grade - 1) 
+2025-05-29 10:42:42,076 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:42:42,076 - DEBUG - FAISS index exists: True
+2025-05-29 10:42:42,076 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:42:42,076 - DEBUG - FAISS index exists: True
+2025-05-29 10:42:48,248 - INFO - Received question: who is dr urvashi, offlineMode: False
+2025-05-29 10:42:48,248 - INFO - Loading FAISS vector store
+2025-05-29 10:42:48,252 - INFO - FAISS vector store loaded successfully
+2025-05-29 10:42:50,202 - DEBUG - Retrieved 3 documents for question
+2025-05-29 10:42:50,202 - DEBUG - Initializing conversational chain
+2025-05-29 10:42:50,202 - DEBUG - Conversational chain initialized successfully
+2025-05-29 10:42:50,202 - INFO - Invoking conversational chain
+2025-05-29 10:42:52,565 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor (Grade - 1) 
+2025-05-29 10:43:32,726 - INFO - Received question: who is Dr Amritpal, offlineMode: False
+2025-05-29 10:43:32,726 - INFO - Loading FAISS vector store
+2025-05-29 10:43:32,744 - INFO - FAISS vector store loaded successfully
+2025-05-29 10:43:34,644 - DEBUG - Retrieved 3 documents for question
+2025-05-29 10:43:34,644 - DEBUG - Initializing conversational chain
+2025-05-29 10:43:34,649 - DEBUG - Conversational chain initialized successfully
+2025-05-29 10:43:34,649 - INFO - Invoking conversational chain
+2025-05-29 10:43:36,910 - DEBUG - Online response generated: Dr. Amritpal Singh is an Assistant Professor (Grad
+2025-05-29 10:44:28,367 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:44:28,367 - DEBUG - FAISS index exists: True
+2025-05-29 10:44:28,369 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:44:28,369 - DEBUG - FAISS index exists: True
+2025-05-29 10:44:32,954 - INFO - Received question: who is dr amritpal, offlineMode: False
+2025-05-29 10:44:32,954 - INFO - Loading FAISS vector store
+2025-05-29 10:44:32,966 - INFO - FAISS vector store loaded successfully
+2025-05-29 10:44:34,962 - DEBUG - Retrieved 3 documents for question
+2025-05-29 10:44:34,962 - DEBUG - Initializing conversational chain
+2025-05-29 10:44:34,962 - DEBUG - Conversational chain initialized successfully
+2025-05-29 10:44:34,962 - INFO - Invoking conversational chain
+2025-05-29 10:44:37,363 - DEBUG - Online response generated: Answer is not available in the context.  While the
+2025-05-29 10:46:12,520 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:46:12,520 - DEBUG - FAISS index exists: True
+2025-05-29 10:46:12,522 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:46:12,522 - DEBUG - FAISS index exists: True
+2025-05-29 10:46:18,243 - INFO - Received question: who is dr urvashi, offlineMode: False
+2025-05-29 10:46:18,243 - INFO - Loading FAISS vector store
+2025-05-29 10:46:18,252 - INFO - FAISS vector store loaded successfully
+2025-05-29 10:46:20,115 - DEBUG - Retrieved 3 documents for question
+2025-05-29 10:46:20,115 - DEBUG - Initializing conversational chain
+2025-05-29 10:46:20,115 - DEBUG - Conversational chain initialized successfully
+2025-05-29 10:46:20,115 - INFO - Invoking conversational chain
+2025-05-29 10:46:22,490 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor (Grade - 1) 
+2025-05-29 10:49:07,787 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:49:07,787 - DEBUG - FAISS index exists: True
+2025-05-29 10:49:07,789 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:49:07,791 - DEBUG - FAISS index exists: True
+2025-05-29 10:49:15,968 - INFO - Received question: who is Dr urvashu, offlineMode: False
+2025-05-29 10:49:15,968 - INFO - Loading FAISS vector store
+2025-05-29 10:49:15,970 - INFO - FAISS vector store loaded successfully
+2025-05-29 10:49:17,891 - DEBUG - Retrieved 3 documents for question
+2025-05-29 10:49:17,891 - DEBUG - Initializing conversational chain
+2025-05-29 10:49:17,896 - DEBUG - Conversational chain initialized successfully
+2025-05-29 10:49:17,896 - INFO - Invoking conversational chain
+2025-05-29 10:49:20,041 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor in Computer 
+2025-05-29 10:55:21,089 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:55:21,089 - DEBUG - FAISS index exists: True
+2025-05-29 10:55:27,770 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:55:27,770 - DEBUG - FAISS index exists: True
+2025-05-29 10:55:35,072 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:55:35,073 - DEBUG - FAISS index exists: True
+2025-05-29 10:56:07,755 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:56:07,755 - DEBUG - FAISS index exists: True
+2025-05-29 10:56:07,771 - DEBUG - Checking if FAISS index exists
+2025-05-29 10:56:07,771 - DEBUG - FAISS index exists: True
+2025-05-29 11:00:01,405 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:00:01,408 - DEBUG - FAISS index exists: True
+2025-05-29 11:00:01,408 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:00:01,408 - DEBUG - FAISS index exists: True
+2025-05-29 11:00:28,677 - INFO - Received question: who is DR urvashi, offlineMode: False
+2025-05-29 11:00:28,677 - INFO - Loading FAISS vector store
+2025-05-29 11:00:28,682 - INFO - FAISS vector store loaded successfully
+2025-05-29 11:00:30,556 - DEBUG - Retrieved 3 documents for question
+2025-05-29 11:00:30,556 - DEBUG - Initializing conversational chain
+2025-05-29 11:00:30,556 - DEBUG - Conversational chain initialized successfully
+2025-05-29 11:00:30,556 - INFO - Invoking conversational chain
+2025-05-29 11:00:32,806 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor in Computer 
+2025-05-29 11:00:55,469 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:00:55,469 - DEBUG - FAISS index exists: True
+2025-05-29 11:00:55,471 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:00:55,472 - DEBUG - FAISS index exists: True
+2025-05-29 11:01:04,024 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:01:04,025 - DEBUG - FAISS index exists: True
+2025-05-29 11:01:04,027 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:01:04,027 - DEBUG - FAISS index exists: True
+2025-05-29 11:01:33,335 - INFO - Received question: who is DR urvashi, offlineMode: False
+2025-05-29 11:01:33,335 - INFO - Loading FAISS vector store
+2025-05-29 11:01:33,343 - INFO - FAISS vector store loaded successfully
+2025-05-29 11:01:35,185 - DEBUG - Retrieved 3 documents for question
+2025-05-29 11:01:35,185 - DEBUG - Initializing conversational chain
+2025-05-29 11:01:35,185 - DEBUG - Conversational chain initialized successfully
+2025-05-29 11:01:35,185 - INFO - Invoking conversational chain
+2025-05-29 11:01:37,369 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor in Computer 
+2025-05-29 11:05:09,939 - INFO - Received question: who is DR amritpal, offlineMode: False
+2025-05-29 11:05:09,939 - INFO - Loading FAISS vector store
+2025-05-29 11:05:09,939 - INFO - FAISS vector store loaded successfully
+2025-05-29 11:05:11,789 - DEBUG - Retrieved 3 documents for question
+2025-05-29 11:05:11,789 - DEBUG - Initializing conversational chain
+2025-05-29 11:05:11,805 - DEBUG - Conversational chain initialized successfully
+2025-05-29 11:05:11,805 - INFO - Invoking conversational chain
+2025-05-29 11:05:14,172 - DEBUG - Online response generated: Answer is not available in the context.  While the
+2025-05-29 11:05:34,346 - INFO - Received question: how many clubs at NITJ , give me count, offlineMode: False
+2025-05-29 11:05:34,346 - INFO - Loading FAISS vector store
+2025-05-29 11:05:34,350 - INFO - FAISS vector store loaded successfully
+2025-05-29 11:05:36,187 - DEBUG - Retrieved 3 documents for question
+2025-05-29 11:05:36,187 - DEBUG - Initializing conversational chain
+2025-05-29 11:05:36,187 - DEBUG - Conversational chain initialized successfully
+2025-05-29 11:05:36,187 - INFO - Invoking conversational chain
+2025-05-29 11:05:38,487 - DEBUG - Online response generated: There are 20 cultural clubs listed in the provided
+2025-05-29 11:05:46,686 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:05:46,687 - DEBUG - FAISS index exists: True
+2025-05-29 11:05:46,690 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:05:46,690 - DEBUG - FAISS index exists: True
+2025-05-29 11:05:51,853 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:05:51,854 - DEBUG - FAISS index exists: True
+2025-05-29 11:05:51,855 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:05:51,856 - DEBUG - FAISS index exists: True
+2025-05-29 11:06:58,066 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:06:58,068 - DEBUG - FAISS index exists: True
+2025-05-29 11:06:58,069 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:06:58,069 - DEBUG - FAISS index exists: True
+2025-05-29 11:07:34,806 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:07:34,806 - DEBUG - FAISS index exists: True
+2025-05-29 11:07:34,808 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:07:34,808 - DEBUG - FAISS index exists: True
+2025-05-29 11:07:39,652 - INFO - Received question: who is dr urvashi, offlineMode: False
+2025-05-29 11:07:39,652 - INFO - Loading FAISS vector store
+2025-05-29 11:07:39,656 - INFO - FAISS vector store loaded successfully
+2025-05-29 11:07:41,512 - DEBUG - Retrieved 3 documents for question
+2025-05-29 11:07:41,513 - DEBUG - Initializing conversational chain
+2025-05-29 11:07:41,513 - DEBUG - Conversational chain initialized successfully
+2025-05-29 11:07:41,513 - INFO - Invoking conversational chain
+2025-05-29 11:07:43,796 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor (Grade - 1) 
+2025-05-29 11:07:53,979 - INFO - Received question: who is Dr kunawarpal, offlineMode: False
+2025-05-29 11:07:53,979 - INFO - Loading FAISS vector store
+2025-05-29 11:07:53,979 - INFO - FAISS vector store loaded successfully
+2025-05-29 11:07:55,796 - DEBUG - Retrieved 3 documents for question
+2025-05-29 11:07:55,796 - DEBUG - Initializing conversational chain
+2025-05-29 11:07:55,796 - DEBUG - Conversational chain initialized successfully
+2025-05-29 11:07:55,796 - INFO - Invoking conversational chain
+2025-05-29 11:07:57,896 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 11:08:06,683 - INFO - Received question: who is dr kunwarpal singh, offlineMode: False
+2025-05-29 11:08:06,683 - INFO - Loading FAISS vector store
+2025-05-29 11:08:06,688 - INFO - FAISS vector store loaded successfully
+2025-05-29 11:08:08,495 - DEBUG - Retrieved 3 documents for question
+2025-05-29 11:08:08,495 - DEBUG - Initializing conversational chain
+2025-05-29 11:08:08,495 - DEBUG - Conversational chain initialized successfully
+2025-05-29 11:08:08,510 - INFO - Invoking conversational chain
+2025-05-29 11:08:09,228 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 11:08:18,228 - INFO - Received question: contact of banks, offlineMode: False
+2025-05-29 11:08:18,228 - INFO - Loading FAISS vector store
+2025-05-29 11:08:18,228 - INFO - FAISS vector store loaded successfully
+2025-05-29 11:08:20,145 - DEBUG - Retrieved 3 documents for question
+2025-05-29 11:08:20,145 - DEBUG - Initializing conversational chain
+2025-05-29 11:08:20,145 - DEBUG - Conversational chain initialized successfully
+2025-05-29 11:08:20,145 - INFO - Invoking conversational chain
+2025-05-29 11:08:22,477 - DEBUG - Online response generated: * **Canara Bank:** +91 (181) 269 0233
+* **State Ba
+2025-05-29 11:08:33,273 - INFO - Received question: dispensary contact , offlineMode: False
+2025-05-29 11:08:33,273 - INFO - Loading FAISS vector store
+2025-05-29 11:08:33,292 - INFO - FAISS vector store loaded successfully
+2025-05-29 11:08:35,093 - DEBUG - Retrieved 3 documents for question
+2025-05-29 11:08:35,093 - DEBUG - Initializing conversational chain
+2025-05-29 11:08:35,110 - DEBUG - Conversational chain initialized successfully
+2025-05-29 11:08:35,110 - INFO - Invoking conversational chain
+2025-05-29 11:08:37,227 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 11:10:21,534 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:10:21,534 - DEBUG - FAISS index exists: True
+2025-05-29 11:10:21,537 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:10:21,537 - DEBUG - FAISS index exists: True
+2025-05-29 11:13:57,691 - ERROR - Voice-to-text failed: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-05-29 11:14:14,464 - ERROR - Voice-to-text failed: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-05-29 11:14:24,538 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:14:24,538 - DEBUG - FAISS index exists: True
+2025-05-29 11:14:24,539 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:14:24,539 - DEBUG - FAISS index exists: True
+2025-05-29 11:16:51,629 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:16:51,629 - DEBUG - FAISS index exists: True
+2025-05-29 11:16:51,629 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:16:51,629 - DEBUG - FAISS index exists: True
+2025-05-29 11:16:53,975 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:16:53,975 - DEBUG - FAISS index exists: True
+2025-05-29 11:16:53,977 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:16:53,977 - DEBUG - FAISS index exists: True
+2025-05-29 11:17:03,276 - ERROR - Voice-to-text failed: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-05-29 11:17:27,157 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:17:27,157 - DEBUG - FAISS index exists: True
+2025-05-29 11:17:27,157 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:17:27,157 - DEBUG - FAISS index exists: True
+2025-05-29 11:19:17,036 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:19:17,036 - DEBUG - FAISS index exists: True
+2025-05-29 11:19:17,036 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:19:17,036 - DEBUG - FAISS index exists: True
+2025-05-29 11:19:18,149 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:19:18,149 - DEBUG - FAISS index exists: True
+2025-05-29 11:19:18,151 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:19:18,151 - DEBUG - FAISS index exists: True
+2025-05-29 11:19:23,787 - ERROR - Voice-to-text failed: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-05-29 11:22:33,623 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 11:22:33,623 - DEBUG - Google API key configured
+2025-05-29 11:22:44,634 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:22:44,634 - DEBUG - FAISS index exists: True
+2025-05-29 11:22:44,634 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:22:44,634 - DEBUG - FAISS index exists: True
+2025-05-29 11:22:50,723 - ERROR - Voice to text conversion failed: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-05-29 11:27:21,759 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:27:21,759 - DEBUG - FAISS index exists: True
+2025-05-29 11:27:21,760 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:27:21,761 - DEBUG - FAISS index exists: True
+2025-05-29 11:27:28,065 - ERROR - Voice to text conversion failed: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-05-29 11:35:59,376 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:35:59,376 - DEBUG - FAISS index exists: True
+2025-05-29 11:35:59,376 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:35:59,376 - DEBUG - FAISS index exists: True
+2025-05-29 11:39:01,536 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:39:01,536 - DEBUG - FAISS index exists: True
+2025-05-29 11:39:01,536 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:39:01,536 - DEBUG - FAISS index exists: True
+2025-05-29 11:39:01,536 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:39:01,536 - DEBUG - FAISS index exists: True
+2025-05-29 11:39:01,552 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:39:01,552 - DEBUG - FAISS index exists: True
+2025-05-29 11:39:10,992 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:39:10,992 - DEBUG - FAISS index exists: True
+2025-05-29 11:39:10,995 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:39:10,995 - DEBUG - FAISS index exists: True
+2025-05-29 11:39:31,433 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:39:31,433 - DEBUG - FAISS index exists: True
+2025-05-29 11:39:31,435 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:39:31,435 - DEBUG - FAISS index exists: True
+2025-05-29 11:39:44,792 - WARNING - Speech recognition could not understand audio
+2025-05-29 11:39:56,703 - WARNING - Speech recognition could not understand audio
+2025-05-29 11:41:00,793 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:41:00,793 - DEBUG - FAISS index exists: True
+2025-05-29 11:41:00,794 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:41:00,794 - DEBUG - FAISS index exists: True
+2025-05-29 11:41:13,558 - WARNING - Speech recognition could not understand audio
+2025-05-29 11:41:20,705 - WARNING - Speech recognition could not understand audio
+2025-05-29 11:41:26,157 - WARNING - Speech recognition could not understand audio
+2025-05-29 11:45:19,279 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:45:19,279 - DEBUG - FAISS index exists: True
+2025-05-29 11:45:19,282 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:45:19,282 - DEBUG - FAISS index exists: True
+2025-05-29 11:45:28,524 - ERROR - Voice to text conversion failed: Audio file could not be read as PCM WAV, AIFF/AIFF-C, or Native FLAC; check if file is corrupted or in another format
+2025-05-29 11:45:53,780 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:45:53,780 - DEBUG - FAISS index exists: True
+2025-05-29 11:45:53,780 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:45:53,780 - DEBUG - FAISS index exists: True
+2025-05-29 11:53:05,648 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:53:05,648 - DEBUG - FAISS index exists: True
+2025-05-29 11:53:05,648 - DEBUG - Checking if FAISS index exists
+2025-05-29 11:53:05,648 - DEBUG - FAISS index exists: True
+2025-05-29 11:53:14,866 - INFO - Voice successfully converted to text: hello my name is Dev
+2025-05-29 11:53:14,884 - INFO - Received question: hello my name is Dev, offlineMode: False
+2025-05-29 11:53:14,885 - INFO - Loading FAISS vector store
+2025-05-29 11:53:14,935 - INFO - FAISS vector store loaded successfully
+2025-05-29 11:53:16,938 - DEBUG - Retrieved 3 documents for question
+2025-05-29 11:53:16,938 - DEBUG - Initializing conversational chain
+2025-05-29 11:53:16,953 - DEBUG - Conversational chain initialized successfully
+2025-05-29 11:53:16,953 - INFO - Invoking conversational chain
+2025-05-29 11:53:17,869 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 11:54:01,618 - INFO - Voice successfully converted to text: who is Dr Urvashi
+2025-05-29 11:54:01,624 - INFO - Received question: who is Dr Urvashi, offlineMode: False
+2025-05-29 11:54:01,624 - INFO - Loading FAISS vector store
+2025-05-29 11:54:01,627 - INFO - FAISS vector store loaded successfully
+2025-05-29 11:54:03,464 - DEBUG - Retrieved 3 documents for question
+2025-05-29 11:54:03,464 - DEBUG - Initializing conversational chain
+2025-05-29 11:54:03,467 - DEBUG - Conversational chain initialized successfully
+2025-05-29 11:54:03,468 - INFO - Invoking conversational chain
+2025-05-29 11:54:05,828 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor (Grade - 1) 
+2025-05-29 11:54:18,018 - INFO - Received question: who is Dr amritpal, offlineMode: False
+2025-05-29 11:54:18,019 - INFO - Loading FAISS vector store
+2025-05-29 11:54:18,023 - INFO - FAISS vector store loaded successfully
+2025-05-29 11:54:19,837 - DEBUG - Retrieved 3 documents for question
+2025-05-29 11:54:19,838 - DEBUG - Initializing conversational chain
+2025-05-29 11:54:19,841 - DEBUG - Conversational chain initialized successfully
+2025-05-29 11:54:19,841 - INFO - Invoking conversational chain
+2025-05-29 11:54:22,128 - DEBUG - Online response generated: Answer is not available in the context.  While the
+2025-05-29 11:58:13,528 - INFO - Received question: how many clubs, offlineMode: False
+2025-05-29 11:58:13,528 - INFO - Loading FAISS vector store
+2025-05-29 11:58:13,539 - INFO - FAISS vector store loaded successfully
+2025-05-29 11:58:15,378 - DEBUG - Retrieved 3 documents for question
+2025-05-29 11:58:15,378 - DEBUG - Initializing conversational chain
+2025-05-29 11:58:15,384 - DEBUG - Conversational chain initialized successfully
+2025-05-29 11:58:15,384 - INFO - Invoking conversational chain
+2025-05-29 11:58:17,863 - DEBUG - Online response generated: Answer is not available in the context.  While the
+2025-05-29 12:03:19,868 - INFO - Voice successfully converted to text: how many clubs at NIT Jalandhar
+2025-05-29 12:03:19,882 - INFO - Received question: how many clubs at NIT Jalandhar, offlineMode: False
+2025-05-29 12:03:19,882 - INFO - Loading FAISS vector store
+2025-05-29 12:03:19,887 - INFO - FAISS vector store loaded successfully
+2025-05-29 12:03:21,980 - DEBUG - Retrieved 3 documents for question
+2025-05-29 12:03:21,980 - DEBUG - Initializing conversational chain
+2025-05-29 12:03:21,987 - DEBUG - Conversational chain initialized successfully
+2025-05-29 12:03:21,987 - INFO - Invoking conversational chain
+2025-05-29 12:03:24,240 - DEBUG - Online response generated: There are 20 cultural clubs at NIT Jalandhar.
+2025-05-29 12:05:17,697 - INFO - Voice successfully converted to text: hello hello hello my name is Amit Yadav
+2025-05-29 12:05:17,705 - INFO - Received question: hello hello hello my name is Amit Yadav, offlineMode: False
+2025-05-29 12:05:17,705 - INFO - Loading FAISS vector store
+2025-05-29 12:05:17,705 - INFO - FAISS vector store loaded successfully
+2025-05-29 12:05:19,643 - DEBUG - Retrieved 3 documents for question
+2025-05-29 12:05:19,643 - DEBUG - Initializing conversational chain
+2025-05-29 12:05:19,643 - DEBUG - Conversational chain initialized successfully
+2025-05-29 12:05:19,643 - INFO - Invoking conversational chain
+2025-05-29 12:05:21,789 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 12:05:33,518 - INFO - Voice successfully converted to text: how many clubs at NIT Jalandhar
+2025-05-29 12:05:33,526 - INFO - Received question: how many clubs at NIT Jalandhar, offlineMode: False
+2025-05-29 12:05:33,526 - INFO - Loading FAISS vector store
+2025-05-29 12:05:33,526 - INFO - FAISS vector store loaded successfully
+2025-05-29 12:05:34,046 - DEBUG - Retrieved 3 documents for question
+2025-05-29 12:05:34,046 - DEBUG - Initializing conversational chain
+2025-05-29 12:05:34,046 - DEBUG - Conversational chain initialized successfully
+2025-05-29 12:05:34,046 - INFO - Invoking conversational chain
+2025-05-29 12:05:36,113 - DEBUG - Online response generated: There are 20 cultural clubs at NIT Jalandhar.
+2025-05-29 12:07:58,722 - INFO - Extracting text from 3 PDF documents
+2025-05-29 12:08:04,421 - DEBUG - Text extracted from PDF: jehp107.pdf
+2025-05-29 12:08:12,073 - DEBUG - Text extracted from PDF: jehp108.pdf
+2025-05-29 12:08:16,019 - DEBUG - Text extracted from PDF: jehp109.pdf
+2025-05-29 12:08:16,019 - DEBUG - Cleaning text input
+2025-05-29 12:08:16,019 - DEBUG - Text cleaned successfully
+2025-05-29 12:08:16,019 - INFO - PDF text extraction completed, length: 135343 characters
+2025-05-29 12:08:16,019 - INFO - Splitting text into chunks
+2025-05-29 12:08:16,019 - DEBUG - Text split into 224 chunks
+2025-05-29 12:08:16,019 - INFO - Creating FAISS vector store with 224 text chunks
+2025-05-29 12:08:31,345 - INFO - FAISS vector store created and saved to 'faiss_index'
+2025-05-29 12:09:12,671 - INFO - Received question: full form of MSG, offlineMode: False
+2025-05-29 12:09:12,671 - INFO - Loading FAISS vector store
+2025-05-29 12:09:12,695 - INFO - FAISS vector store loaded successfully
+2025-05-29 12:09:14,758 - DEBUG - Retrieved 3 documents for question
+2025-05-29 12:09:14,758 - DEBUG - Initializing conversational chain
+2025-05-29 12:09:14,758 - DEBUG - Conversational chain initialized successfully
+2025-05-29 12:09:14,758 - INFO - Invoking conversational chain
+2025-05-29 12:09:16,908 - DEBUG - Online response generated: Monosodium glutamate
+2025-05-29 12:12:20,329 - INFO - Extracting text from 1 PDF documents
+2025-05-29 12:12:20,758 - DEBUG - Text extracted from PDF: health_samp_accomodation.pdf
+2025-05-29 12:12:20,758 - DEBUG - Cleaning text input
+2025-05-29 12:12:20,758 - DEBUG - Text cleaned successfully
+2025-05-29 12:12:20,758 - INFO - PDF text extraction completed, length: 25807 characters
+2025-05-29 12:12:20,758 - INFO - Splitting text into chunks
+2025-05-29 12:12:20,758 - DEBUG - Text split into 51 chunks
+2025-05-29 12:12:20,758 - INFO - Creating FAISS vector store with 51 text chunks
+2025-05-29 12:12:25,237 - INFO - FAISS vector store created and saved to 'faiss_index'
+2025-05-29 12:13:11,651 - INFO - Extracting text from 1 PDF documents
+2025-05-29 12:13:12,036 - DEBUG - Text extracted from PDF: health_samp_accomodation.pdf
+2025-05-29 12:13:12,036 - DEBUG - Cleaning text input
+2025-05-29 12:13:12,036 - DEBUG - Text cleaned successfully
+2025-05-29 12:13:12,036 - INFO - PDF text extraction completed, length: 25807 characters
+2025-05-29 12:13:12,036 - INFO - Splitting text into chunks
+2025-05-29 12:13:12,036 - DEBUG - Text split into 51 chunks
+2025-05-29 12:13:12,036 - INFO - Creating FAISS vector store with 51 text chunks
+2025-05-29 12:13:16,487 - INFO - FAISS vector store created and saved to 'faiss_index'
+2025-05-29 12:14:00,883 - INFO - Extracting text from 1 PDF documents
+2025-05-29 12:14:01,282 - DEBUG - Text extracted from PDF: health_samp_accomodation.pdf
+2025-05-29 12:14:01,282 - DEBUG - Cleaning text input
+2025-05-29 12:14:01,282 - DEBUG - Text cleaned successfully
+2025-05-29 12:14:01,282 - INFO - PDF text extraction completed, length: 25807 characters
+2025-05-29 12:14:01,282 - INFO - Splitting text into chunks
+2025-05-29 12:14:01,282 - DEBUG - Text split into 51 chunks
+2025-05-29 12:14:01,282 - INFO - Creating FAISS vector store with 51 text chunks
+2025-05-29 12:14:05,917 - INFO - FAISS vector store created and saved to 'faiss_index'
+2025-05-29 12:14:58,194 - INFO - Voice successfully converted to text: hello who is Dr Babasaheb
+2025-05-29 12:14:58,203 - INFO - Received question: hello who is Dr Babasaheb, offlineMode: False
+2025-05-29 12:14:58,203 - INFO - Loading FAISS vector store
+2025-05-29 12:14:58,244 - INFO - FAISS vector store loaded successfully
+2025-05-29 12:15:00,972 - DEBUG - Retrieved 3 documents for question
+2025-05-29 12:15:00,972 - DEBUG - Initializing conversational chain
+2025-05-29 12:15:00,972 - DEBUG - Conversational chain initialized successfully
+2025-05-29 12:15:00,972 - INFO - Invoking conversational chain
+2025-05-29 12:15:03,123 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 12:15:12,211 - INFO - Voice successfully converted to text: how many clubs at NIT Jalandhar
+2025-05-29 12:15:12,213 - INFO - Received question: how many clubs at NIT Jalandhar, offlineMode: False
+2025-05-29 12:15:12,213 - INFO - Loading FAISS vector store
+2025-05-29 12:15:12,221 - INFO - FAISS vector store loaded successfully
+2025-05-29 12:15:14,311 - DEBUG - Retrieved 3 documents for question
+2025-05-29 12:15:14,311 - DEBUG - Initializing conversational chain
+2025-05-29 12:15:14,311 - DEBUG - Conversational chain initialized successfully
+2025-05-29 12:15:14,311 - INFO - Invoking conversational chain
+2025-05-29 12:15:15,204 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 12:15:28,215 - INFO - Voice successfully converted to text: how many clubs at nitj
+2025-05-29 12:15:28,223 - INFO - Received question: how many clubs at nitj, offlineMode: False
+2025-05-29 12:15:28,223 - INFO - Loading FAISS vector store
+2025-05-29 12:15:28,223 - INFO - FAISS vector store loaded successfully
+2025-05-29 12:15:30,163 - DEBUG - Retrieved 3 documents for question
+2025-05-29 12:15:30,163 - DEBUG - Initializing conversational chain
+2025-05-29 12:15:30,163 - DEBUG - Conversational chain initialized successfully
+2025-05-29 12:15:30,163 - INFO - Invoking conversational chain
+2025-05-29 12:15:32,419 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 12:17:52,761 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:17:52,764 - DEBUG - FAISS index exists: True
+2025-05-29 12:17:52,769 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:17:52,769 - DEBUG - FAISS index exists: True
+2025-05-29 12:17:58,069 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:17:58,069 - DEBUG - FAISS index exists: True
+2025-05-29 12:17:58,069 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:17:58,069 - DEBUG - FAISS index exists: True
+2025-05-29 12:18:00,796 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:18:00,799 - DEBUG - FAISS index exists: True
+2025-05-29 12:18:00,801 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:18:00,801 - DEBUG - FAISS index exists: True
+2025-05-29 12:18:02,280 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:18:02,280 - DEBUG - FAISS index exists: True
+2025-05-29 12:18:02,288 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:18:02,288 - DEBUG - FAISS index exists: True
+2025-05-29 12:18:19,750 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:18:19,750 - DEBUG - FAISS index exists: True
+2025-05-29 12:18:19,750 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:18:19,750 - DEBUG - FAISS index exists: True
+2025-05-29 12:19:13,145 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:19:13,145 - DEBUG - FAISS index exists: True
+2025-05-29 12:19:13,145 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:19:13,145 - DEBUG - FAISS index exists: True
+2025-05-29 12:28:59,343 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:28:59,343 - DEBUG - FAISS index exists: True
+2025-05-29 12:28:59,343 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:28:59,343 - DEBUG - FAISS index exists: True
+2025-05-29 12:29:12,095 - INFO - Received question: who is dr urvashi, offlineMode: False
+2025-05-29 12:29:12,095 - INFO - Loading FAISS vector store
+2025-05-29 12:29:12,099 - INFO - FAISS vector store loaded successfully
+2025-05-29 12:29:14,172 - DEBUG - Retrieved 3 documents for question
+2025-05-29 12:29:14,172 - DEBUG - Initializing conversational chain
+2025-05-29 12:29:14,174 - DEBUG - Conversational chain initialized successfully
+2025-05-29 12:29:14,174 - INFO - Invoking conversational chain
+2025-05-29 12:29:16,355 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor in Computer 
+2025-05-29 12:31:45,162 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:31:45,162 - DEBUG - FAISS index exists: True
+2025-05-29 12:31:45,166 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:31:45,166 - DEBUG - FAISS index exists: True
+2025-05-29 12:31:47,165 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:31:47,165 - DEBUG - FAISS index exists: True
+2025-05-29 12:31:47,168 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:31:47,168 - DEBUG - FAISS index exists: True
+2025-05-29 12:32:51,255 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:32:51,255 - DEBUG - FAISS index exists: True
+2025-05-29 12:32:51,255 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:32:51,255 - DEBUG - FAISS index exists: True
+2025-05-29 12:33:06,868 - INFO - Received question: how many clubs at NITJ, offlineMode: False
+2025-05-29 12:33:06,868 - INFO - Loading FAISS vector store
+2025-05-29 12:33:06,877 - INFO - FAISS vector store loaded successfully
+2025-05-29 12:33:08,785 - DEBUG - Retrieved 3 documents for question
+2025-05-29 12:33:08,785 - DEBUG - Initializing conversational chain
+2025-05-29 12:33:08,785 - DEBUG - Conversational chain initialized successfully
+2025-05-29 12:33:08,785 - INFO - Invoking conversational chain
+2025-05-29 12:33:10,933 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 12:40:49,124 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 12:40:49,126 - DEBUG - Google API key configured
+2025-05-29 12:40:56,444 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:40:56,444 - DEBUG - FAISS index exists: True
+2025-05-29 12:40:56,444 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:40:56,444 - DEBUG - FAISS index exists: True
+2025-05-29 12:41:15,279 - INFO - Extracting text from 3 PDF documents
+2025-05-29 12:41:15,929 - DEBUG - Text extracted from PDF: health_samp_accomodation.pdf
+2025-05-29 12:41:16,362 - DEBUG - Text extracted from PDF: fest_amenties_scholarships.pdf
+2025-05-29 12:41:17,262 - DEBUG - Text extracted from PDF: life at nitj 2.pdf
+2025-05-29 12:41:17,262 - DEBUG - Cleaning text input
+2025-05-29 12:41:17,262 - DEBUG - Text cleaned successfully
+2025-05-29 12:41:17,262 - INFO - PDF text extraction completed, length: 93548 characters
+2025-05-29 12:41:17,262 - INFO - Splitting text into chunks
+2025-05-29 12:41:17,262 - DEBUG - Text split into 185 chunks
+2025-05-29 12:41:17,262 - INFO - Creating FAISS vector store with 185 text chunks
+2025-05-29 12:41:29,928 - INFO - FAISS vector store created and saved to 'faiss_index'
+2025-05-29 12:41:38,012 - INFO - Received question: who is dr urvashi, offlineMode: False
+2025-05-29 12:41:38,012 - INFO - Loading FAISS vector store
+2025-05-29 12:41:38,060 - INFO - FAISS vector store loaded successfully
+2025-05-29 12:41:39,925 - DEBUG - Retrieved 3 documents for question
+2025-05-29 12:41:39,925 - DEBUG - Initializing conversational chain
+2025-05-29 12:41:39,934 - DEBUG - Conversational chain initialized successfully
+2025-05-29 12:41:39,936 - INFO - Invoking conversational chain
+2025-05-29 12:41:42,296 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor (Grade - 1) 
+2025-05-29 12:42:10,534 - DEBUG - Initialized empty feedback.json file
+2025-05-29 12:42:10,536 - INFO - Saved like feedback for message: Dr. Urvashi is an Assistant Professor (Grade - 1) 
+2025-05-29 12:46:08,793 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 12:46:08,794 - DEBUG - Google API key configured
+2025-05-29 12:46:12,161 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:46:12,161 - DEBUG - FAISS index exists: True
+2025-05-29 12:46:12,161 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:46:12,161 - DEBUG - FAISS index exists: True
+2025-05-29 12:46:26,470 - INFO - Received question: who is Dr Urvashi, offlineMode: False
+2025-05-29 12:46:26,470 - INFO - Loading FAISS vector store
+2025-05-29 12:46:26,510 - INFO - FAISS vector store loaded successfully
+2025-05-29 12:46:28,497 - DEBUG - Retrieved 3 documents for question
+2025-05-29 12:46:28,497 - DEBUG - Initializing conversational chain
+2025-05-29 12:46:28,511 - DEBUG - Conversational chain initialized successfully
+2025-05-29 12:46:28,512 - INFO - Invoking conversational chain
+2025-05-29 12:46:30,826 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor (Grade - 1) 
+2025-05-29 12:46:34,662 - INFO - Saved like feedback for question:  and response: Dr. Urvashi is an Assistant Professor (Grade - 1) 
+2025-05-29 12:48:09,625 - INFO - Saved like feedback for question: who is Dr Urvashi and response: Dr. Urvashi is an Assistant Professor (Grade - 1) 
+2025-05-29 12:48:26,339 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:48:26,339 - DEBUG - FAISS index exists: True
+2025-05-29 12:48:26,343 - DEBUG - Checking if FAISS index exists
+2025-05-29 12:48:26,343 - DEBUG - FAISS index exists: True
+2025-05-29 12:48:34,236 - INFO - Received question: who is Dr amritpal singh, offlineMode: False
+2025-05-29 12:48:34,236 - INFO - Loading FAISS vector store
+2025-05-29 12:48:34,239 - INFO - FAISS vector store loaded successfully
+2025-05-29 12:48:36,056 - DEBUG - Retrieved 3 documents for question
+2025-05-29 12:48:36,056 - DEBUG - Initializing conversational chain
+2025-05-29 12:48:36,069 - DEBUG - Conversational chain initialized successfully
+2025-05-29 12:48:36,069 - INFO - Invoking conversational chain
+2025-05-29 12:48:38,518 - DEBUG - Online response generated: Dr. Amritpal Singh is an Assistant Professor (Grad
+2025-05-29 12:48:47,626 - INFO - Received question: who is Dr Urvvashi, offlineMode: False
+2025-05-29 12:48:47,626 - INFO - Loading FAISS vector store
+2025-05-29 12:48:47,626 - INFO - FAISS vector store loaded successfully
+2025-05-29 12:48:50,335 - DEBUG - Retrieved 3 documents for question
+2025-05-29 12:48:50,335 - DEBUG - Initializing conversational chain
+2025-05-29 12:48:50,351 - DEBUG - Conversational chain initialized successfully
+2025-05-29 12:48:50,351 - INFO - Invoking conversational chain
+2025-05-29 12:48:52,652 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor (Grade 1) in
+2025-05-29 12:49:05,284 - INFO - Received question: how many clubs at NITJ, offlineMode: False
+2025-05-29 12:49:05,284 - INFO - Loading FAISS vector store
+2025-05-29 12:49:05,284 - INFO - FAISS vector store loaded successfully
+2025-05-29 12:49:07,251 - DEBUG - Retrieved 3 documents for question
+2025-05-29 12:49:07,251 - DEBUG - Initializing conversational chain
+2025-05-29 12:49:07,251 - DEBUG - Conversational chain initialized successfully
+2025-05-29 12:49:07,251 - INFO - Invoking conversational chain
+2025-05-29 12:49:09,449 - DEBUG - Online response generated: There are 20 cultural clubs and 5 technical clubs 
+2025-05-29 12:49:12,803 - ERROR - Failed to save feedback: Expecting value: line 1 column 1 (char 0)
+2025-05-29 12:49:13,841 - ERROR - Failed to save feedback: Expecting value: line 1 column 1 (char 0)
+2025-05-29 12:49:16,788 - ERROR - Failed to save feedback: Expecting value: line 1 column 1 (char 0)
+2025-05-29 12:50:15,085 - DEBUG - Initialized empty feedback.json file
+2025-05-29 12:50:15,085 - INFO - Saved like feedback for question: who is Dr amritpal singh and response: Dr. Amritpal Singh is an Assistant Professor (Grad
+2025-05-29 12:50:16,101 - INFO - Saved like feedback for question: who is Dr Urvvashi and response: Dr. Urvashi is an Assistant Professor (Grade 1) in
+2025-05-29 12:50:17,531 - INFO - Saved like feedback for question: how many clubs at NITJ and response: There are 20 cultural clubs and 5 technical clubs 
+2025-05-29 12:52:40,631 - INFO - Voice successfully converted to text: who is Dr Urvashi
+2025-05-29 12:52:40,635 - INFO - Received question: who is Dr Urvashi, offlineMode: False
+2025-05-29 12:52:40,635 - INFO - Loading FAISS vector store
+2025-05-29 12:52:40,642 - INFO - FAISS vector store loaded successfully
+2025-05-29 12:52:42,571 - DEBUG - Retrieved 3 documents for question
+2025-05-29 12:52:42,571 - DEBUG - Initializing conversational chain
+2025-05-29 12:52:42,571 - DEBUG - Conversational chain initialized successfully
+2025-05-29 12:52:42,571 - INFO - Invoking conversational chain
+2025-05-29 12:52:44,837 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor (Grade-1) an
+2025-05-29 12:53:02,921 - INFO - Voice successfully converted to text: contact of bank
+2025-05-29 12:53:02,931 - INFO - Received question: contact of bank, offlineMode: False
+2025-05-29 12:53:02,931 - INFO - Loading FAISS vector store
+2025-05-29 12:53:02,938 - INFO - FAISS vector store loaded successfully
+2025-05-29 12:53:03,721 - DEBUG - Retrieved 3 documents for question
+2025-05-29 12:53:03,725 - DEBUG - Initializing conversational chain
+2025-05-29 12:53:03,727 - DEBUG - Conversational chain initialized successfully
+2025-05-29 12:53:03,727 - INFO - Invoking conversational chain
+2025-05-29 12:53:06,080 - DEBUG - Online response generated: * Canara Bank: +91 (181) 269 0233
+* State Bank of 
+2025-05-29 12:57:41,920 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 12:57:41,920 - DEBUG - Google API key configured
+2025-05-29 12:57:54,696 - INFO - Received question: who is dr urvashi, offlineMode: False
+2025-05-29 12:57:54,697 - INFO - Loading FAISS vector store
+2025-05-29 12:57:54,779 - INFO - FAISS vector store loaded successfully
+2025-05-29 12:57:56,780 - DEBUG - Retrieved 3 documents for question
+2025-05-29 12:57:56,780 - DEBUG - Initializing conversational chain
+2025-05-29 12:57:56,789 - DEBUG - Conversational chain initialized successfully
+2025-05-29 12:57:56,790 - INFO - Invoking conversational chain
+2025-05-29 12:57:58,413 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor (Grade - 1) 
+2025-05-29 12:58:28,549 - INFO - Saved like feedback for question: contact of bank and response: * Canara Bank: +91 (181) 269 0233
+* State Bank of 
+2025-05-29 15:06:29,431 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 15:06:29,439 - DEBUG - Google API key configured
+2025-05-29 15:06:48,582 - INFO - Extracting text from 3 PDF documents
+2025-05-29 15:06:49,030 - DEBUG - Text extracted from PDF: about academics new.pdf
+2025-05-29 15:06:49,189 - DEBUG - Text extracted from PDF: ABOUT NITJ.pdf
+2025-05-29 15:06:49,235 - DEBUG - Text extracted from PDF: NITJ information administration.pdf
+2025-05-29 15:06:49,235 - DEBUG - Cleaning text input
+2025-05-29 15:06:49,235 - DEBUG - Text cleaned successfully
+2025-05-29 15:06:49,235 - INFO - PDF text extraction completed, length: 49408 characters
+2025-05-29 15:06:49,235 - INFO - Splitting text into chunks
+2025-05-29 15:06:49,235 - DEBUG - Text split into 98 chunks
+2025-05-29 15:06:49,235 - INFO - Creating FAISS vector store with 98 text chunks
+2025-05-29 15:06:56,980 - INFO - FAISS vector store created and saved to 'faiss_index'
+2025-05-29 15:07:15,965 - INFO - Received question: tell me about NITJ, offlineMode: False
+2025-05-29 15:07:15,965 - INFO - Loading FAISS vector store
+2025-05-29 15:07:16,010 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:07:17,969 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:07:17,970 - DEBUG - Initializing conversational chain
+2025-05-29 15:07:17,978 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:07:17,978 - INFO - Invoking conversational chain
+2025-05-29 15:07:21,721 - DEBUG - Online response generated: Dr. B.R. Ambedkar National Institute of Technology
+2025-05-29 15:07:33,840 - INFO - Saved like feedback for question: tell me about NITJ and response: Dr. B.R. Ambedkar National Institute of Technology
+2025-05-29 15:07:43,413 - INFO - Received question: who's director of NITJ, offlineMode: False
+2025-05-29 15:07:43,413 - INFO - Loading FAISS vector store
+2025-05-29 15:07:43,421 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:07:45,216 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:07:45,216 - DEBUG - Initializing conversational chain
+2025-05-29 15:07:45,220 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:07:45,220 - INFO - Invoking conversational chain
+2025-05-29 15:07:47,250 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 15:07:55,638 - INFO - Received question: who is prof binod, offlineMode: False
+2025-05-29 15:07:55,638 - INFO - Loading FAISS vector store
+2025-05-29 15:07:55,643 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:07:56,221 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:07:56,221 - DEBUG - Initializing conversational chain
+2025-05-29 15:07:56,221 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:07:56,221 - INFO - Invoking conversational chain
+2025-05-29 15:07:57,049 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 15:11:01,762 - INFO - Extracting text from 4 PDF documents
+2025-05-29 15:11:02,262 - DEBUG - Text extracted from PDF: contactsa and people.pdf
+2025-05-29 15:11:02,669 - DEBUG - Text extracted from PDF: about academics new.pdf
+2025-05-29 15:11:02,811 - DEBUG - Text extracted from PDF: ABOUT NITJ.pdf
+2025-05-29 15:11:02,860 - DEBUG - Text extracted from PDF: NITJ information administration.pdf
+2025-05-29 15:11:02,860 - DEBUG - Cleaning text input
+2025-05-29 15:11:02,860 - DEBUG - Text cleaned successfully
+2025-05-29 15:11:02,860 - INFO - PDF text extraction completed, length: 77833 characters
+2025-05-29 15:11:02,860 - INFO - Splitting text into chunks
+2025-05-29 15:11:02,865 - DEBUG - Text split into 155 chunks
+2025-05-29 15:11:02,865 - INFO - Creating FAISS vector store with 155 text chunks
+2025-05-29 15:11:17,100 - INFO - FAISS vector store created and saved to 'faiss_index'
+2025-05-29 15:11:27,297 - INFO - Received question: who's director of NITJ, offlineMode: False
+2025-05-29 15:11:27,297 - INFO - Loading FAISS vector store
+2025-05-29 15:11:27,329 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:11:27,878 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:11:27,878 - DEBUG - Initializing conversational chain
+2025-05-29 15:11:27,882 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:11:27,882 - INFO - Invoking conversational chain
+2025-05-29 15:11:30,040 - DEBUG - Online response generated: Prof Binod Kumar Kanaujia is the Director of NITJ.
+2025-05-29 15:11:42,449 - INFO - Received question: what is full form of NITJ, offlineMode: False
+2025-05-29 15:11:42,449 - INFO - Loading FAISS vector store
+2025-05-29 15:11:42,449 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:11:43,041 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:11:43,041 - DEBUG - Initializing conversational chain
+2025-05-29 15:11:43,041 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:11:43,041 - INFO - Invoking conversational chain
+2025-05-29 15:11:45,192 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 15:12:06,557 - INFO - Received question: what is full form of NIT, offlineMode: False
+2025-05-29 15:12:06,557 - INFO - Loading FAISS vector store
+2025-05-29 15:12:06,561 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:12:08,534 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:12:08,536 - DEBUG - Initializing conversational chain
+2025-05-29 15:12:08,541 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:12:08,541 - INFO - Invoking conversational chain
+2025-05-29 15:12:10,693 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 15:13:13,189 - INFO - Extracting text from 4 PDF documents
+2025-05-29 15:13:13,608 - DEBUG - Text extracted from PDF: contactsa and people.pdf
+2025-05-29 15:13:14,129 - DEBUG - Text extracted from PDF: about academics new.pdf
+2025-05-29 15:13:14,268 - DEBUG - Text extracted from PDF: ABOUT NITJ.pdf
+2025-05-29 15:13:14,315 - DEBUG - Text extracted from PDF: NITJ information administration.pdf
+2025-05-29 15:13:14,315 - DEBUG - Cleaning text input
+2025-05-29 15:13:14,317 - DEBUG - Text cleaned successfully
+2025-05-29 15:13:14,317 - INFO - PDF text extraction completed, length: 77827 characters
+2025-05-29 15:13:14,317 - INFO - Splitting text into chunks
+2025-05-29 15:13:14,318 - DEBUG - Text split into 155 chunks
+2025-05-29 15:13:14,318 - INFO - Creating FAISS vector store with 155 text chunks
+2025-05-29 15:13:25,600 - INFO - FAISS vector store created and saved to 'faiss_index'
+2025-05-29 15:13:36,577 - INFO - Received question: what is full form of NITJ, offlineMode: False
+2025-05-29 15:13:36,578 - INFO - Loading FAISS vector store
+2025-05-29 15:13:36,607 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:13:38,553 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:13:38,553 - DEBUG - Initializing conversational chain
+2025-05-29 15:13:38,557 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:13:38,557 - INFO - Invoking conversational chain
+2025-05-29 15:13:40,613 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 15:13:52,408 - INFO - Received question: NITJ stands for, offlineMode: False
+2025-05-29 15:13:52,408 - INFO - Loading FAISS vector store
+2025-05-29 15:13:52,408 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:13:54,317 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:13:54,317 - DEBUG - Initializing conversational chain
+2025-05-29 15:13:54,318 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:13:54,318 - INFO - Invoking conversational chain
+2025-05-29 15:13:56,578 - DEBUG - Online response generated: Answer is not available in the context.  While the
+2025-05-29 15:15:27,452 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 15:15:27,455 - DEBUG - Google API key configured
+2025-05-29 15:15:40,232 - INFO - Received question: NITJ stands for, offlineMode: False
+2025-05-29 15:15:40,232 - INFO - Loading FAISS vector store
+2025-05-29 15:15:40,302 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:15:42,270 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:15:42,270 - DEBUG - Initializing conversational chain
+2025-05-29 15:15:42,277 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:15:42,277 - INFO - Invoking conversational chain
+2025-05-29 15:15:44,547 - DEBUG - Online response generated: Answer is not available in the context.  While the
+2025-05-29 15:17:17,745 - INFO - Extracting text from 5 PDF documents
+2025-05-29 15:17:17,908 - DEBUG - Text extracted from PDF: admissions at NITJ.pdf
+2025-05-29 15:17:18,288 - DEBUG - Text extracted from PDF: contactsa and people.pdf
+2025-05-29 15:17:18,825 - DEBUG - Text extracted from PDF: about academics new.pdf
+2025-05-29 15:17:18,969 - DEBUG - Text extracted from PDF: ABOUT NITJ.pdf
+2025-05-29 15:17:19,020 - DEBUG - Text extracted from PDF: NITJ information administration.pdf
+2025-05-29 15:17:19,020 - DEBUG - Cleaning text input
+2025-05-29 15:17:19,020 - DEBUG - Text cleaned successfully
+2025-05-29 15:17:19,020 - INFO - PDF text extraction completed, length: 88963 characters
+2025-05-29 15:17:19,020 - INFO - Splitting text into chunks
+2025-05-29 15:17:19,026 - DEBUG - Text split into 178 chunks
+2025-05-29 15:17:19,026 - INFO - Creating FAISS vector store with 178 text chunks
+2025-05-29 15:17:29,228 - INFO - FAISS vector store created and saved to 'faiss_index'
+2025-05-29 15:17:37,568 - INFO - Received question: NITJ stands for, offlineMode: False
+2025-05-29 15:17:37,568 - INFO - Loading FAISS vector store
+2025-05-29 15:17:37,607 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:17:39,497 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:17:39,497 - DEBUG - Initializing conversational chain
+2025-05-29 15:17:39,502 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:17:39,502 - INFO - Invoking conversational chain
+2025-05-29 15:17:41,748 - DEBUG - Online response generated: NITJ stands for Dr. B.R. Ambedkar National Institu
+2025-05-29 15:17:48,399 - INFO - Saved like feedback for question: NITJ stands for and response: NITJ stands for Dr. B.R. Ambedkar National Institu
+2025-05-29 15:17:57,898 - INFO - Received question: what is the full form of NITJ, offlineMode: False
+2025-05-29 15:17:57,899 - INFO - Loading FAISS vector store
+2025-05-29 15:17:57,900 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:17:59,833 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:17:59,833 - DEBUG - Initializing conversational chain
+2025-05-29 15:17:59,839 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:17:59,839 - INFO - Invoking conversational chain
+2025-05-29 15:18:01,111 - DEBUG - Online response generated: NITJ stands for Dr. B.R. Ambedkar National Institu
+2025-05-29 15:18:29,313 - INFO - Received question: per semester fee for btech, offlineMode: False
+2025-05-29 15:18:29,313 - INFO - Loading FAISS vector store
+2025-05-29 15:18:29,322 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:18:31,199 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:18:31,199 - DEBUG - Initializing conversational chain
+2025-05-29 15:18:31,205 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:18:31,205 - INFO - Invoking conversational chain
+2025-05-29 15:18:32,702 - DEBUG - Online response generated: The per-semester fee for B.Tech students at NITJ v
+2025-05-29 15:26:09,368 - DEBUG - Checking if FAISS index exists
+2025-05-29 15:26:09,368 - DEBUG - FAISS index exists: True
+2025-05-29 15:26:09,368 - DEBUG - Checking if FAISS index exists
+2025-05-29 15:26:09,368 - DEBUG - FAISS index exists: True
+2025-05-29 15:26:20,774 - INFO - Received question: fee for btech, offlineMode: False
+2025-05-29 15:26:20,774 - INFO - Loading FAISS vector store
+2025-05-29 15:26:20,777 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:26:22,767 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:26:22,767 - DEBUG - Initializing conversational chain
+2025-05-29 15:26:22,769 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:26:22,769 - INFO - Invoking conversational chain
+2025-05-29 15:26:25,735 - DEBUG - Online response generated: * For General and OBC category students with an an
+2025-05-29 15:26:45,089 - DEBUG - Checking if FAISS index exists
+2025-05-29 15:26:45,089 - DEBUG - FAISS index exists: True
+2025-05-29 15:26:45,089 - DEBUG - Checking if FAISS index exists
+2025-05-29 15:26:45,097 - DEBUG - FAISS index exists: True
+2025-05-29 15:26:53,798 - INFO - Received question: fee for btech, offlineMode: False
+2025-05-29 15:26:53,798 - INFO - Loading FAISS vector store
+2025-05-29 15:26:53,798 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:26:55,737 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:26:55,737 - DEBUG - Initializing conversational chain
+2025-05-29 15:26:55,743 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:26:55,743 - INFO - Invoking conversational chain
+2025-05-29 15:26:58,717 - DEBUG - Online response generated: The B.Tech tuition fee per semester at NITJ depend
+2025-05-29 15:27:07,690 - INFO - Saved like feedback for question: fee for btech and response: The B.Tech tuition fee per semester at NITJ depend
+2025-05-29 15:27:34,083 - DEBUG - Checking if FAISS index exists
+2025-05-29 15:27:34,083 - DEBUG - FAISS index exists: True
+2025-05-29 15:27:34,087 - DEBUG - Checking if FAISS index exists
+2025-05-29 15:27:34,087 - DEBUG - FAISS index exists: True
+2025-05-29 15:27:42,279 - INFO - Received question: fee for btech, offlineMode: False
+2025-05-29 15:27:42,287 - INFO - Loading FAISS vector store
+2025-05-29 15:27:42,289 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:27:44,181 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:27:44,181 - DEBUG - Initializing conversational chain
+2025-05-29 15:27:44,187 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:27:44,187 - INFO - Invoking conversational chain
+2025-05-29 15:27:47,548 - DEBUG - Online response generated: The B.Tech tuition fee per semester at NITJ is:
+
+*
+2025-05-29 15:27:57,794 - DEBUG - Checking if FAISS index exists
+2025-05-29 15:27:57,794 - DEBUG - FAISS index exists: True
+2025-05-29 15:27:57,798 - DEBUG - Checking if FAISS index exists
+2025-05-29 15:27:57,798 - DEBUG - FAISS index exists: True
+2025-05-29 15:28:06,138 - INFO - Received question: fee for mtech, offlineMode: False
+2025-05-29 15:28:06,138 - INFO - Loading FAISS vector store
+2025-05-29 15:28:06,138 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:28:08,031 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:28:08,031 - DEBUG - Initializing conversational chain
+2025-05-29 15:28:08,034 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:28:08,034 - INFO - Invoking conversational chain
+2025-05-29 15:28:10,899 - DEBUG - Online response generated: The fee for an M.Tech program depends on several f
+2025-05-29 15:29:46,446 - INFO - Received question: email of Dr amritpal singh, offlineMode: False
+2025-05-29 15:29:46,446 - INFO - Loading FAISS vector store
+2025-05-29 15:29:46,453 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:29:48,339 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:29:48,340 - DEBUG - Initializing conversational chain
+2025-05-29 15:29:48,344 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:29:48,344 - INFO - Invoking conversational chain
+2025-05-29 15:29:50,490 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 15:30:02,024 - INFO - Received question: who is Dean academics, offlineMode: False
+2025-05-29 15:30:02,024 - INFO - Loading FAISS vector store
+2025-05-29 15:30:02,029 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:30:03,812 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:30:03,812 - DEBUG - Initializing conversational chain
+2025-05-29 15:30:03,816 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:30:03,816 - INFO - Invoking conversational chain
+2025-05-29 15:30:04,536 - DEBUG - Online response generated: Prof Raman Bedi is the Dean (Academic).
+2025-05-29 15:43:54,630 - INFO - Received question: who is DR urvashi, offlineMode: False
+2025-05-29 15:43:54,631 - INFO - Loading FAISS vector store
+2025-05-29 15:43:54,635 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:43:56,544 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:43:56,544 - DEBUG - Initializing conversational chain
+2025-05-29 15:43:56,546 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:43:56,546 - INFO - Invoking conversational chain
+2025-05-29 15:43:58,609 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 15:45:42,331 - INFO - Received question: who is dr urvahs, offlineMode: False
+2025-05-29 15:45:42,331 - INFO - Loading FAISS vector store
+2025-05-29 15:45:42,340 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:45:44,188 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:45:44,188 - DEBUG - Initializing conversational chain
+2025-05-29 15:45:44,193 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:45:44,193 - INFO - Invoking conversational chain
+2025-05-29 15:45:44,944 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 15:46:18,103 - INFO - Received question: who is director of NITJ, offlineMode: False
+2025-05-29 15:46:18,103 - INFO - Loading FAISS vector store
+2025-05-29 15:46:18,108 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:46:20,202 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:46:20,203 - DEBUG - Initializing conversational chain
+2025-05-29 15:46:20,208 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:46:20,208 - INFO - Invoking conversational chain
+2025-05-29 15:46:22,302 - DEBUG - Online response generated: Prof. Binod Kumar Kanaujia is the Director of NITJ
+2025-05-29 15:46:50,263 - INFO - Received question: who is dean of student welfare, offlineMode: False
+2025-05-29 15:46:50,263 - INFO - Loading FAISS vector store
+2025-05-29 15:46:50,270 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:46:52,102 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:46:52,103 - DEBUG - Initializing conversational chain
+2025-05-29 15:46:52,108 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:46:52,108 - INFO - Invoking conversational chain
+2025-05-29 15:46:54,270 - DEBUG - Online response generated: Prof. Anish Sachdeva is the Dean of Student Welfar
+2025-05-29 15:46:57,247 - INFO - Saved like feedback for question: who is dean of student welfare and response: Prof. Anish Sachdeva is the Dean of Student Welfar
+2025-05-29 15:56:45,756 - INFO - Saved like feedback for question: fee for mtech and response: The fee for an M.Tech program depends on several f
+2025-05-29 15:58:18,580 - INFO - Received question: who is Amritpal singh, offlineMode: False
+2025-05-29 15:58:18,580 - INFO - Loading FAISS vector store
+2025-05-29 15:58:18,589 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:58:20,388 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:58:20,388 - DEBUG - Initializing conversational chain
+2025-05-29 15:58:20,392 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:58:20,392 - INFO - Invoking conversational chain
+2025-05-29 15:58:22,393 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 15:58:30,315 - INFO - Received question: vision of NITJ, offlineMode: False
+2025-05-29 15:58:30,315 - INFO - Loading FAISS vector store
+2025-05-29 15:58:30,320 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:58:32,095 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:58:32,095 - DEBUG - Initializing conversational chain
+2025-05-29 15:58:32,099 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:58:32,099 - INFO - Invoking conversational chain
+2025-05-29 15:58:34,652 - DEBUG - Online response generated: The vision of NITJ (Dr. B.R. Ambedkar National Ins
+2025-05-29 15:58:53,585 - INFO - Saved like feedback for question: vision of NITJ and response: The vision of NITJ (Dr. B.R. Ambedkar National Ins
+2025-05-29 15:59:39,987 - INFO - Received question: rank of NITJ, offlineMode: False
+2025-05-29 15:59:39,987 - INFO - Loading FAISS vector store
+2025-05-29 15:59:39,991 - INFO - FAISS vector store loaded successfully
+2025-05-29 15:59:41,735 - DEBUG - Retrieved 3 documents for question
+2025-05-29 15:59:41,736 - DEBUG - Initializing conversational chain
+2025-05-29 15:59:41,739 - DEBUG - Conversational chain initialized successfully
+2025-05-29 15:59:41,740 - INFO - Invoking conversational chain
+2025-05-29 15:59:46,717 - DEBUG - Online response generated: NITJ's rank varies depending on the ranking agency
+2025-05-29 16:00:13,467 - INFO - Received question: rank in 2022 of NITJ, offlineMode: False
+2025-05-29 16:00:13,467 - INFO - Loading FAISS vector store
+2025-05-29 16:00:13,470 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:00:16,007 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:00:16,008 - DEBUG - Initializing conversational chain
+2025-05-29 16:00:16,012 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:00:16,012 - INFO - Invoking conversational chain
+2025-05-29 16:00:18,525 - DEBUG - Online response generated: Key rankings for NITJ in 2022 include:
+
+* 52nd in 
+2025-05-29 16:00:24,949 - INFO - Saved like feedback for question: rank in 2022 of NITJ and response: Key rankings for NITJ in 2022 include:
+
+* 52nd in 
+2025-05-29 16:00:29,517 - INFO - Saved like feedback for question: rank of NITJ and response: NITJ's rank varies depending on the ranking agency
+2025-05-29 16:01:22,559 - INFO - Received question: NIRF ranking of NITJ, offlineMode: False
+2025-05-29 16:01:22,560 - INFO - Loading FAISS vector store
+2025-05-29 16:01:22,566 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:01:24,356 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:01:24,356 - DEBUG - Initializing conversational chain
+2025-05-29 16:01:24,358 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:01:24,358 - INFO - Invoking conversational chain
+2025-05-29 16:01:26,855 - DEBUG - Online response generated: * **2024:** 58th in Engineering; 101-150 overall.
+
+2025-05-29 16:01:29,985 - INFO - Saved like feedback for question: NIRF ranking of NITJ and response: * **2024:** 58th in Engineering; 101-150 overall.
+
+2025-05-29 16:02:46,910 - INFO - Extracting text from 8 PDF documents
+2025-05-29 16:02:47,157 - DEBUG - Text extracted from PDF: admissions at NITJ.pdf
+2025-05-29 16:02:47,758 - DEBUG - Text extracted from PDF: contactsa and people.pdf
+2025-05-29 16:02:48,853 - DEBUG - Text extracted from PDF: about academics new.pdf
+2025-05-29 16:02:49,027 - DEBUG - Text extracted from PDF: ABOUT NITJ.pdf
+2025-05-29 16:02:49,123 - DEBUG - Text extracted from PDF: NITJ information administration.pdf
+2025-05-29 16:02:49,778 - DEBUG - Text extracted from PDF: health_samp_accomodation.pdf
+2025-05-29 16:02:50,246 - DEBUG - Text extracted from PDF: fest_amenties_scholarships.pdf
+2025-05-29 16:02:51,444 - DEBUG - Text extracted from PDF: life at nitj 2.pdf
+2025-05-29 16:02:51,444 - DEBUG - Cleaning text input
+2025-05-29 16:02:51,444 - DEBUG - Text cleaned successfully
+2025-05-29 16:02:51,445 - INFO - PDF text extraction completed, length: 182511 characters
+2025-05-29 16:02:51,445 - INFO - Splitting text into chunks
+2025-05-29 16:02:51,449 - DEBUG - Text split into 363 chunks
+2025-05-29 16:02:51,449 - INFO - Creating FAISS vector store with 363 text chunks
+2025-05-29 16:03:15,109 - INFO - FAISS vector store created and saved to 'faiss_index'
+2025-05-29 16:03:25,120 - INFO - Received question: bank contact number, offlineMode: False
+2025-05-29 16:03:25,120 - INFO - Loading FAISS vector store
+2025-05-29 16:03:25,153 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:03:26,998 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:03:26,998 - DEBUG - Initializing conversational chain
+2025-05-29 16:03:27,005 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:03:27,005 - INFO - Invoking conversational chain
+2025-05-29 16:03:29,349 - DEBUG - Online response generated: * Canara Bank: +91 (181) 269 0233
+* State Bank of 
+2025-05-29 16:03:35,511 - INFO - Saved like feedback for question: bank contact number and response: * Canara Bank: +91 (181) 269 0233
+* State Bank of 
+2025-05-29 16:03:52,046 - INFO - Received question: how cgpa is calculated, offlineMode: False
+2025-05-29 16:03:52,046 - INFO - Loading FAISS vector store
+2025-05-29 16:03:52,051 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:03:52,824 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:03:52,824 - DEBUG - Initializing conversational chain
+2025-05-29 16:03:52,826 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:03:52,826 - INFO - Invoking conversational chain
+2025-05-29 16:03:54,970 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 16:04:02,055 - INFO - Received question: grade in NITJ, offlineMode: False
+2025-05-29 16:04:02,055 - INFO - Loading FAISS vector store
+2025-05-29 16:04:02,064 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:04:03,864 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:04:03,864 - DEBUG - Initializing conversational chain
+2025-05-29 16:04:03,868 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:04:03,868 - INFO - Invoking conversational chain
+2025-05-29 16:04:04,891 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 16:04:13,189 - INFO - Received question: semester exmas, offlineMode: False
+2025-05-29 16:04:13,189 - INFO - Loading FAISS vector store
+2025-05-29 16:04:13,196 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:04:15,520 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:04:15,521 - DEBUG - Initializing conversational chain
+2025-05-29 16:04:15,525 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:04:15,525 - INFO - Invoking conversational chain
+2025-05-29 16:04:18,030 - DEBUG - Online response generated: Mid-Semester Exams: Conducted from October 7 to Oc
+2025-05-29 16:04:52,752 - INFO - Received question: amenities at NITJ, offlineMode: False
+2025-05-29 16:04:52,752 - INFO - Loading FAISS vector store
+2025-05-29 16:04:52,763 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:04:54,530 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:04:54,531 - DEBUG - Initializing conversational chain
+2025-05-29 16:04:54,536 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:04:54,536 - INFO - Invoking conversational chain
+2025-05-29 16:04:56,684 - DEBUG - Online response generated: The amenities at NITJ include:
+
+* Banks & ATMs
+* C
+2025-05-29 16:05:06,190 - INFO - Saved like feedback for question: amenities at NITJ and response: The amenities at NITJ include:
+
+* Banks & ATMs
+* C
+2025-05-29 16:05:12,311 - INFO - Received question: what is Daily commute, offlineMode: False
+2025-05-29 16:05:12,311 - INFO - Loading FAISS vector store
+2025-05-29 16:05:12,318 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:05:14,942 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:05:14,942 - DEBUG - Initializing conversational chain
+2025-05-29 16:05:14,946 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:05:14,946 - INFO - Invoking conversational chain
+2025-05-29 16:05:17,245 - DEBUG - Online response generated: The institute provides bus services to facilitate 
+2025-05-29 16:05:29,419 - INFO - Saved like feedback for question: what is Daily commute and response: The institute provides bus services to facilitate 
+2025-05-29 16:09:39,265 - INFO - Saved like feedback for question: semester exmas and response: Mid-Semester Exams: Conducted from October 7 to Oc
+2025-05-29 16:10:35,112 - INFO - Received question: what are diff scholarships at NITJ, offlineMode: False
+2025-05-29 16:10:35,112 - INFO - Loading FAISS vector store
+2025-05-29 16:10:35,120 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:10:36,059 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:10:36,060 - DEBUG - Initializing conversational chain
+2025-05-29 16:10:36,065 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:10:36,066 - INFO - Invoking conversational chain
+2025-05-29 16:10:40,002 - DEBUG - Online response generated: The provided text mentions several scholarships av
+2025-05-29 16:11:11,080 - INFO - Received question: what about laptop scheme, offlineMode: False
+2025-05-29 16:11:11,081 - INFO - Loading FAISS vector store
+2025-05-29 16:11:11,091 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:11:13,625 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:11:13,626 - DEBUG - Initializing conversational chain
+2025-05-29 16:11:13,629 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:11:13,629 - INFO - Invoking conversational chain
+2025-05-29 16:11:15,916 - DEBUG - Online response generated: The Institute offers a laptop procurement program 
+2025-05-29 16:11:33,083 - INFO - Saved like feedback for question: what about laptop scheme and response: The Institute offers a laptop procurement program 
+2025-05-29 16:11:35,611 - INFO - Saved like feedback for question: what are diff scholarships at NITJ and response: The provided text mentions several scholarships av
+2025-05-29 16:11:56,548 - INFO - Received question: list of central governmnet scholarship program, offlineMode: False
+2025-05-29 16:11:56,548 - INFO - Loading FAISS vector store
+2025-05-29 16:11:56,559 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:11:58,363 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:11:58,363 - DEBUG - Initializing conversational chain
+2025-05-29 16:11:58,367 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:11:58,368 - INFO - Invoking conversational chain
+2025-05-29 16:12:02,419 - DEBUG - Online response generated: * Central Sector Scheme of Scholarships for Colleg
+2025-05-29 16:13:05,751 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 16:13:05,751 - DEBUG - Google API key configured
+2025-05-29 16:13:15,987 - INFO - Received question: list of central governmnet scholarship program, offlineMode: False
+2025-05-29 16:13:15,988 - INFO - Loading FAISS vector store
+2025-05-29 16:13:16,093 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:13:18,058 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:13:18,058 - DEBUG - Initializing conversational chain
+2025-05-29 16:13:18,070 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:13:18,070 - INFO - Invoking conversational chain
+2025-05-29 16:13:22,211 - DEBUG - Online response generated: * Central Sector Scheme of Scholarships for Colleg
+2025-05-29 16:13:41,103 - INFO - Voice successfully converted to text: game offered by nitj
+2025-05-29 16:13:41,107 - INFO - Received question: game offered by nitj, offlineMode: False
+2025-05-29 16:13:41,107 - INFO - Loading FAISS vector store
+2025-05-29 16:13:41,111 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:13:42,877 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:13:42,877 - DEBUG - Initializing conversational chain
+2025-05-29 16:13:42,882 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:13:42,882 - INFO - Invoking conversational chain
+2025-05-29 16:13:45,007 - DEBUG - Online response generated: Based on the provided text, NITJ offers basketball
+2025-05-29 16:13:49,188 - INFO - Saved like feedback for question: game offered by nitj and response: Based on the provided text, NITJ offers basketball
+2025-05-29 16:13:57,226 - INFO - Voice successfully converted to text: offered by nitj
+2025-05-29 16:13:57,234 - INFO - Received question: offered by nitj, offlineMode: False
+2025-05-29 16:13:57,234 - INFO - Loading FAISS vector store
+2025-05-29 16:13:57,243 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:13:59,030 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:13:59,031 - DEBUG - Initializing conversational chain
+2025-05-29 16:13:59,034 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:13:59,035 - INFO - Invoking conversational chain
+2025-05-29 16:14:01,549 - DEBUG - Online response generated: NITJ offers a wide range of academic programs, inc
+2025-05-29 16:14:08,443 - INFO - Saved like feedback for question: offered by nitj and response: NITJ offers a wide range of academic programs, inc
+2025-05-29 16:14:19,855 - INFO - Voice successfully converted to text: laptop scheme offered by nitj
+2025-05-29 16:14:19,858 - INFO - Received question: laptop scheme offered by nitj, offlineMode: False
+2025-05-29 16:14:19,858 - INFO - Loading FAISS vector store
+2025-05-29 16:14:19,863 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:14:21,637 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:14:21,637 - DEBUG - Initializing conversational chain
+2025-05-29 16:14:21,642 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:14:21,642 - INFO - Invoking conversational chain
+2025-05-29 16:14:24,069 - DEBUG - Online response generated: **NITJ Laptop Scheme**
+
+*   The institute offers a
+2025-05-29 16:14:30,275 - INFO - Saved like feedback for question: laptop scheme offered by nitj and response: **NITJ Laptop Scheme**
+
+*   The institute offers a
+2025-05-29 16:15:23,750 - INFO - Voice successfully converted to text: integrated programs offered by natije
+2025-05-29 16:15:23,757 - INFO - Received question: integrated programs offered by natije, offlineMode: False
+2025-05-29 16:15:23,757 - INFO - Loading FAISS vector store
+2025-05-29 16:15:23,761 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:15:26,354 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:15:26,356 - DEBUG - Initializing conversational chain
+2025-05-29 16:15:26,359 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:15:26,359 - INFO - Invoking conversational chain
+2025-05-29 16:15:28,964 - DEBUG - Online response generated: * Integrated Teacher Education Programme (ITEP)
+* 
+2025-05-29 16:15:51,933 - INFO - Voice successfully converted to text: tell me about integrated BTech MBA program of nitj
+2025-05-29 16:15:51,941 - INFO - Received question: tell me about integrated BTech MBA program of nitj, offlineMode: False
+2025-05-29 16:15:51,942 - INFO - Loading FAISS vector store
+2025-05-29 16:15:51,946 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:15:53,723 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:15:53,723 - DEBUG - Initializing conversational chain
+2025-05-29 16:15:53,725 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:15:53,725 - INFO - Invoking conversational chain
+2025-05-29 16:15:55,804 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 16:16:08,430 - INFO - Saved like feedback for question: integrated programs offered by natije and response: * Integrated Teacher Education Programme (ITEP)
+* 
+2025-05-29 16:17:31,947 - INFO - Voice successfully converted to text: email of Dean Academics
+2025-05-29 16:17:31,955 - INFO - Received question: email of Dean Academics, offlineMode: False
+2025-05-29 16:17:31,955 - INFO - Loading FAISS vector store
+2025-05-29 16:17:31,963 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:17:33,790 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:17:33,790 - DEBUG - Initializing conversational chain
+2025-05-29 16:17:33,795 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:17:33,795 - INFO - Invoking conversational chain
+2025-05-29 16:17:35,876 - DEBUG - Online response generated: da@nitj.ac.in
+2025-05-29 16:17:44,490 - INFO - Voice successfully converted to text: email of Dean Student Welfare
+2025-05-29 16:17:44,495 - INFO - Received question: email of Dean Student Welfare, offlineMode: False
+2025-05-29 16:17:44,495 - INFO - Loading FAISS vector store
+2025-05-29 16:17:44,499 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:17:46,275 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:17:46,275 - DEBUG - Initializing conversational chain
+2025-05-29 16:17:46,277 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:17:46,277 - INFO - Invoking conversational chain
+2025-05-29 16:17:47,026 - DEBUG - Online response generated: dsw@nitj.ac.in
+2025-05-29 16:18:05,609 - INFO - Voice successfully converted to text: email of Dr Raman Bedi
+2025-05-29 16:18:05,617 - INFO - Received question: email of Dr Raman Bedi, offlineMode: False
+2025-05-29 16:18:05,617 - INFO - Loading FAISS vector store
+2025-05-29 16:18:05,628 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:18:07,382 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:18:07,382 - DEBUG - Initializing conversational chain
+2025-05-29 16:18:07,386 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:18:07,386 - INFO - Invoking conversational chain
+2025-05-29 16:18:09,461 - DEBUG - Online response generated: da@nitj.ac.in
+2025-05-29 16:18:25,778 - INFO - Voice successfully converted to text: email of Professor Anish Sachdeva
+2025-05-29 16:18:25,786 - INFO - Received question: email of Professor Anish Sachdeva, offlineMode: False
+2025-05-29 16:18:25,786 - INFO - Loading FAISS vector store
+2025-05-29 16:18:25,794 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:18:27,575 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:18:27,575 - DEBUG - Initializing conversational chain
+2025-05-29 16:18:27,579 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:18:27,579 - INFO - Invoking conversational chain
+2025-05-29 16:18:29,570 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 16:18:45,511 - INFO - Voice successfully converted to text: email of Anish Sachdeva
+2025-05-29 16:18:45,518 - INFO - Received question: email of Anish Sachdeva, offlineMode: False
+2025-05-29 16:18:45,518 - INFO - Loading FAISS vector store
+2025-05-29 16:18:45,527 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:18:47,286 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:18:47,286 - DEBUG - Initializing conversational chain
+2025-05-29 16:18:47,289 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:18:47,289 - INFO - Invoking conversational chain
+2025-05-29 16:18:49,322 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 16:19:02,319 - INFO - Voice successfully converted to text: who is registrar
+2025-05-29 16:19:02,323 - INFO - Received question: who is registrar, offlineMode: False
+2025-05-29 16:19:02,323 - INFO - Loading FAISS vector store
+2025-05-29 16:19:02,327 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:19:04,083 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:19:04,083 - DEBUG - Initializing conversational chain
+2025-05-29 16:19:04,089 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:19:04,090 - INFO - Invoking conversational chain
+2025-05-29 16:19:06,187 - DEBUG - Online response generated: Prof. Ajay Bansal is the Registrar.
+2025-05-29 16:19:15,079 - INFO - Voice successfully converted to text: email of Professor Ajay Bansal
+2025-05-29 16:19:15,086 - INFO - Received question: email of Professor Ajay Bansal, offlineMode: False
+2025-05-29 16:19:15,086 - INFO - Loading FAISS vector store
+2025-05-29 16:19:15,095 - INFO - FAISS vector store loaded successfully
+2025-05-29 16:19:16,840 - DEBUG - Retrieved 3 documents for question
+2025-05-29 16:19:16,841 - DEBUG - Initializing conversational chain
+2025-05-29 16:19:16,845 - DEBUG - Conversational chain initialized successfully
+2025-05-29 16:19:16,846 - INFO - Invoking conversational chain
+2025-05-29 16:19:18,842 - DEBUG - Online response generated: registrar@nitj.ac.in
+2025-05-29 16:19:32,012 - INFO - Saved like feedback for question: email of Professor Ajay Bansal and response: registrar@nitj.ac.in
+2025-05-29 16:19:34,216 - INFO - Saved like feedback for question: who is registrar and response: Prof. Ajay Bansal is the Registrar.
+2025-05-29 16:19:39,743 - INFO - Saved like feedback for question: email of Dr Raman Bedi and response: da@nitj.ac.in
+2025-05-29 16:19:43,904 - INFO - Saved like feedback for question: email of Dean Student Welfare and response: dsw@nitj.ac.in
+2025-05-29 17:32:25,217 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 17:32:25,218 - DEBUG - Google API key configured
+2025-05-29 17:32:30,024 - DEBUG - Checking if FAISS index exists
+2025-05-29 17:32:30,026 - DEBUG - FAISS index exists: True
+2025-05-29 17:32:30,028 - DEBUG - Checking if FAISS index exists
+2025-05-29 17:32:30,030 - DEBUG - FAISS index exists: True
+2025-05-29 17:33:35,777 - INFO - Extracting text from 10 PDF documents
+2025-05-29 17:33:38,250 - DEBUG - Text extracted from PDF: dept and rest all data in one pdf.pdf
+2025-05-29 17:33:38,582 - DEBUG - Text extracted from PDF: students club and services offered to them.pdf
+2025-05-29 17:33:38,728 - DEBUG - Text extracted from PDF: admissions at NITJ.pdf
+2025-05-29 17:33:39,112 - DEBUG - Text extracted from PDF: contactsa and people.pdf
+2025-05-29 17:33:39,635 - DEBUG - Text extracted from PDF: about academics new.pdf
+2025-05-29 17:33:39,793 - DEBUG - Text extracted from PDF: ABOUT NITJ.pdf
+2025-05-29 17:33:39,834 - DEBUG - Text extracted from PDF: NITJ information administration.pdf
+2025-05-29 17:33:40,246 - DEBUG - Text extracted from PDF: health_samp_accomodation.pdf
+2025-05-29 17:33:40,524 - DEBUG - Text extracted from PDF: fest_amenties_scholarships.pdf
+2025-05-29 17:33:41,287 - DEBUG - Text extracted from PDF: life at nitj 2.pdf
+2025-05-29 17:33:41,287 - DEBUG - Cleaning text input
+2025-05-29 17:33:41,287 - DEBUG - Text cleaned successfully
+2025-05-29 17:33:41,287 - INFO - PDF text extraction completed, length: 348571 characters
+2025-05-29 17:33:41,287 - INFO - Splitting text into chunks
+2025-05-29 17:33:41,296 - DEBUG - Text split into 696 chunks
+2025-05-29 17:33:41,296 - INFO - Creating FAISS vector store with 696 text chunks
+2025-05-29 17:34:18,931 - INFO - FAISS vector store created and saved to 'faiss_index'
+2025-05-29 17:34:36,763 - INFO - Voice successfully converted to text: who is HOD of computer science department
+2025-05-29 17:34:36,774 - INFO - Received question: who is HOD of computer science department, offlineMode: False
+2025-05-29 17:34:36,774 - INFO - Loading FAISS vector store
+2025-05-29 17:34:36,812 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:34:38,718 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:34:38,718 - DEBUG - Initializing conversational chain
+2025-05-29 17:34:38,722 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:34:38,722 - INFO - Invoking conversational chain
+2025-05-29 17:34:40,852 - DEBUG - Online response generated: Er D K Gupta is the Associate Professor and Head o
+2025-05-29 17:35:08,302 - INFO - Voice successfully converted to text: who is HOD of IT Department
+2025-05-29 17:35:08,305 - INFO - Received question: who is HOD of IT Department, offlineMode: False
+2025-05-29 17:35:08,311 - INFO - Loading FAISS vector store
+2025-05-29 17:35:08,322 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:35:09,322 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:35:09,322 - DEBUG - Initializing conversational chain
+2025-05-29 17:35:09,332 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:35:09,332 - INFO - Invoking conversational chain
+2025-05-29 17:35:11,372 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 17:35:27,242 - INFO - Voice successfully converted to text: highlight some achievements of nitj students
+2025-05-29 17:35:27,252 - INFO - Received question: highlight some achievements of nitj students, offlineMode: False
+2025-05-29 17:35:27,252 - INFO - Loading FAISS vector store
+2025-05-29 17:35:27,258 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:35:29,692 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:35:29,692 - DEBUG - Initializing conversational chain
+2025-05-29 17:35:29,692 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:35:29,692 - INFO - Invoking conversational chain
+2025-05-29 17:35:34,932 - DEBUG - Online response generated: **NITJ Student Achievements:**
+
+* **Sarkar Saima I
+2025-05-29 17:36:06,614 - INFO - Saved like feedback for question: highlight some achievements of nitj students and response: **NITJ Student Achievements:**
+
+* **Sarkar Saima I
+2025-05-29 17:38:31,592 - INFO - Received question: ece curriculum , offlineMode: False
+2025-05-29 17:38:31,592 - INFO - Loading FAISS vector store
+2025-05-29 17:38:31,601 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:38:32,121 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:38:32,121 - DEBUG - Initializing conversational chain
+2025-05-29 17:38:32,121 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:38:32,121 - INFO - Invoking conversational chain
+2025-05-29 17:38:34,838 - DEBUG - Online response generated: **Department of Electronics and Communication Engi
+2025-05-29 17:39:05,267 - INFO - Received question: ece professor list, offlineMode: False
+2025-05-29 17:39:05,272 - INFO - Loading FAISS vector store
+2025-05-29 17:39:05,275 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:39:07,142 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:39:07,142 - DEBUG - Initializing conversational chain
+2025-05-29 17:39:07,147 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:39:07,147 - INFO - Invoking conversational chain
+2025-05-29 17:39:09,954 - DEBUG - Online response generated: **List of ECE Professors at NITJ**
+
+* Dr. Arun K. 
+2025-05-29 17:39:28,701 - INFO - Received question: roshan sir from ece , offlineMode: False
+2025-05-29 17:39:28,701 - INFO - Loading FAISS vector store
+2025-05-29 17:39:28,710 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:39:30,651 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:39:30,651 - DEBUG - Initializing conversational chain
+2025-05-29 17:39:30,660 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:39:30,660 - INFO - Invoking conversational chain
+2025-05-29 17:39:32,801 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 17:39:43,570 - INFO - Received question: Roshan bodile, offlineMode: False
+2025-05-29 17:39:43,574 - INFO - Loading FAISS vector store
+2025-05-29 17:39:43,580 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:39:45,386 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:39:45,386 - DEBUG - Initializing conversational chain
+2025-05-29 17:39:45,394 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:39:45,394 - INFO - Invoking conversational chain
+2025-05-29 17:39:47,439 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 17:39:57,374 - INFO - Received question: professor roshan bodile, offlineMode: False
+2025-05-29 17:39:57,374 - INFO - Loading FAISS vector store
+2025-05-29 17:39:57,391 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:39:59,224 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:39:59,224 - DEBUG - Initializing conversational chain
+2025-05-29 17:39:59,224 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:39:59,233 - INFO - Invoking conversational chain
+2025-05-29 17:40:01,259 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 17:40:10,831 - INFO - Received question: rohit singh, offlineMode: False
+2025-05-29 17:40:10,831 - INFO - Loading FAISS vector store
+2025-05-29 17:40:10,840 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:40:12,840 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:40:12,840 - DEBUG - Initializing conversational chain
+2025-05-29 17:40:12,840 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:40:12,840 - INFO - Invoking conversational chain
+2025-05-29 17:40:14,992 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 17:40:26,333 - INFO - Received question: rohit singh from ece dept, offlineMode: False
+2025-05-29 17:40:26,333 - INFO - Loading FAISS vector store
+2025-05-29 17:40:26,342 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:40:28,306 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:40:28,306 - DEBUG - Initializing conversational chain
+2025-05-29 17:40:28,306 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:40:28,306 - INFO - Invoking conversational chain
+2025-05-29 17:40:30,351 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 17:40:49,754 - INFO - Received question: Arun K. khosla, offlineMode: False
+2025-05-29 17:40:49,754 - INFO - Loading FAISS vector store
+2025-05-29 17:40:49,763 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:40:51,655 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:40:51,657 - DEBUG - Initializing conversational chain
+2025-05-29 17:40:51,662 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:40:51,662 - INFO - Invoking conversational chain
+2025-05-29 17:40:54,813 - DEBUG - Online response generated: **Dr. Arun K. Khosla**
+
+*   **Email:** khoslaak@ni
+2025-05-29 17:42:49,662 - INFO - Received question: about dr kunwar pal singh, offlineMode: False
+2025-05-29 17:42:49,662 - INFO - Loading FAISS vector store
+2025-05-29 17:42:49,670 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:42:51,566 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:42:51,566 - DEBUG - Initializing conversational chain
+2025-05-29 17:42:51,573 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:42:51,573 - INFO - Invoking conversational chain
+2025-05-29 17:42:53,806 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 17:43:02,110 - INFO - Received question: Kunwar Pal, offlineMode: False
+2025-05-29 17:43:02,110 - INFO - Loading FAISS vector store
+2025-05-29 17:43:02,118 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:43:04,768 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:43:04,768 - DEBUG - Initializing conversational chain
+2025-05-29 17:43:04,773 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:43:04,773 - INFO - Invoking conversational chain
+2025-05-29 17:43:06,924 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 17:43:13,870 - INFO - Received question: Amritpal Singh, offlineMode: False
+2025-05-29 17:43:13,870 - INFO - Loading FAISS vector store
+2025-05-29 17:43:13,878 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:43:15,222 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:43:15,222 - DEBUG - Initializing conversational chain
+2025-05-29 17:43:15,231 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:43:15,231 - INFO - Invoking conversational chain
+2025-05-29 17:43:17,662 - DEBUG - Online response generated: Dr. Amritpal Singh is an Assistant Professor (Grad
+2025-05-29 17:44:03,802 - INFO - Received question: Dr Kunwar Pal, offlineMode: False
+2025-05-29 17:44:03,802 - INFO - Loading FAISS vector store
+2025-05-29 17:44:03,810 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:44:05,702 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:44:05,702 - DEBUG - Initializing conversational chain
+2025-05-29 17:44:05,702 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:44:05,702 - INFO - Invoking conversational chain
+2025-05-29 17:44:07,819 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 17:45:03,582 - INFO - Received question: Dr Urvashi, offlineMode: False
+2025-05-29 17:45:03,582 - INFO - Loading FAISS vector store
+2025-05-29 17:45:03,590 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:45:05,438 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:45:05,438 - DEBUG - Initializing conversational chain
+2025-05-29 17:45:05,438 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:45:05,438 - INFO - Invoking conversational chain
+2025-05-29 17:45:07,574 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 17:45:24,111 - INFO - Received question: about computer science department, offlineMode: False
+2025-05-29 17:45:24,111 - INFO - Loading FAISS vector store
+2025-05-29 17:45:24,111 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:45:25,985 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:45:25,985 - DEBUG - Initializing conversational chain
+2025-05-29 17:45:25,990 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:45:25,990 - INFO - Invoking conversational chain
+2025-05-29 17:45:32,131 - DEBUG - Online response generated: **Computer Science and Engineering Department at N
+2025-05-29 17:46:19,302 - INFO - Received question: about Jagdeep kaur from CSE department, offlineMode: False
+2025-05-29 17:46:19,302 - INFO - Loading FAISS vector store
+2025-05-29 17:46:19,310 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:46:21,163 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:46:21,163 - DEBUG - Initializing conversational chain
+2025-05-29 17:46:21,168 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:46:21,168 - INFO - Invoking conversational chain
+2025-05-29 17:46:23,320 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 17:46:36,370 - INFO - Received question: faculty of CSE, offlineMode: False
+2025-05-29 17:46:36,370 - INFO - Loading FAISS vector store
+2025-05-29 17:46:36,383 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:46:38,283 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:46:38,283 - DEBUG - Initializing conversational chain
+2025-05-29 17:46:38,291 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:46:38,291 - INFO - Invoking conversational chain
+2025-05-29 17:46:40,427 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 17:46:52,500 - INFO - Received question: faculty of Computer science department, offlineMode: False
+2025-05-29 17:46:52,500 - INFO - Loading FAISS vector store
+2025-05-29 17:46:52,509 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:46:54,358 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:46:54,358 - DEBUG - Initializing conversational chain
+2025-05-29 17:46:54,358 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:46:54,358 - INFO - Invoking conversational chain
+2025-05-29 17:46:59,074 - DEBUG - Online response generated: **Faculty of the Computer Science and Engineering 
+2025-05-29 17:48:11,553 - INFO - Received question: seats in undergraduate programes BTech Computer sc, offlineMode: False
+2025-05-29 17:48:11,553 - INFO - Loading FAISS vector store
+2025-05-29 17:48:11,562 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:48:12,070 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:48:12,070 - DEBUG - Initializing conversational chain
+2025-05-29 17:48:12,070 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:48:12,070 - INFO - Invoking conversational chain
+2025-05-29 17:48:14,230 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 17:48:40,220 - INFO - Received question: Btech computer science seats, offlineMode: False
+2025-05-29 17:48:40,220 - INFO - Loading FAISS vector store
+2025-05-29 17:48:40,230 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:48:42,084 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:48:42,084 - DEBUG - Initializing conversational chain
+2025-05-29 17:48:42,093 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:48:42,093 - INFO - Invoking conversational chain
+2025-05-29 17:48:44,427 - DEBUG - Online response generated: Answer is not available in the context.  The provi
+2025-05-29 17:49:07,684 - INFO - Received question: BTech computer science & engineering seats, offlineMode: False
+2025-05-29 17:49:07,684 - INFO - Loading FAISS vector store
+2025-05-29 17:49:07,684 - INFO - FAISS vector store loaded successfully
+2025-05-29 17:49:09,628 - DEBUG - Retrieved 3 documents for question
+2025-05-29 17:49:09,628 - DEBUG - Initializing conversational chain
+2025-05-29 17:49:09,628 - DEBUG - Conversational chain initialized successfully
+2025-05-29 17:49:09,636 - INFO - Invoking conversational chain
+2025-05-29 17:49:11,770 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 18:00:47,087 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 18:00:47,087 - DEBUG - Google API key configured
+2025-05-29 18:01:26,708 - INFO - Received question: seats in Btech Computer Science & engineering, offlineMode: False
+2025-05-29 18:01:26,708 - INFO - Loading FAISS vector store
+2025-05-29 18:01:26,774 - INFO - FAISS vector store loaded successfully
+2025-05-29 18:01:28,765 - DEBUG - Retrieved 3 documents for question
+2025-05-29 18:01:28,765 - DEBUG - Initializing conversational chain
+2025-05-29 18:01:28,773 - DEBUG - Conversational chain initialized successfully
+2025-05-29 18:01:28,773 - INFO - Invoking conversational chain
+2025-05-29 18:01:31,008 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 18:03:39,782 - DEBUG - Checking if FAISS index exists
+2025-05-29 18:03:39,782 - DEBUG - FAISS index exists: True
+2025-05-29 18:03:39,782 - DEBUG - Checking if FAISS index exists
+2025-05-29 18:03:39,782 - DEBUG - FAISS index exists: True
+2025-05-29 18:04:30,117 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 18:04:30,117 - DEBUG - Google API key configured
+2025-05-29 18:04:34,987 - DEBUG - Checking if FAISS index exists
+2025-05-29 18:04:34,987 - DEBUG - FAISS index exists: True
+2025-05-29 18:04:34,996 - DEBUG - Checking if FAISS index exists
+2025-05-29 18:04:34,996 - DEBUG - FAISS index exists: True
+2025-05-29 18:04:55,982 - INFO - Received question: seats in Btech Computer Science & Engineering, offlineMode: False
+2025-05-29 18:04:55,982 - INFO - Loading FAISS vector store
+2025-05-29 18:04:56,057 - INFO - FAISS vector store loaded successfully
+2025-05-29 18:04:57,978 - DEBUG - Retrieved 5 documents for question
+2025-05-29 18:04:57,978 - DEBUG - Retrieved documents content: ['Year STC/FDP International Conferences  National Conferences  Workshops  GIAN Courses  \n2023 19 5 - 3 - \n2022 54 2 6 1 1 \n2021 91 1 2 1 1 \n2020 26 3 1 1 2 \n2019 16 5 3 0 4 \n \n \n \n \nThe Institute offer', 'Automation G1 3 1 2 1 1 0 0 \nDepartment Programme Group  Total \nSeats OC EWS OBC SC ST PwD (various \ncategories) \nElectrical \nEngineering Electric Vehicle Design G1 20 3 7 1 2 2 PwD included  \nMechani', '\uf0b7 Total Seats: 380 \n\uf0b7 Category-wise breakdown: \no Open Category (OC): 146 \no Economically Weaker Section (EWS): 36 \no Other Backward Classes (OBC): 98 \no Scheduled Caste (SC): 54 \no Scheduled Tribe (S', 'Technology programme. \nFor each discipline, 20% of the total seats are reserved as female-only seats, which translates to \n221 seats plus the 3 supernumerary girl child seats, making a total of 224 fe', 'included \n Computer Science & \nEngineering (Information \nSecurity) G1 15 - - - - - - \nElectronics & \nCommunication \nEngg. Signal Processing and \nMachine Learning G1 6 1 4 2 1 0 PwD included  \n VLSI De']
+2025-05-29 18:04:57,978 - DEBUG - Initializing conversational chain
+2025-05-29 18:04:57,984 - DEBUG - Conversational chain initialized successfully
+2025-05-29 18:04:57,986 - INFO - Invoking conversational chain
+2025-05-29 18:05:00,413 - DEBUG - Online response generated: Answer is not available in the context.  While the
+2025-05-29 18:08:11,672 - INFO - Received question: seats, offlineMode: False
+2025-05-29 18:08:11,672 - INFO - Loading FAISS vector store
+2025-05-29 18:08:11,680 - INFO - FAISS vector store loaded successfully
+2025-05-29 18:08:13,651 - DEBUG - Retrieved 5 documents for question
+2025-05-29 18:08:13,651 - DEBUG - Retrieved documents content: ['Year STC/FDP International Conferences  National Conferences  Workshops  GIAN Courses  \n2023 19 5 - 3 - \n2022 54 2 6 1 1 \n2021 91 1 2 1 1 \n2020 26 3 1 1 2 \n2019 16 5 3 0 4 \n \n \n \n \nThe Institute offer', 'Automation G1 3 1 2 1 1 0 0 \nDepartment Programme Group  Total \nSeats OC EWS OBC SC ST PwD (various \ncategories) \nElectrical \nEngineering Electric Vehicle Design G1 20 3 7 1 2 2 PwD included  \nMechani', 'Centre for Energy and \nEnvironment G1 5 3 1 1 0 0 0 \n Renewable Energy  G1 15 - - - - - - \nChemical \nEngineering Chemical Engineering G1 8 6 3 1 1 4 PwD (some \nseats) \n Chemical Engineering G2 7 - - -', 'included \n Computer Science & \nEngineering (Information \nSecurity) G1 15 - - - - - - \nElectronics & \nCommunication \nEngg. Signal Processing and \nMachine Learning G1 6 1 4 2 1 0 PwD included  \n VLSI De', '\uf0b7 Total Seats: 380 \n\uf0b7 Category-wise breakdown: \no Open Category (OC): 146 \no Economically Weaker Section (EWS): 36 \no Other Backward Classes (OBC): 98 \no Scheduled Caste (SC): 54 \no Scheduled Tribe (S']
+2025-05-29 18:08:13,651 - DEBUG - Initializing conversational chain
+2025-05-29 18:08:13,659 - DEBUG - Conversational chain initialized successfully
+2025-05-29 18:08:13,659 - INFO - Invoking conversational chain
+2025-05-29 18:08:18,465 - DEBUG - Online response generated: **Total Sanctioned Seats:**
+
+* Total sanctioned se
+2025-05-29 18:09:10,298 - INFO - Received question: Undergraduate programs, offlineMode: False
+2025-05-29 18:09:10,298 - INFO - Loading FAISS vector store
+2025-05-29 18:09:10,306 - INFO - FAISS vector store loaded successfully
+2025-05-29 18:09:12,631 - DEBUG - Retrieved 5 documents for question
+2025-05-29 18:09:12,631 - DEBUG - Retrieved documents content: ['academic session 2024-25. \nAdditionally, a 5-year integrated B.Tech-MBA programme is available, where the MBA degree is \nawarded by IIM Amritsar. \nThe Institute also facilitates direct PhD admission o', 'Engineering (ME), and Textile Technology (TT). \n\uf0b7 Those in Chemical Engineering (CH) may minor in BT, CE, CS, EC, EE, IC, IP, ME, and TT. \n\uf0b7 For Civil Engineering (CE) majors, available minors include', 'Centre for Energy and \nEnvironment G1 5 3 1 1 0 0 0 \n Renewable Energy  G1 15 - - - - - - \nChemical \nEngineering Chemical Engineering G1 8 6 3 1 1 4 PwD (some \nseats) \n Chemical Engineering G2 7 - - -', 'included \n Computer Science & \nEngineering (Information \nSecurity) G1 15 - - - - - - \nElectronics & \nCommunication \nEngg. Signal Processing and \nMachine Learning G1 6 1 4 2 1 0 PwD included  \n VLSI De', 'Academics \n2.1 Academic Structure \nThe Institute’s academic framework comprises Departments, Centres, and Integrated \nProgrammes. Departments are responsible for teaching at undergraduate and postgrad']
+2025-05-29 18:09:12,631 - DEBUG - Initializing conversational chain
+2025-05-29 18:09:12,631 - DEBUG - Conversational chain initialized successfully
+2025-05-29 18:09:12,639 - INFO - Invoking conversational chain
+2025-05-29 18:09:15,295 - DEBUG - Online response generated: **Undergraduate Programs at NITJ**
+
+Based on the p
+2025-05-29 18:10:17,884 - INFO - Received question: faculty at department of BIO technology, offlineMode: False
+2025-05-29 18:10:17,884 - INFO - Loading FAISS vector store
+2025-05-29 18:10:17,893 - INFO - FAISS vector store loaded successfully
+2025-05-29 18:10:19,811 - DEBUG - Retrieved 5 documents for question
+2025-05-29 18:10:19,811 - DEBUG - Retrieved documents content: ['7. Dr. Anee Mohanty  is an Assistant Professor (Grade-I). She earned her PhD from \nNanyang Technological University, Singapore. Her contact is mohantya@nitj.ac.in. \n8. Dr. P. R. Rout  is an Assistant ', 'Indian Institute of Chemical Technology, Hyderabad. His email is nikhilgn@nitj.ac.in. \n4. Dr. M. K. Sah  is an Assistant Professor (Grade-I). He has a PhD from NIT Rourkela. His \nemail is sahmk@nitj.a', 'Departments At NITJ (National Institute of technology Jalandhar): \n \nDepartment of Biotechnology \nWebsite: https://departments.nitj.ac.in/dept/bt/home  \nFaculty Members: \n1. Dr. A. K. Jana  is a Profe', 'Bioprocess Engineering, Environmental Biotechnology, Nano Biotechnology, and Waste \nManagement. Faculty expertise extends to Biopolymers, Enzyme Technology, Algal \nBiotechnology, Industrial Biotechnol', '\uf0b7 Postgraduate:  \nM.Tech in Biotechnology \n\uf0b7 Doctoral:  \nPh.D. in Biotechnology \n \nLaboratory Facilities: \nThe department has several well-equipped laboratories, including: \n\uf0b7 Bioprocess Engineering L']
+2025-05-29 18:10:19,811 - DEBUG - Initializing conversational chain
+2025-05-29 18:10:19,818 - DEBUG - Conversational chain initialized successfully
+2025-05-29 18:10:19,818 - INFO - Invoking conversational chain
+2025-05-29 18:10:23,996 - DEBUG - Online response generated: **Faculty at the Department of Biotechnology, NITJ
+2025-05-29 18:11:36,189 - INFO - Received question: chemical department Sponsored  projects, offlineMode: False
+2025-05-29 18:11:36,189 - INFO - Loading FAISS vector store
+2025-05-29 18:11:36,197 - INFO - FAISS vector store loaded successfully
+2025-05-29 18:11:38,045 - DEBUG - Retrieved 5 documents for question
+2025-05-29 18:11:38,045 - DEBUG - Retrieved documents content: ['Amount: Rs. 41,80,000 \nTitle: Formulation of Low-cost and Effective Self-cleaning Cement \nDuration: 2023 to 2026 \n10. Dr. Anjireddy Bhavanam \nFunding Agency: Department of Biotechnology (DBT) \nAmount:', 'funded project worth over 1.1 crore INR aimed at intensifying nitrogen removal and \nphosphorus recovery from low carbon-to-nitrogen ratio wastewater. This project adopts \nsustainable bioeconomy approa', 'Amount: Rs. 4,00,000 \nTitle: Colloidal Quantum Dots as Enhancers for Photocatalytic Hydrogen Generation \nDuration: 28-12-2021 to 24-06-2024 \n8. Dr. D. Giribabu \nFunding Agency: SERB-DST New Delhi \nAmo', 'Student Achievements \n\uf0b7 Research Awards:  \no Ms. Pratibha and Ms. Vasudha received Outstanding Research Awards from Bharat \nDhwani Foundation. \no Mr. Janak won Best Poster Presentation for "Synthesis ', 'a consultancy project with RICO Auto Industries on the in-situ immobilization of zinc oxide \nnanoparticles on natural and synthetic fibers. This project has received funding of \napproximately 17.6 lak']
+2025-05-29 18:11:38,045 - DEBUG - Initializing conversational chain
+2025-05-29 18:11:38,045 - DEBUG - Conversational chain initialized successfully
+2025-05-29 18:11:38,045 - INFO - Invoking conversational chain
+2025-05-29 18:11:43,765 - DEBUG - Online response generated: **Chemical Department Sponsored Projects:**
+
+* **P
+2025-05-29 18:13:01,276 - INFO - Received question: faculty at NITJ, offlineMode: False
+2025-05-29 18:13:01,276 - INFO - Loading FAISS vector store
+2025-05-29 18:13:01,290 - INFO - FAISS vector store loaded successfully
+2025-05-29 18:13:03,131 - DEBUG - Retrieved 5 documents for question
+2025-05-29 18:13:03,131 - DEBUG - Retrieved documents content: ['dedicated faculty members , NITJ offers a host of opportunities and resources for professional \ndevelopment, research, and innovation. \nThe Institute is committed to nurturing young talent  and encour', '\uf0b7 Dr. Palaniswamy N. K.  – Associate Professor, PhD (Anna University), email: \nnkpalaniswamy@nitj.ac.in \n\uf0b7 Dr. K. V. P. Singh  – Assistant Professor, PhD (NITJ), email: singhkv@nitj.ac.in \n\uf0b7 Dr. Zunja', 'srivastavank@nitj.ac.in. \n8. Dr. Raj Kumar Arya is an Associate Professor holding a PhD from IIT Bombay. His email is \naryark@nitj.ac.in. \n9. Dr. Jatinder Kumar Ratan is an Associate Professor with a ', 'Email: arvinders@nitj.ac.in \n\uf0b7 Dr H.M. Mittal  \nProfessor & Head \nPhD (Delhi University) \nEmail: mittalhm@nitj.ac.in \n\uf0b7 Dr Rohit Mehra  \nProfessor \nPhD (GNDU, Amritsar) \nEmail: mehrar@nitj.ac.in \n\uf0b7 Er', 'Practice and Associate Professors of Practice —bringing in seasoned professionals from industry and \nacademia. We have also introduced Adjunct Faculty positions  for retired experts, enriching our \nec']
+2025-05-29 18:13:03,131 - DEBUG - Initializing conversational chain
+2025-05-29 18:13:03,139 - DEBUG - Conversational chain initialized successfully
+2025-05-29 18:13:03,139 - INFO - Invoking conversational chain
+2025-05-29 18:13:11,419 - DEBUG - Online response generated: **Faculty at NITJ**
+
+The provided text lists the f
+2025-05-29 18:13:57,123 - INFO - Saved like feedback for question: chemical department Sponsored  projects and response: **Chemical Department Sponsored Projects:**
+
+* **P
+2025-05-29 18:14:00,559 - INFO - Saved like feedback for question: Undergraduate programs and response: **Undergraduate Programs at NITJ**
+
+Based on the p
+2025-05-29 18:14:02,919 - INFO - Saved like feedback for question: faculty at department of BIO technology and response: **Faculty at the Department of Biotechnology, NITJ
+2025-05-29 18:14:09,113 - INFO - Received question: placememts at NITJ, offlineMode: False
+2025-05-29 18:14:09,113 - INFO - Loading FAISS vector store
+2025-05-29 18:14:09,122 - INFO - FAISS vector store loaded successfully
+2025-05-29 18:14:11,191 - DEBUG - Retrieved 5 documents for question
+2025-05-29 18:14:11,191 - DEBUG - Retrieved documents content: ['Placed in the band of 11th-25th rank in the ARIIA rankings by Ministry of Education. \nRanked 4th among the top 100 tech-enabled T-schools. \nIn zone-wise top 10 institutes, NITJ ranked 2nd in north zon', '\uf0b7 Purpose: \no Explores and facilitates internship and placement opportunities for students across \ndisciplines. \n\uf0b7 Key Faculty and Staff:  \no Dr. Ajay Gupta — Head, Centre of Training & Placement, PhD', 'pus placements, selecting final-year students as Engineers and Management Trainees.\nNITJ offers a wide range of academic programs, including:\n•BTech: Undergraduate programs in various engineering disc', '\uf0b7 Faculty engaged in research on Sports Psychology, Biomechanics, Training, Measurement & \nEvaluation, Anthropometry, Exercise Physiology, and related sports sciences. \n \nUpcoming & Upgradation Game F', 'dedicated faculty members , NITJ offers a host of opportunities and resources for professional \ndevelopment, research, and innovation. \nThe Institute is committed to nurturing young talent  and encour']
+2025-05-29 18:14:11,191 - DEBUG - Initializing conversational chain
+2025-05-29 18:14:11,199 - DEBUG - Conversational chain initialized successfully
+2025-05-29 18:14:11,199 - INFO - Invoking conversational chain
+2025-05-29 18:14:15,967 - DEBUG - Online response generated: **NITJ Placements**
+
+* **Placement Statistics for 
+2025-05-29 18:15:07,585 - INFO - Received question: sponsored projects of chemistry department, offlineMode: False
+2025-05-29 18:15:07,586 - INFO - Loading FAISS vector store
+2025-05-29 18:15:07,599 - INFO - FAISS vector store loaded successfully
+2025-05-29 18:15:10,048 - DEBUG - Retrieved 5 documents for question
+2025-05-29 18:15:10,048 - DEBUG - Retrieved documents content: ['Duration: 09-06-2023 to 08-06-2024 \n5. Dr. Raj Kumar Arya \nFunding Agency: Akemi Minerals, Ahmedabad \nAmount: Rs. 5,00,000 \nTitle: Blending and Mixing Studies of Various Clays and Minerals for High Pe', 'Amount: Rs. 4,00,000 \nTitle: Colloidal Quantum Dots as Enhancers for Photocatalytic Hydrogen Generation \nDuration: 28-12-2021 to 24-06-2024 \n8. Dr. D. Giribabu \nFunding Agency: SERB-DST New Delhi \nAmo', 'Amount: Rs. 41,80,000 \nTitle: Formulation of Low-cost and Effective Self-cleaning Cement \nDuration: 2023 to 2026 \n10. Dr. Anjireddy Bhavanam \nFunding Agency: Department of Biotechnology (DBT) \nAmount:', '\uf0b7 Radiation Monitoring and Assessment Laboratory \n\uf0b7 Liquid Crystal Laboratory \n\uf0b7 High Energy Physics Computational Laboratory \n\uf0b7 Thin Film Laboratory \n\uf0b7 Advanced Nuclear Physics Research Laboratory \n\uf0b7', 'funded project worth over 1.1 crore INR aimed at intensifying nitrogen removal and \nphosphorus recovery from low carbon-to-nitrogen ratio wastewater. This project adopts \nsustainable bioeconomy approa']
+2025-05-29 18:15:10,049 - DEBUG - Initializing conversational chain
+2025-05-29 18:15:10,056 - DEBUG - Conversational chain initialized successfully
+2025-05-29 18:15:10,056 - INFO - Invoking conversational chain
+2025-05-29 18:15:14,998 - DEBUG - Online response generated: **Sponsored Projects (Chemistry Department):**
+
+* 
+2025-05-29 18:16:07,348 - INFO - Received question: Ms. Pratibha, offlineMode: False
+2025-05-29 18:16:07,348 - INFO - Loading FAISS vector store
+2025-05-29 18:16:07,357 - INFO - FAISS vector store loaded successfully
+2025-05-29 18:16:09,124 - DEBUG - Retrieved 5 documents for question
+2025-05-29 18:16:09,124 - DEBUG - Retrieved documents content: ['Mechano-chemical Methodologies for \nSynthesis of Biologically Potent \nHeterocycles 3 years \nDr. Uma Shanker SERB-DST 18.3 Carbon Quantum Dots Based \nBionanocomposites and Smartphone \nRGB Technique for', 'Qualification: PhD (IIT Roorkee) \nEmail: ranin@nitj.ac.in \n\uf0b7 Dr Rupali Satavalekar  \nDesignation: Assistant Professor Grade - I \nQualification: PhD (IIT Roorkee) \nEmail: satavalekarr@nitj.ac.in \n\uf0b7 Dr ', 'Student Achievements \n\uf0b7 Research Awards:  \no Ms. Pratibha and Ms. Vasudha received Outstanding Research Awards from Bharat \nDhwani Foundation. \no Mr. Janak won Best Poster Presentation for "Synthesis ', 'email is sahud@nitj.ac.in. \n \nDr. Gyan Prakash looks after MBH-B. You can contact him at 9709773788 or prakashg@nitj.ac.in. \n \nDr. Afzal Sikander is in charge of MBH-F. His phone number is 7017638266 ', 'Qualification: PhD (NIT Jalandhar) \nEmail: navdeeps@nitj.ac.in \n\uf0b7 Dr K. Senthil  \nDesignation: Assistant Professor Grade - I \nQualification: PhD (IIT Roorkee) \nEmail: kasilingams@nitj.ac.in \n\uf0b7 Dr Shai']
+2025-05-29 18:16:09,125 - DEBUG - Initializing conversational chain
+2025-05-29 18:16:09,132 - DEBUG - Conversational chain initialized successfully
+2025-05-29 18:16:09,133 - INFO - Invoking conversational chain
+2025-05-29 18:16:11,369 - DEBUG - Online response generated: Ms. Pratibha received an Outstanding Research Awar
+2025-05-29 18:16:23,888 - INFO - Received question: Mr. Janak, offlineMode: False
+2025-05-29 18:16:23,888 - INFO - Loading FAISS vector store
+2025-05-29 18:16:23,902 - INFO - FAISS vector store loaded successfully
+2025-05-29 18:16:25,678 - DEBUG - Retrieved 5 documents for question
+2025-05-29 18:16:25,678 - DEBUG - Retrieved documents content: ['Student Achievements \n\uf0b7 Research Awards:  \no Ms. Pratibha and Ms. Vasudha received Outstanding Research Awards from Bharat \nDhwani Foundation. \no Mr. Janak won Best Poster Presentation for "Synthesis ', 'positions in various NITJ and inter-college championships (AAROHAN-2023, ITUSA \n2022-23, Super 9 cricket tournament, departmental sports meets, and inter-hostel \ncricket and tug of war). \n\uf0b7 Event Coor', 'Departments At NITJ (National Institute of technology Jalandhar): \n \nDepartment of Biotechnology \nWebsite: https://departments.nitj.ac.in/dept/bt/home  \nFaculty Members: \n1. Dr. A. K. Jana  is a Profe', 'Mechano-chemical Methodologies for \nSynthesis of Biologically Potent \nHeterocycles 3 years \nDr. Uma Shanker SERB-DST 18.3 Carbon Quantum Dots Based \nBionanocomposites and Smartphone \nRGB Technique for', 'Student Achievements  \nThe Biotechnology Department has a strong record of student achievements in competitive \nexams and placements. For instance, Gurjant Singh secured an All India Rank (AIR) of 4 a']
+2025-05-29 18:16:25,678 - DEBUG - Initializing conversational chain
+2025-05-29 18:16:25,685 - DEBUG - Conversational chain initialized successfully
+2025-05-29 18:16:25,686 - INFO - Invoking conversational chain
+2025-05-29 18:16:29,245 - DEBUG - Online response generated: **Mr. Janak's Achievements:**
+
+* **Research:**
+   
+2025-05-29 18:17:29,211 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 18:17:29,212 - DEBUG - Google API key configured
+2025-05-29 18:17:49,440 - INFO - Received question: sponsored projects of chemistry department, offlineMode: False
+2025-05-29 18:17:49,441 - INFO - Loading FAISS vector store
+2025-05-29 18:17:49,561 - INFO - FAISS vector store loaded successfully
+2025-05-29 18:17:51,351 - DEBUG - Retrieved 5 documents for question
+2025-05-29 18:17:51,352 - DEBUG - Retrieved documents content: ['Duration: 09-06-2023 to 08-06-2024 \n5. Dr. Raj Kumar Arya \nFunding Agency: Akemi Minerals, Ahmedabad \nAmount: Rs. 5,00,000 \nTitle: Blending and Mixing Studies of Various Clays and Minerals for High Pe', 'Amount: Rs. 4,00,000 \nTitle: Colloidal Quantum Dots as Enhancers for Photocatalytic Hydrogen Generation \nDuration: 28-12-2021 to 24-06-2024 \n8. Dr. D. Giribabu \nFunding Agency: SERB-DST New Delhi \nAmo', 'Amount: Rs. 41,80,000 \nTitle: Formulation of Low-cost and Effective Self-cleaning Cement \nDuration: 2023 to 2026 \n10. Dr. Anjireddy Bhavanam \nFunding Agency: Department of Biotechnology (DBT) \nAmount:', '\uf0b7 Radiation Monitoring and Assessment Laboratory \n\uf0b7 Liquid Crystal Laboratory \n\uf0b7 High Energy Physics Computational Laboratory \n\uf0b7 Thin Film Laboratory \n\uf0b7 Advanced Nuclear Physics Research Laboratory \n\uf0b7', 'funded project worth over 1.1 crore INR aimed at intensifying nitrogen removal and \nphosphorus recovery from low carbon-to-nitrogen ratio wastewater. This project adopts \nsustainable bioeconomy approa']
+2025-05-29 18:17:51,353 - DEBUG - Initializing conversational chain
+2025-05-29 18:17:51,362 - DEBUG - Conversational chain initialized successfully
+2025-05-29 18:17:51,363 - INFO - Invoking conversational chain
+2025-05-29 18:17:57,286 - DEBUG - Online response generated: **Sponsored Projects (Chemistry Department):**
+
+* 
+2025-05-29 18:17:57,290 - INFO - Saved like feedback for question: Mr. Janak and response: **Mr. Janak's Achievements:**
+
+* **Research:**
+   
+2025-05-29 18:17:58,028 - INFO - Saved like feedback for question: Mr. Janak and response: **Mr. Janak's Achievements:**
+
+* **Research:**
+   
+2025-05-29 18:19:27,762 - INFO - Saved dislike feedback for question: sponsored projects of chemistry department and response: **Sponsored Projects (Chemistry Department):**
+
+* 
+2025-05-29 18:19:38,922 - INFO - Received question: sponsored projects of chemical departmen, offlineMode: False
+2025-05-29 18:19:38,922 - INFO - Loading FAISS vector store
+2025-05-29 18:19:38,933 - INFO - FAISS vector store loaded successfully
+2025-05-29 18:19:40,862 - DEBUG - Retrieved 5 documents for question
+2025-05-29 18:19:40,864 - DEBUG - Retrieved documents content: ['Amount: Rs. 41,80,000 \nTitle: Formulation of Low-cost and Effective Self-cleaning Cement \nDuration: 2023 to 2026 \n10. Dr. Anjireddy Bhavanam \nFunding Agency: Department of Biotechnology (DBT) \nAmount:', 'Amount: Rs. 4,00,000 \nTitle: Colloidal Quantum Dots as Enhancers for Photocatalytic Hydrogen Generation \nDuration: 28-12-2021 to 24-06-2024 \n8. Dr. D. Giribabu \nFunding Agency: SERB-DST New Delhi \nAmo', 'Duration: 09-06-2023 to 08-06-2024 \n5. Dr. Raj Kumar Arya \nFunding Agency: Akemi Minerals, Ahmedabad \nAmount: Rs. 5,00,000 \nTitle: Blending and Mixing Studies of Various Clays and Minerals for High Pe', 'funded project worth over 1.1 crore INR aimed at intensifying nitrogen removal and \nphosphorus recovery from low carbon-to-nitrogen ratio wastewater. This project adopts \nsustainable bioeconomy approa', 'Sponsored Projects  \nThe department has secured substantial funding from various government and industrial \nagencies to support a diverse range of projects. For example, Dr. S.S. Meena, along with \nco']
+2025-05-29 18:19:40,864 - DEBUG - Initializing conversational chain
+2025-05-29 18:19:40,867 - DEBUG - Conversational chain initialized successfully
+2025-05-29 18:19:40,867 - INFO - Invoking conversational chain
+2025-05-29 18:19:47,457 - DEBUG - Online response generated: **Sponsored Projects of the Chemical Department**
+
+2025-05-29 18:21:18,935 - INFO - Received question: computer science and engineering faculty, offlineMode: False
+2025-05-29 18:21:18,935 - INFO - Loading FAISS vector store
+2025-05-29 18:21:18,950 - INFO - FAISS vector store loaded successfully
+2025-05-29 18:21:20,761 - DEBUG - Retrieved 5 documents for question
+2025-05-29 18:21:20,762 - DEBUG - Retrieved documents content: ['personal development. \no Organizes workshops, seminars, and competitions to foster learning and skill \ndevelopment. \no Emphasizes emerging fields such as quantum computing, supercomputing, IoT, and \nB', 'mahajans@nitj.ac.in \n\uf0b7 Dr Shefali Arora Chouhan — Assistant Professor (Grade-II); PhD (University of Delhi); Email: \nkumarsm@nitj.ac.in \n\uf0b7 Dr Shveta Mahajan — Assistant Professor (Grade-II); Direct-Ph', 'rate optical fiber transmission systems . \n11. Prof. Ajay K Sharma  also conducted studies on dispersion and fiber nonlinearities for optical \ncommunication systems and networks , for which he was gra', '\uf0b7 Mr Rahul Aggarwal — Assistant Professor (Grade-II); Email: brahmab@nitj.ac.in \n\uf0b7 Dr Banalaxmi Brahma — Assistant Professor (Grade-II); PhD (Maulana Azad National \nInstitute of Technology, Bhopal); E', 'Faculty \n\uf0b7 Er D K Gupta is Associate Professor and Head. He holds an M.Tech in Computer Science and \nEngineering from NIT Jalandhar. Email: guptadk@nitj.ac.in \n\uf0b7 Dr. Vijay Kumar is Associate Professor']
+2025-05-29 18:21:20,762 - DEBUG - Initializing conversational chain
+2025-05-29 18:21:20,770 - DEBUG - Conversational chain initialized successfully
+2025-05-29 18:21:20,770 - INFO - Invoking conversational chain
+2025-05-29 18:21:27,713 - DEBUG - Online response generated: **Computer Science and Engineering Faculty at NITJ
+2025-05-29 18:21:53,679 - INFO - Received question: Dr. Kunwar pal, offlineMode: False
+2025-05-29 18:21:53,679 - INFO - Loading FAISS vector store
+2025-05-29 18:21:53,687 - INFO - FAISS vector store loaded successfully
+2025-05-29 18:21:55,443 - DEBUG - Retrieved 5 documents for question
+2025-05-29 18:21:55,444 - DEBUG - Retrieved documents content: ['susceptibility device. This device aims to optimize antimicrobial therapy regimens for \nleukemia and bone marrow transplant patients. \nDr. P.R. Rout is engaged in significant international and nationa', 'Prominent faculty members include: \n\uf0b7 Dr. Arun K. Khosla , Professor (PhD from Guru Gobind Singh Indraprastha University, Delhi) – \nkhoslaak@nitj.ac.in  \n\uf0b7 Dr. B. S. Saini , Professor (PhD from NIT Ja', 'manufacturing processes, data analytics, Industry 4.0, advanced manufacturing, magnetic abrasive \nfinishing, mechanical behavior of materials, welding engineering, nano-finishing, biomaterials, \nrelia', 'o “Material Characterization and Testing of Concrete,” funded by DST with 16 Lakhs. \no “Sustainable High Performance Concrete Infrastructure,” under UKIERI with 102 Lacs \nGBP funding. \n\uf0b7 Dr. Navdeep S', 'project aims at color reduction of effluents from the Effluent Treatment Plant (ETP) of \ndyeing units, spanning 2022 to 2024. \nThe department has also collaborated with other premier institutes such a']
+2025-05-29 18:21:55,444 - DEBUG - Initializing conversational chain
+2025-05-29 18:21:55,452 - DEBUG - Conversational chain initialized successfully
+2025-05-29 18:21:55,452 - INFO - Invoking conversational chain
+2025-05-29 18:21:57,588 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 18:23:54,669 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 18:23:54,670 - DEBUG - Google API key configured
+2025-05-29 18:24:04,173 - INFO - Received question: Dr. Kunwar Pal, offlineMode: False
+2025-05-29 18:24:04,174 - INFO - Loading FAISS vector store
+2025-05-29 18:24:04,260 - INFO - FAISS vector store loaded successfully
+2025-05-29 18:24:04,799 - DEBUG - Retrieved 5 documents for question
+2025-05-29 18:24:04,799 - DEBUG - Retrieved documents content: ['susceptibility device. This device aims to optimize antimicrobial therapy regimens for \nleukemia and bone marrow transplant patients. \nDr. P.R. Rout is engaged in significant international and nationa', 'Prominent faculty members include: \n\uf0b7 Dr. Arun K. Khosla , Professor (PhD from Guru Gobind Singh Indraprastha University, Delhi) – \nkhoslaak@nitj.ac.in  \n\uf0b7 Dr. B. S. Saini , Professor (PhD from NIT Ja', 'Fractal Geometry, Fractal Functions, and Artificial Neural Networks for solving partial differential \nequations. \nDr. Jaspal Singh Aujla was selected as Senior Associate for a period of six years (201', 'o “Material Characterization and Testing of Concrete,” funded by DST with 16 Lakhs. \no “Sustainable High Performance Concrete Infrastructure,” under UKIERI with 102 Lacs \nGBP funding. \n\uf0b7 Dr. Navdeep S', 'manufacturing processes, data analytics, Industry 4.0, advanced manufacturing, magnetic abrasive \nfinishing, mechanical behavior of materials, welding engineering, nano-finishing, biomaterials, \nrelia']
+2025-05-29 18:24:04,800 - DEBUG - Initializing conversational chain
+2025-05-29 18:24:04,811 - DEBUG - Conversational chain initialized successfully
+2025-05-29 18:24:04,811 - INFO - Invoking conversational chain
+2025-05-29 18:24:05,658 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 18:27:39,857 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 18:27:39,858 - DEBUG - Google API key configured
+2025-05-29 18:28:06,052 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 18:28:06,052 - DEBUG - Google API key configured
+2025-05-29 18:28:19,875 - INFO - Extracting text from 1 PDF documents
+2025-05-29 18:28:20,106 - DEBUG - Text extracted from PDF: admissions at NITJ.pdf
+2025-05-29 18:28:20,107 - DEBUG - Cleaning text input
+2025-05-29 18:28:20,107 - DEBUG - Text cleaned successfully
+2025-05-29 18:28:20,107 - INFO - PDF text extraction completed, length: 10896 characters
+2025-05-29 18:28:20,107 - INFO - Splitting text into chunks
+2025-05-29 18:28:20,109 - DEBUG - Text split into 5 chunks
+2025-05-29 18:28:20,591 - DEBUG - Chunk 5: ranking band of 301-350. NITJ has been ranked in the 2024 THE (Times Higher Education) Asia University Rankings in the ranking band of 351-400. NITJ has been ranked in the 2024 THE (Times Higher Education) Engineering and Technology in the ranking band of 801-1000. NITJ has been ranked in the THE (Times Higher Education) World University Rankings 2024 in the ranking band of 1001-1200. NITJ placed in ranking band of 651-700 amongst Asian Universities, 204th position amongst Southern Asia Universities and 6th position amongst all ranked NITs in QS Asia University Rankings 2024. 2023 Ranked 46th in Engineering Ranking and 72nd in Overall Ranking by NIRF. Placed in the band of 11th-50th rank in the ARIIA rankings by Ministry of Education. Ranked 29th among India's Best Engineering Colleges by MDRA. NITJ has been ranked in the 2023 THE (Times Higher Education) Asia University Rankings in the ranking band of 351-400. Ranked 45th amongst all Indian University/Institutes according to total h-index. NITJ ranking amongst Global Universities under Engineering Category is in the band 601-800. NITJ has been ranked in the THE (Times Higher Education) in the ranking band of 1001-1200. Ranked 45th amongst all Indian University/Institutes according to total h-index. NITJ ranking amongst Global Universities under Engineering Category is in the band 601-800. 2022 Ranked 52nd in engineering ranking and 85th in overall ranking by NIRF. Ranked 47th amongst all government institutes and 2nd in Punjab by IIRF. MDRA ranked 21st amongst top engineering colleges. Placed 13th amongst top 100 T-Schools and 10th amongst top government T-Schools. Ranked 4th in North Zone by DATAQUEST. Ranked 33rd among India's Best Engineering Colleges by MDRA. 2021 Placed in the Band-Excellent. Ranked 42nd in Engineering category by IIRF. Ranked 49th in engineering ranking and 78th in overall ranking by NIRF. Rated AAAA+, including 12 others among Engineering colleges in the North zone and 2 others among Engineering colleges in Punjab. Ranked 22nd amongst top 30 government colleges and 9th among top 10 government colleges with lowest fees. 2020 Ranked 52nd amongst top 200 engineering institutes in India. Placed in the band of 11th-25th rank in the ARIIA rankings by Ministry of Education. Ranked 4th among the top 100 tech-enabled T-schools. In zone-wise top 10 institutes, NITJ ranked 2nd in north zone. Ranked 20th among All India top engineering colleges by ICARE rankings. Secured 8th place among top 10 government T-schools. Ranked 3rd among top 10 government institutes. In zone-wise top 10 T-schools, ranked 5th in north zone. 2019 Ranked 22nd among India's best engineering government colleges by India Today Group-MDRA. Ranked 34th among all India top engineering colleges by THE WEEK-Hansa Research Survey. Secured 68th rank among India's top 100 research institutes in engineering and science....
+2025-05-29 18:28:20,591 - INFO - Creating FAISS vector store with 5 text chunks
+2025-05-29 18:28:20,594 - ERROR - Error creating FAISS vector store: 1 validation error for OpenAIEmbeddings
+  Value error, Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass `openai_api_key` as a named parameter. [type=value_error, input_value={'model': 'text-embedding...20, 'http_client': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/value_error
+2025-05-29 18:28:20,595 - ERROR - Error processing PDFs: 1 validation error for OpenAIEmbeddings
+  Value error, Did not find openai_api_key, please add an environment variable `OPENAI_API_KEY` which contains it, or pass `openai_api_key` as a named parameter. [type=value_error, input_value={'model': 'text-embedding...20, 'http_client': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/value_error
+2025-05-29 18:32:49,178 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 18:32:49,186 - DEBUG - Google API key configured
+2025-05-29 18:33:19,127 - INFO - Extracting text from 1 PDF documents
+2025-05-29 18:33:19,778 - DEBUG - Text extracted from PDF: about academics new.pdf
+2025-05-29 18:33:19,779 - DEBUG - Cleaning text input
+2025-05-29 18:33:19,781 - DEBUG - Text cleaned successfully
+2025-05-29 18:33:19,781 - INFO - PDF text extraction completed, length: 27586 characters
+2025-05-29 18:33:19,781 - INFO - Splitting text into chunks
+2025-05-29 18:33:19,787 - DEBUG - Text split into 14 chunks
+2025-05-29 18:33:19,832 - INFO - Creating FAISS vector store with 14 text chunks
+2025-05-29 18:33:26,125 - ERROR - Error creating FAISS vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-abcd5*******************************5678. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-05-29 18:33:26,125 - ERROR - Error processing PDFs: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-abcd5*******************************5678. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-05-29 18:35:40,793 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 18:35:40,793 - DEBUG - Google API key configured
+2025-05-29 18:36:12,613 - INFO - Extracting text from 1 PDF documents
+2025-05-29 18:36:12,804 - DEBUG - Text extracted from PDF: admissions at NITJ.pdf
+2025-05-29 18:36:12,804 - DEBUG - Cleaning text input
+2025-05-29 18:36:12,804 - DEBUG - Text cleaned successfully
+2025-05-29 18:36:12,804 - INFO - PDF text extraction completed, length: 10896 characters
+2025-05-29 18:36:12,804 - INFO - Splitting text into chunks
+2025-05-29 18:36:12,808 - DEBUG - Text split into 5 chunks
+2025-05-29 18:36:12,827 - DEBUG - Chunk 5: ranking band of 301-350. NITJ has been ranked in the 2024 THE (Times Higher Education) Asia University Rankings in the ranking band of 351-400. NITJ has been ranked in the 2024 THE (Times Higher Education) Engineering and Technology in the ranking band of 801-1000. NITJ has been ranked in the THE (Times Higher Education) World University Rankings 2024 in the ranking band of 1001-1200. NITJ placed in ranking band of 651-700 amongst Asian Universities, 204th position amongst Southern Asia Universities and 6th position amongst all ranked NITs in QS Asia University Rankings 2024. 2023 Ranked 46th in Engineering Ranking and 72nd in Overall Ranking by NIRF. Placed in the band of 11th-50th rank in the ARIIA rankings by Ministry of Education. Ranked 29th among India's Best Engineering Colleges by MDRA. NITJ has been ranked in the 2023 THE (Times Higher Education) Asia University Rankings in the ranking band of 351-400. Ranked 45th amongst all Indian University/Institutes according to total h-index. NITJ ranking amongst Global Universities under Engineering Category is in the band 601-800. NITJ has been ranked in the THE (Times Higher Education) in the ranking band of 1001-1200. Ranked 45th amongst all Indian University/Institutes according to total h-index. NITJ ranking amongst Global Universities under Engineering Category is in the band 601-800. 2022 Ranked 52nd in engineering ranking and 85th in overall ranking by NIRF. Ranked 47th amongst all government institutes and 2nd in Punjab by IIRF. MDRA ranked 21st amongst top engineering colleges. Placed 13th amongst top 100 T-Schools and 10th amongst top government T-Schools. Ranked 4th in North Zone by DATAQUEST. Ranked 33rd among India's Best Engineering Colleges by MDRA. 2021 Placed in the Band-Excellent. Ranked 42nd in Engineering category by IIRF. Ranked 49th in engineering ranking and 78th in overall ranking by NIRF. Rated AAAA+, including 12 others among Engineering colleges in the North zone and 2 others among Engineering colleges in Punjab. Ranked 22nd amongst top 30 government colleges and 9th among top 10 government colleges with lowest fees. 2020 Ranked 52nd amongst top 200 engineering institutes in India. Placed in the band of 11th-25th rank in the ARIIA rankings by Ministry of Education. Ranked 4th among the top 100 tech-enabled T-schools. In zone-wise top 10 institutes, NITJ ranked 2nd in north zone. Ranked 20th among All India top engineering colleges by ICARE rankings. Secured 8th place among top 10 government T-schools. Ranked 3rd among top 10 government institutes. In zone-wise top 10 T-schools, ranked 5th in north zone. 2019 Ranked 22nd among India's best engineering government colleges by India Today Group-MDRA. Ranked 34th among all India top engineering colleges by THE WEEK-Hansa Research Survey. Secured 68th rank among India's top 100 research institutes in engineering and science....
+2025-05-29 18:36:12,828 - INFO - Creating FAISS vector store with 5 text chunks
+2025-05-29 18:36:17,988 - ERROR - Error creating FAISS vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-abcd5*******************************5678. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-05-29 18:36:17,988 - ERROR - Error processing PDFs: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-abcd5*******************************5678. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
