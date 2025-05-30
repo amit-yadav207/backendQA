@@ -10,7 +10,6 @@ from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
-from langchain.embeddings import OpenAIEmbeddings
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.documents import Document
@@ -99,7 +98,7 @@ def get_pdf_text(pdf_docs: List[UploadFile]):
 
 def get_text_chunks(text):
     logger.info("Splitting text into chunks")
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=3000, chunk_overlap=1000)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=500)
     chunks = text_splitter.split_text(text)
     logger.debug("Text split into %d chunks", len(chunks))
     return chunks

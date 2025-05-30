@@ -2135,3 +2135,348 @@ Based on the p
 2025-05-29 18:36:12,828 - INFO - Creating FAISS vector store with 5 text chunks
 2025-05-29 18:36:17,988 - ERROR - Error creating FAISS vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-abcd5*******************************5678. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
 2025-05-29 18:36:17,988 - ERROR - Error processing PDFs: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-abcd5*******************************5678. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-05-29 23:26:08,525 - INFO - Starting NITJ AI Chatbot backend
+2025-05-29 23:26:08,525 - DEBUG - Google API key configured
+2025-05-29 23:27:31,162 - DEBUG - Checking if FAISS index exists
+2025-05-29 23:27:31,162 - DEBUG - FAISS index exists: False
+2025-05-29 23:27:31,162 - DEBUG - Checking if FAISS index exists
+2025-05-29 23:27:31,162 - DEBUG - FAISS index exists: False
+2025-05-29 23:28:01,927 - INFO - Extracting text from 7 PDF documents
+2025-05-29 23:28:04,227 - DEBUG - Text extracted from PDF: dept and rest all data in one pdf.pdf
+2025-05-29 23:28:04,644 - DEBUG - Text extracted from PDF: students club and services offered to them.pdf
+2025-05-29 23:28:04,792 - DEBUG - Text extracted from PDF: admissions at NITJ.pdf
+2025-05-29 23:28:05,160 - DEBUG - Text extracted from PDF: contactsa and people.pdf
+2025-05-29 23:28:05,660 - DEBUG - Text extracted from PDF: about academics new.pdf
+2025-05-29 23:28:05,810 - DEBUG - Text extracted from PDF: ABOUT NITJ.pdf
+2025-05-29 23:28:05,860 - DEBUG - Text extracted from PDF: NITJ information administration.pdf
+2025-05-29 23:28:05,860 - DEBUG - Cleaning text input
+2025-05-29 23:28:05,860 - DEBUG - Text cleaned successfully
+2025-05-29 23:28:05,860 - INFO - PDF text extraction completed, length: 248406 characters
+2025-05-29 23:28:05,860 - INFO - Splitting text into chunks
+2025-05-29 23:28:05,910 - DEBUG - Text split into 124 chunks
+2025-05-29 23:28:05,943 - DEBUG - Chunk 2: at NIT Jalandhar is actively engaged in cutting-edge research under the guidance of faculty members who hold advanced qualifications, including PhDs from prestigious institutions such as IIT Guwahati. The department’s research spans a wide spectrum of biotechnology and related interdisciplinary fields. These areas include Bioprocess Engineering, Environmental Biotechnology, Nano Biotechnology, and Waste Management. Faculty expertise extends to Biopolymers, Enzyme Technology, Algal Biotechnology, Industrial Biotechnology, and the Biosynthesis of Value-Added Chemicals. Additional key research domains include Bioenergy and Biofuels, Bioprocess and Bioreactor Design, Biohydrogen production, Bioprocess Optimization, Bioremediation, and Microbial and Environmental Biotechnology. The department also focuses on Metabolites and Biorefineries, Bioplastics, Enzyme and Protein Engineering, Biomaterials, Tissue Engineering, and Nano-Biotechnology. Furthermore, the department is involved in Waste Valorization, Computational Biology, Drug Delivery Systems, Aerogels and Hydrogels, Environmental Engineering, Bioinformatics, Proteomics, Environmental Remediation, Biofilms, Wastewater Treatment, and Applied Microbiology. Sponsored Projects The department has secured substantial funding from various government and industrial agencies to support a diverse range of projects. For example, Dr. S.S. Meena, along with colleagues Dr. Anee Mohanty, Dr. Anjireddy, and Dr. Nikhil G.N., is leading a project funded by the Department of Science and Technology (DST) to establish a Science Technology and Innovation (STI) Hub at NIT Jalandhar, with funding allocated for the period 2020 to 2023. Another notable project is led by Dr. Nitai Basak, funded by DST-SERB under the TARE scheme, with a budget of approximately 2.49 crore INR. This project focuses on the bioprospection of lignocellulose-rich agricultural waste using oleaginous fungi, targeting applications in the bioenergy sector, and is ongoing from 2022 to 2025. Dr. Jatinder Kumar Ratan, along with Dr. Nitin Naresh Pandhare, Dr. Sumer Singh Meena, and Dr. Nikhil G.N., is working on an industry-funded project with the Trident Group. This project aims at color reduction of effluents from the Effluent Treatment Plant (ETP) of dyeing units, spanning 2022 to 2024. The department has also collaborated with other premier institutes such as IIT Roorkee and international partners. For instance, Prof. Saugat Hazra from IIT Roorkee and Dr. M.K. Sah from NIT Jalandhar have secured funding from the Indian Council of Medical Research (ICMR) to develop and clinically validate an artificial intelligence-empowered antibiotic susceptibility device. This device aims to optimize antimicrobial therapy regimens for leukemia and bone marrow transplant patients. Dr. P.R. Rout is engaged in significant international and national projects. One such project funded by DST-IC-IMPACTs (an Indo-Canadian collaboration) worth about 4.8 crore INR focuses on...
+2025-05-29 23:28:05,943 - DEBUG - Chunk 3: from 2022 to 2025. Dr. Jatinder Kumar Ratan, along with Dr. Nitin Naresh Pandhare, Dr. Sumer Singh Meena, and Dr. Nikhil G.N., is working on an industry-funded project with the Trident Group. This project aims at color reduction of effluents from the Effluent Treatment Plant (ETP) of dyeing units, spanning 2022 to 2024. The department has also collaborated with other premier institutes such as IIT Roorkee and international partners. For instance, Prof. Saugat Hazra from IIT Roorkee and Dr. M.K. Sah from NIT Jalandhar have secured funding from the Indian Council of Medical Research (ICMR) to develop and clinically validate an artificial intelligence-empowered antibiotic susceptibility device. This device aims to optimize antimicrobial therapy regimens for leukemia and bone marrow transplant patients. Dr. P.R. Rout is engaged in significant international and national projects. One such project funded by DST-IC-IMPACTs (an Indo-Canadian collaboration) worth about 4.8 crore INR focuses on phosphorus recovery from wastewater to ensure global phosphorus sustainability and food security, running from 2023 to 2025. Dr. Rout is also leading a SERB- funded project worth over 1.1 crore INR aimed at intensifying nitrogen removal and phosphorus recovery from low carbon-to-nitrogen ratio wastewater. This project adopts sustainable bioeconomy approaches like coupling archaeal ammonium oxidation with anammox and modified denitrifying phosphorus removal, scheduled for completion by 2024. Consultancy Projects In addition to sponsored research, the department is involved in consultancy projects that link academic research with industrial applications. For example, Dr. Indu Chauhan is leading a consultancy project with RICO Auto Industries on the in-situ immobilization of zinc oxide nanoparticles on natural and synthetic fibers. This project has received funding of approximately 17.6 lakh INR. Departmental Society: SOBER The department supports an active student society known as the Society of Biotech Engineers & Researchers (SOBER). This society includes faculty advisors and student office bearers, such as secretaries and joint secretaries. SOBER plays a vital role in organizing various events during the technical festival “TechNITi” and cultural fests. It also hosts fresher’s and farewell parties for students, faculty, and staff. SOBER is engaged in academic enrichment by organizing webinars and expert talks featuring keynote speakers from industries, national institutes, and international organizations. These events provide valuable exposure and professional development opportunities for students, enhancing their academic and career prospects. Student Achievements The Biotechnology Department has a strong record of student achievements in competitive exams and placements. For instance, Gurjant Singh secured an All India Rank (AIR) of 4 and Shreya achieved AIR 6 in GATE 2023. Faiz Ahmad attained AIR 35 in GATE 2024. Moreover, Shreshth Pal received the highest...
+2025-05-29 23:28:05,943 - DEBUG - Chunk 4: Society of Biotech Engineers & Researchers (SOBER). This society includes faculty advisors and student office bearers, such as secretaries and joint secretaries. SOBER plays a vital role in organizing various events during the technical festival “TechNITi” and cultural fests. It also hosts fresher’s and farewell parties for students, faculty, and staff. SOBER is engaged in academic enrichment by organizing webinars and expert talks featuring keynote speakers from industries, national institutes, and international organizations. These events provide valuable exposure and professional development opportunities for students, enhancing their academic and career prospects. Student Achievements The Biotechnology Department has a strong record of student achievements in competitive exams and placements. For instance, Gurjant Singh secured an All India Rank (AIR) of 4 and Shreya achieved AIR 6 in GATE 2023. Faiz Ahmad attained AIR 35 in GATE 2024. Moreover, Shreshth Pal received the highest placement package of 11 lakhs per annum from Truminds Software Systems, reflecting the quality of education and training provided by the department. Chemical Engineering Department, NIT Jalandhar Department of Chemical Engineering Website: Chemical Engineering (nitj.ac.in) Faculty Members: 1. Dr. M. K. Jha is a Professor (HAG) currently on lien. He holds a PhD from IIT-ISM Dhanbad. 2. Dr. Ajay Bansal is a Professor with a PhD from Panjab University, Chandigarh. His email is jhamk@nitj.ac.in. 3. Dr. Renu Gupta is a Professor with a PhD from NIT Jalandhar. You can contact her at bansala@nitj.ac.in. 4. Dr. Poonam Gera is an Associate Professor and Head of the department with a PhD from NIT Jalandhar. Her email is bansuarr@nitj.ac.in. 5. Dr. Sangeeta Garg is a Professor with a PhD from NIT Jalandhar. Her contact email is gargs@nitj.ac.in. 6. Dr. S. Bajpai is a Professor with a PhD from NIT Jalandhar. You can reach her at bajpais@nitj.ac.in. 7. Dr. N. K. Srivastava is an Associate Professor with a PhD from NIT Jalandhar. His email is srivastavank@nitj.ac.in. 8. Dr. Raj Kumar Arya is an Associate Professor holding a PhD from IIT Bombay. His email is aryark@nitj.ac.in. 9. Dr. Jatinder Kumar Ratan is an Associate Professor with a PhD from NIT Jalandhar. Contact: kumarj@nitj.ac.in. 10. Dr. Neetu Divya is an Assistant Professor (Grade-I) with a PhD from NIT Jalandhar. Email: divyan@nitj.ac.in. 11. Dr. Anurag Kumar Tiwari is an Assistant Professor (Grade-I) with a Postdoctoral degree from University of Waterloo, Canada and a PhD from IIT Kanpur. His email is tiwaria@nitj.ac.in. 12. Dr. Amit Dhruv Saran is an Assistant Professor (Grade-I) with Post-PhD experience in the USA and a PhD from IIT Bombay. Contact: saranad@nitj.ac.in. 13. Dr. Nitin Naresh Pandhare is an Assistant Professor (Grade-I) with a PhD from IIT Roorkee. Email: pandharenn@nitj.ac.in. 14. Dr. Anjireddy Bhavanam is an Assistant Professor (Grade-I) who completed his Postdoc at IIT Guwahati and PhD from NIT...
+2025-05-29 23:28:05,960 - INFO - Creating FAISS vector store with 124 text chunks
+2025-05-29 23:28:23,937 - INFO - FAISS vector store created and saved to 'faiss_index'
+2025-05-29 23:28:54,591 - INFO - Received question: fee of obc day scholar student?, offlineMode: False
+2025-05-29 23:28:54,591 - INFO - Loading FAISS vector store
+2025-05-29 23:28:54,624 - INFO - FAISS vector store loaded successfully
+2025-05-29 23:28:56,641 - DEBUG - Retrieved 5 documents for question
+2025-05-29 23:28:56,641 - DEBUG - Retrieved documents content: ['duly signed by the authorized issuing authority of the concerned state. 3. A list of certificate issuing authorities will be uploaded on the Institute website before the registration process along wit', 'Fee: Rs. 500. \uf0b7 Student Welfare Fee (includes Stationery, Project Fee, Medical Fee, Identity Card Fee): Rs. 1,500. \uf0b7 Students Activity Fee: Rs. 5,000. \uf0b7 Charges towards International/National Conferen', 'detailed eligibility criteria, admission procedures, and updates, please visit the Institute website: www.nitj.ac.in . 3.4 International Students DASA (Direct Admission of Students Abroad) \uf0b7 Admission', 'year with the same criteria (CGPA above 9.0 and no backlog), they will receive the Rs. 25,000 scholarship for that year. Terms and Conditions: 1. A student can only receive one scholarship at a time. ', 'Grants Commission (UGC) Schemes: 1. Ishan Uday – Special Scholarship Scheme for North Eastern Region – UGC, MHRD 2. PG Indira Gandhi Scholarship for Single Girl Child – UGC, MHRD 3. PG Scholarship Sch']
+2025-05-29 23:28:56,641 - DEBUG - Initializing conversational chain
+2025-05-29 23:28:56,641 - DEBUG - Conversational chain initialized successfully
+2025-05-29 23:28:56,641 - INFO - Invoking conversational chain
+2025-05-29 23:28:59,262 - DEBUG - Online response generated: The provided text gives tuition fee information ba
+2025-05-29 23:31:45,070 - INFO - Saved like feedback for question: fee of obc day scholar student? and response: The provided text gives tuition fee information ba
+2025-05-29 23:36:24,029 - INFO - Received question: Dr Kunwar pal, offlineMode: False
+2025-05-29 23:36:24,029 - INFO - Loading FAISS vector store
+2025-05-29 23:36:24,029 - INFO - FAISS vector store loaded successfully
+2025-05-29 23:36:26,045 - DEBUG - Retrieved 5 documents for question
+2025-05-29 23:36:26,060 - DEBUG - Initializing conversational chain
+2025-05-29 23:36:26,063 - DEBUG - Conversational chain initialized successfully
+2025-05-29 23:36:26,063 - INFO - Invoking conversational chain
+2025-05-29 23:36:43,433 - INFO - Received question: about Dr kunwar pal, offlineMode: False
+2025-05-29 23:36:43,448 - INFO - Loading FAISS vector store
+2025-05-29 23:36:43,454 - INFO - FAISS vector store loaded successfully
+2025-05-29 23:36:45,288 - DEBUG - Retrieved 5 documents for question
+2025-05-29 23:36:45,288 - DEBUG - Retrieved documents content: ['Assistant Professor (Grade-II) Qualification: PhD (NIT Jalandhar) Email: singhg@nitj.ac.in \uf0b7 Dr. Bikash Kumar Designation: Assistant Professor (Grade-II) Qualification: PhD (IIT Guwahati) Email: kumar', 'from premier institutions such as IITs, NITs, and international universities. Prominent faculty members include: \uf0b7 Dr. Arun K. Khosla , Professor (PhD from Guru Gobind Singh Indraprastha University, D', 'in Structural and Construction Engineering o M.Tech in Geotechnical and Geo-Environmental Engineering \uf0b7 PhD Programme: Full-time and Part-time PhD programmes in Civil Engineering related areas such as', 'PhD (UOR) Email: chorehs@nitj.ac.in \uf0b7 Dr Davinder Singh Designation: Assistant Professor Grade - I Qualification: PhD (NIT Jalandhar) Email: singhdj@nitj.ac.in \uf0b7 Dr Kanish Kapoor Designation: Assistan', '\uf0b7 Dr. S. K. Sinha – Professor (HAG), PhD (NITJ), email: sinhask@nitj.ac.in \uf0b7 Dr. A. Mukhopadhyay – Professor, PhD (MDU) \uf0b7 Dr. A. Chatterjee – Professor, PhD (IIT Delhi), email: arunangshu@nitj.ac.in \uf0b7']
+2025-05-29 23:36:45,288 - DEBUG - Initializing conversational chain
+2025-05-29 23:36:45,296 - DEBUG - Conversational chain initialized successfully
+2025-05-29 23:36:45,296 - INFO - Invoking conversational chain
+2025-05-29 23:36:47,647 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 23:37:28,742 - INFO - Received question: Dr Kunwar Pal, offlineMode: False
+2025-05-29 23:37:28,742 - INFO - Loading FAISS vector store
+2025-05-29 23:37:28,745 - INFO - FAISS vector store loaded successfully
+2025-05-29 23:37:30,654 - DEBUG - Retrieved 5 documents for question
+2025-05-29 23:37:30,660 - DEBUG - Initializing conversational chain
+2025-05-29 23:37:30,670 - DEBUG - Conversational chain initialized successfully
+2025-05-29 23:37:30,670 - INFO - Invoking conversational chain
+2025-05-29 23:37:33,227 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 23:44:02,180 - INFO - Received question: Dr. A.K. jana, offlineMode: False
+2025-05-29 23:44:02,180 - INFO - Loading FAISS vector store
+2025-05-29 23:44:02,196 - INFO - FAISS vector store loaded successfully
+2025-05-29 23:44:04,190 - DEBUG - Retrieved 5 documents for question
+2025-05-29 23:44:04,190 - DEBUG - Retrieved documents content: ['Departments At NITJ (National Institute of technology Jalandhar): Department of Biotechnology Website: https://departments.nitj.ac.in/dept/bt/home Faculty Members: 1. Dr. A. K. Jana is a Professor in ', 'Reinforced High Performance Polymer Composites” , which has a duration of three years. \uf0b7 Another project by Dr. Narendra Kumar, funded by ISRO for Rs. 54.12 lakhs, involves the “Development of UV assi', 'of students and prepare them for successful careers in engineering and related fields. Achievement of Students Ms. Amanpreet Kaur (Roll No. 20111004), a B.Tech student of the 2020 batch, has been sele', 'Technology Laboratory Facilities \uf0b7 Web Technology Lab \uf0b7 Computer Algorithms Lab \uf0b7 Computer Vision and Machine Intelligence Lab \uf0b7 Operating System and Networking Lab Research and Development \uf0b7 The facu', '\uf0b7 Dr. S. K. Sinha – Professor (HAG), PhD (NITJ), email: sinhask@nitj.ac.in \uf0b7 Dr. A. Mukhopadhyay – Professor, PhD (MDU) \uf0b7 Dr. A. Chatterjee – Professor, PhD (IIT Delhi), email: arunangshu@nitj.ac.in \uf0b7']
+2025-05-29 23:44:04,190 - DEBUG - Initializing conversational chain
+2025-05-29 23:44:04,198 - DEBUG - Conversational chain initialized successfully
+2025-05-29 23:44:04,198 - INFO - Invoking conversational chain
+2025-05-29 23:44:06,809 - DEBUG - Online response generated: Dr. A. K. Jana is a Professor in the Department of
+2025-05-29 23:46:23,322 - INFO - Received question: bhavya sharma, offlineMode: False
+2025-05-29 23:46:23,322 - INFO - Loading FAISS vector store
+2025-05-29 23:46:23,329 - INFO - FAISS vector store loaded successfully
+2025-05-29 23:46:25,396 - DEBUG - Retrieved 5 documents for question
+2025-05-29 23:46:25,420 - DEBUG - Initializing conversational chain
+2025-05-29 23:46:25,428 - DEBUG - Conversational chain initialized successfully
+2025-05-29 23:46:25,428 - INFO - Invoking conversational chain
+2025-05-29 23:46:28,437 - DEBUG - Online response generated: Bhavya Sharma (2021–25) was recognized as the Best
+2025-05-29 23:46:53,818 - INFO - Received question: faculty of ECE, offlineMode: False
+2025-05-29 23:46:53,818 - INFO - Loading FAISS vector store
+2025-05-29 23:46:53,834 - INFO - FAISS vector store loaded successfully
+2025-05-29 23:46:55,706 - DEBUG - Retrieved 5 documents for question
+2025-05-29 23:46:55,706 - DEBUG - Retrieved documents content: ['strong community within the industry. By organizing educational and professional development activities, SEED plays a vital role in shaping the future of its members and encouraging innovation in elec', 'dahiyah@nitj.ac.in \uf0b7 Dr. Abhinav Pratap Singh — Associate Professor, PhD (Inter University Accelerator Centre, New Delhi) \uf0b7 Dr. Arvind Kumar — Associate Professor, PhD (IIT Delhi), email: jaiswarsingh', 'from premier institutions such as IITs, NITs, and international universities. Prominent faculty members include: \uf0b7 Dr. Arun K. Khosla , Professor (PhD from Guru Gobind Singh Indraprastha University, D', 'PhD (UOR) Email: chorehs@nitj.ac.in \uf0b7 Dr Davinder Singh Designation: Assistant Professor Grade - I Qualification: PhD (NIT Jalandhar) Email: singhdj@nitj.ac.in \uf0b7 Dr Kanish Kapoor Designation: Assistan', 'for simulating electrical circuits and systems. \uf0b7 Electric Drives Laboratory – designed for practical understanding of electric drive systems and control techniques. Research and Development The facul']
+2025-05-29 23:46:55,706 - DEBUG - Initializing conversational chain
+2025-05-29 23:46:55,710 - DEBUG - Conversational chain initialized successfully
+2025-05-29 23:46:55,710 - INFO - Invoking conversational chain
+2025-05-29 23:47:02,161 - DEBUG - Online response generated: **Faculty of the Department of Electronics and Com
+2025-05-29 23:47:50,928 - INFO - Received question: ECE is under which, offlineMode: False
+2025-05-29 23:47:50,928 - INFO - Loading FAISS vector store
+2025-05-29 23:47:50,928 - INFO - FAISS vector store loaded successfully
+2025-05-29 23:47:53,200 - DEBUG - Retrieved 5 documents for question
+2025-05-29 23:47:53,200 - DEBUG - Retrieved documents content: ['Institute of Technology by the Government of India under the Ministry of Education. In 2007, it was recognized as an “Institute of National Importance” by an act of Parliament. The institute offers un', 'Education in 1986, which emphasized removing disparities in education. As part of this policy, a proposal was made to establish the 17th Regional Engineering College (REC) in Jalandhar, Punjab. The in', 'was established in 1987 as a Regional Engineering College. On October 17, 2002, it was declared a Deemed University and given the status of a National Institute of Technology by the Government of Indi', '\uf0b7 Applied Machine Learning Sponsored Projects – Computer Science and Engineering Department The Computer Science and Engineering department at NIT Jalandhar has undertaken several sponsored research p', 'Institute History During the insurgency in Punjab in the late 1970s and early 1980s, the Government of India introduced the 2nd National Policy on Education in 1986, which emphasized removing disparit']
+2025-05-29 23:47:53,200 - DEBUG - Initializing conversational chain
+2025-05-29 23:47:53,216 - DEBUG - Conversational chain initialized successfully
+2025-05-29 23:47:53,216 - INFO - Invoking conversational chain
+2025-05-29 23:47:56,940 - DEBUG - Online response generated: Answer is not available in the context.  While the
+2025-05-29 23:48:09,300 - INFO - Received question: ECE is led by, offlineMode: False
+2025-05-29 23:48:09,300 - INFO - Loading FAISS vector store
+2025-05-29 23:48:09,313 - INFO - FAISS vector store loaded successfully
+2025-05-29 23:48:11,482 - DEBUG - Retrieved 5 documents for question
+2025-05-29 23:48:11,485 - DEBUG - Retrieved documents content: ['strong community within the industry. By organizing educational and professional development activities, SEED plays a vital role in shaping the future of its members and encouraging innovation in elec', 'innovative solutions for public policy challenges and supports management education in diverse fields. Faculty and Staff: \uf0b7 Dr. Arvind Bhardwaj — Head, CCE & Professor, Industrial & Production Enginee', 'for simulating electrical circuits and systems. \uf0b7 Electric Drives Laboratory – designed for practical understanding of electric drive systems and control techniques. Research and Development The facul', 'was established in 1987 as a Regional Engineering College. On October 17, 2002, it was declared a Deemed University and given the status of a National Institute of Technology by the Government of Indi', 'dahiyah@nitj.ac.in \uf0b7 Dr. Abhinav Pratap Singh — Associate Professor, PhD (Inter University Accelerator Centre, New Delhi) \uf0b7 Dr. Arvind Kumar — Associate Professor, PhD (IIT Delhi), email: jaiswarsingh']
+2025-05-29 23:48:11,485 - DEBUG - Initializing conversational chain
+2025-05-29 23:48:11,489 - DEBUG - Conversational chain initialized successfully
+2025-05-29 23:48:11,489 - INFO - Invoking conversational chain
+2025-05-29 23:48:14,967 - DEBUG - Online response generated: Dr. Ramesh K. Sunkaria, Associate Professor and He
+2025-05-29 23:49:40,461 - INFO - Received question: faculty of IPE, offlineMode: False
+2025-05-29 23:49:40,461 - INFO - Loading FAISS vector store
+2025-05-29 23:49:40,466 - INFO - FAISS vector store loaded successfully
+2025-05-29 23:49:42,618 - DEBUG - Retrieved 5 documents for question
+2025-05-29 23:49:42,618 - DEBUG - Retrieved documents content: ['dahiyah@nitj.ac.in \uf0b7 Dr. Abhinav Pratap Singh — Associate Professor, PhD (Inter University Accelerator Centre, New Delhi) \uf0b7 Dr. Arvind Kumar — Associate Professor, PhD (IIT Delhi), email: jaiswarsingh', 'top ranks in GATE 2024, including Mr. Anmol Mahajan (AIR 7), Mr. Ashish Handa (AIR 34), Mr. Ritik Verma (AIR 67), Ms. Reena Yadav (AIR 83), Ms. Anshika Rajput (AIR 83), and Mr. Anshuman Upadhayay (AIR', 'aerosol and water filtration, fiber shedding in textile processing, chemical processing, effluent management, polymers and bio-polymers, eco-friendly textiles, conductive and electromagnetic shielding', 'PhD (UOR) Email: chorehs@nitj.ac.in \uf0b7 Dr Davinder Singh Designation: Assistant Professor Grade - I Qualification: PhD (NIT Jalandhar) Email: singhdj@nitj.ac.in \uf0b7 Dr Kanish Kapoor Designation: Assistan', '& Head PhD Mechanical Engineering (NIT Jalandhar) Email: bedir@nitj.ac.in \uf0b7 Dr Srinivas Tangellapalli Professor Post-doc (University of Ontario Institute of Technology, Canada), PhD Mechanical Enginee']
+2025-05-29 23:49:42,618 - DEBUG - Initializing conversational chain
+2025-05-29 23:49:42,618 - DEBUG - Conversational chain initialized successfully
+2025-05-29 23:49:42,618 - INFO - Invoking conversational chain
+2025-05-29 23:49:45,733 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 23:50:08,079 - INFO - Received question: faculty of Industrial Production, offlineMode: False
+2025-05-29 23:50:08,079 - INFO - Loading FAISS vector store
+2025-05-29 23:50:08,086 - INFO - FAISS vector store loaded successfully
+2025-05-29 23:50:08,693 - DEBUG - Retrieved 5 documents for question
+2025-05-29 23:50:08,693 - DEBUG - Retrieved documents content: ['Assistant Professor (Grade-II) Qualification: PhD (NIT Jalandhar) Email: singhg@nitj.ac.in \uf0b7 Dr. Bikash Kumar Designation: Assistant Professor (Grade-II) Qualification: PhD (IIT Guwahati) Email: kumar', '8.04 LPA \uf0b7 Tanvi Verma Company: Crescendo Global Leadership Hiring India Pvt. Ltd. Package: 7.6 LPA \uf0b7 Pahul Preet Kaur Company: Crescendo Global Leadership Hiring India Pvt. Ltd. Package: 7.6 LPA \uf0b7 Ra', 'aerosol and water filtration, fiber shedding in textile processing, chemical processing, effluent management, polymers and bio-polymers, eco-friendly textiles, conductive and electromagnetic shielding', '& Head PhD Mechanical Engineering (NIT Jalandhar) Email: bedir@nitj.ac.in \uf0b7 Dr Srinivas Tangellapalli Professor Post-doc (University of Ontario Institute of Technology, Canada), PhD Mechanical Enginee', 'with a PhD from NIT Jalandhar. His email is srivastavank@nitj.ac.in. 8. Dr. Raj Kumar Arya is an Associate Professor holding a PhD from IIT Bombay. His email is aryark@nitj.ac.in. 9. Dr. Jatinder Kuma']
+2025-05-29 23:50:08,693 - DEBUG - Initializing conversational chain
+2025-05-29 23:50:08,701 - DEBUG - Conversational chain initialized successfully
+2025-05-29 23:50:08,701 - INFO - Invoking conversational chain
+2025-05-29 23:50:14,466 - DEBUG - Online response generated: **Faculty of Industrial and Production Engineering
+2025-05-29 23:51:39,898 - INFO - Received question: who is shailendra singh , offlineMode: False
+2025-05-29 23:51:39,898 - INFO - Loading FAISS vector store
+2025-05-29 23:51:39,902 - INFO - FAISS vector store loaded successfully
+2025-05-29 23:51:41,779 - DEBUG - Retrieved 5 documents for question
+2025-05-29 23:51:41,779 - DEBUG - Retrieved documents content: ['Assistant Professor (Grade-II) Qualification: PhD (NIT Jalandhar) Email: singhg@nitj.ac.in \uf0b7 Dr. Bikash Kumar Designation: Assistant Professor (Grade-II) Qualification: PhD (IIT Guwahati) Email: kumar', 'Jaipur) Email: sanjay@nitj.ac.in \uf0b7 Dr Satyender Singh Assistant Professor (Grade-I) Post-Doctoral Research Fellow (Multiphase Flow & Microfluidics, IIT Bombay), PhD Thermal and Fluid Engineering (NIT ', 'dahiyah@nitj.ac.in \uf0b7 Dr. Abhinav Pratap Singh — Associate Professor, PhD (Inter University Accelerator Centre, New Delhi) \uf0b7 Dr. Arvind Kumar — Associate Professor, PhD (IIT Delhi), email: jaiswarsingh', 'Games, World Cup, and Olympics, aligning with Government of India guidelines. Faculty and Contact Details: \uf0b7 Dr. Arunangshu Mukhopadhyay — Head, SHRC & Professor, Textile Technology Email: arunangshu@', 'Coatings Duration: 15-06-2023 to 14-06-2025 6. Dr. Raj Kumar Arya Funding Agency: Pukhraj Paints, Kanpur Amount: Rs. 7,50,000 Title: Green Solutions for Sustainable Paints: Cost Effective Water-Based ']
+2025-05-29 23:51:41,779 - DEBUG - Initializing conversational chain
+2025-05-29 23:51:41,785 - DEBUG - Conversational chain initialized successfully
+2025-05-29 23:51:41,785 - INFO - Invoking conversational chain
+2025-05-29 23:51:44,316 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 23:52:00,271 - INFO - Received question: who is shailendra singh bhdauria, offlineMode: False
+2025-05-29 23:52:00,271 - INFO - Loading FAISS vector store
+2025-05-29 23:52:00,275 - INFO - FAISS vector store loaded successfully
+2025-05-29 23:52:02,077 - DEBUG - Retrieved 5 documents for question
+2025-05-29 23:52:02,078 - DEBUG - Retrieved documents content: ['for simulating electrical circuits and systems. \uf0b7 Electric Drives Laboratory – designed for practical understanding of electric drive systems and control techniques. Research and Development The facul', 'a strong portfolio through real-world projects. Achievements of Students The department boasts a strong placement record, with more than 80% of students securing lucrative job offers. \uf0b7 Shruti Gupta f', 'Instrumentation Laboratory \uf0b7 Computational & Simulation Laboratory \uf0b7 Computer Centre Research and Development: The faculty members of the Department of Chemical Engineering are actively engaged in div', 'with a PhD from NIT Jalandhar. His email is srivastavank@nitj.ac.in. 8. Dr. Raj Kumar Arya is an Associate Professor holding a PhD from IIT Bombay. His email is aryark@nitj.ac.in. 9. Dr. Jatinder Kuma', 'Games, World Cup, and Olympics, aligning with Government of India guidelines. Faculty and Contact Details: \uf0b7 Dr. Arunangshu Mukhopadhyay — Head, SHRC & Professor, Textile Technology Email: arunangshu@']
+2025-05-29 23:52:02,078 - DEBUG - Initializing conversational chain
+2025-05-29 23:52:02,080 - DEBUG - Conversational chain initialized successfully
+2025-05-29 23:52:02,080 - INFO - Invoking conversational chain
+2025-05-29 23:52:04,703 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 23:52:28,733 - INFO - Received question: •	Dr. Shailendra Singh Bhadauria, offlineMode: False
+2025-05-29 23:52:28,733 - INFO - Loading FAISS vector store
+2025-05-29 23:52:28,739 - INFO - FAISS vector store loaded successfully
+2025-05-29 23:52:30,569 - DEBUG - Retrieved 5 documents for question
+2025-05-29 23:52:30,569 - DEBUG - Retrieved documents content: ['Instrumentation Laboratory \uf0b7 Computational & Simulation Laboratory \uf0b7 Computer Centre Research and Development: The faculty members of the Department of Chemical Engineering are actively engaged in div', 'with a PhD from NIT Jalandhar. His email is srivastavank@nitj.ac.in. 8. Dr. Raj Kumar Arya is an Associate Professor holding a PhD from IIT Bombay. His email is aryark@nitj.ac.in. 9. Dr. Jatinder Kuma', 'Coatings Duration: 15-06-2023 to 14-06-2025 6. Dr. Raj Kumar Arya Funding Agency: Pukhraj Paints, Kanpur Amount: Rs. 7,50,000 Title: Green Solutions for Sustainable Paints: Cost Effective Water-Based ', 'PhD (UOR) Email: chorehs@nitj.ac.in \uf0b7 Dr Davinder Singh Designation: Assistant Professor Grade - I Qualification: PhD (NIT Jalandhar) Email: singhdj@nitj.ac.in \uf0b7 Dr Kanish Kapoor Designation: Assistan', 'Jaipur) Email: sanjay@nitj.ac.in \uf0b7 Dr Satyender Singh Assistant Professor (Grade-I) Post-Doctoral Research Fellow (Multiphase Flow & Microfluidics, IIT Bombay), PhD Thermal and Fluid Engineering (NIT ']
+2025-05-29 23:52:30,570 - DEBUG - Initializing conversational chain
+2025-05-29 23:52:30,576 - DEBUG - Conversational chain initialized successfully
+2025-05-29 23:52:30,576 - INFO - Invoking conversational chain
+2025-05-29 23:52:32,931 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-29 23:53:08,865 - INFO - Received question: Dr. Shailendra Singh Bhadauria, offlineMode: False
+2025-05-29 23:53:08,865 - INFO - Loading FAISS vector store
+2025-05-29 23:53:08,868 - INFO - FAISS vector store loaded successfully
+2025-05-29 23:53:09,580 - DEBUG - Retrieved 5 documents for question
+2025-05-29 23:53:09,581 - DEBUG - Retrieved documents content: ['Instrumentation Laboratory \uf0b7 Computational & Simulation Laboratory \uf0b7 Computer Centre Research and Development: The faculty members of the Department of Chemical Engineering are actively engaged in div', 'with a PhD from NIT Jalandhar. His email is srivastavank@nitj.ac.in. 8. Dr. Raj Kumar Arya is an Associate Professor holding a PhD from IIT Bombay. His email is aryark@nitj.ac.in. 9. Dr. Jatinder Kuma', 'at NIT Jalandhar is actively engaged in cutting-edge research under the guidance of faculty members who hold advanced qualifications, including PhDs from prestigious institutions such as IIT Guwahati.', 'Coatings Duration: 15-06-2023 to 14-06-2025 6. Dr. Raj Kumar Arya Funding Agency: Pukhraj Paints, Kanpur Amount: Rs. 7,50,000 Title: Green Solutions for Sustainable Paints: Cost Effective Water-Based ', 'Shishram Rebari Assistant Professor PhD (IISER Mohali) Email: rebaris@nitj.ac.in Academic Programmes \uf0b7 Undergraduate : B.Tech. in Physics \uf0b7 Postgraduate : o M.Sc. Physics o M.Tech. (Full Time) in Nucl']
+2025-05-29 23:53:09,581 - DEBUG - Initializing conversational chain
+2025-05-29 23:53:09,584 - DEBUG - Conversational chain initialized successfully
+2025-05-29 23:53:09,584 - INFO - Invoking conversational chain
+2025-05-29 23:53:12,737 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-30 00:03:32,461 - INFO - Starting NITJ AI Chatbot backend
+2025-05-30 00:03:32,461 - DEBUG - Google API key configured
+2025-05-30 00:03:41,924 - DEBUG - Checking if FAISS index exists
+2025-05-30 00:03:41,924 - DEBUG - FAISS index exists: True
+2025-05-30 00:03:41,926 - DEBUG - Checking if FAISS index exists
+2025-05-30 00:03:41,926 - DEBUG - FAISS index exists: True
+2025-05-30 00:04:02,407 - INFO - Received question: who is Dr. Shailendra Singh Bhadauria, offlineMode: False
+2025-05-30 00:04:02,407 - INFO - Loading FAISS vector store
+2025-05-30 00:04:02,467 - INFO - FAISS vector store loaded successfully
+2025-05-30 00:04:04,421 - DEBUG - Retrieved 5 documents for question
+2025-05-30 00:04:04,421 - DEBUG - Retrieved documents content: ['with a PhD from NIT Jalandhar. His email is srivastavank@nitj.ac.in. 8. Dr. Raj Kumar Arya is an Associate Professor holding a PhD from IIT Bombay. His email is aryark@nitj.ac.in. 9. Dr. Jatinder Kuma', 'at NIT Jalandhar is actively engaged in cutting-edge research under the guidance of faculty members who hold advanced qualifications, including PhDs from prestigious institutions such as IIT Guwahati.', 'from premier institutions such as IITs, NITs, and international universities. Prominent faculty members include: \uf0b7 Dr. Arun K. Khosla , Professor (PhD from Guru Gobind Singh Indraprastha University, D', 'Instrumentation Laboratory \uf0b7 Computational & Simulation Laboratory \uf0b7 Computer Centre Research and Development: The faculty members of the Department of Chemical Engineering are actively engaged in div', 'PhD (UOR) Email: chorehs@nitj.ac.in \uf0b7 Dr Davinder Singh Designation: Assistant Professor Grade - I Qualification: PhD (NIT Jalandhar) Email: singhdj@nitj.ac.in \uf0b7 Dr Kanish Kapoor Designation: Assistan']
+2025-05-30 00:04:04,421 - DEBUG - Initializing conversational chain
+2025-05-30 00:04:04,434 - DEBUG - Conversational chain initialized successfully
+2025-05-30 00:04:04,434 - INFO - Invoking conversational chain
+2025-05-30 00:04:06,991 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-30 00:04:25,642 - INFO - Received question: Dr. Shailendra Singh Bhadauria, offlineMode: False
+2025-05-30 00:04:25,642 - INFO - Loading FAISS vector store
+2025-05-30 00:04:25,647 - INFO - FAISS vector store loaded successfully
+2025-05-30 00:04:27,495 - DEBUG - Retrieved 5 documents for question
+2025-05-30 00:04:27,495 - DEBUG - Retrieved documents content: ['Instrumentation Laboratory \uf0b7 Computational & Simulation Laboratory \uf0b7 Computer Centre Research and Development: The faculty members of the Department of Chemical Engineering are actively engaged in div', 'with a PhD from NIT Jalandhar. His email is srivastavank@nitj.ac.in. 8. Dr. Raj Kumar Arya is an Associate Professor holding a PhD from IIT Bombay. His email is aryark@nitj.ac.in. 9. Dr. Jatinder Kuma', 'at NIT Jalandhar is actively engaged in cutting-edge research under the guidance of faculty members who hold advanced qualifications, including PhDs from prestigious institutions such as IIT Guwahati.', 'Coatings Duration: 15-06-2023 to 14-06-2025 6. Dr. Raj Kumar Arya Funding Agency: Pukhraj Paints, Kanpur Amount: Rs. 7,50,000 Title: Green Solutions for Sustainable Paints: Cost Effective Water-Based ', 'Shishram Rebari Assistant Professor PhD (IISER Mohali) Email: rebaris@nitj.ac.in Academic Programmes \uf0b7 Undergraduate : B.Tech. in Physics \uf0b7 Postgraduate : o M.Sc. Physics o M.Tech. (Full Time) in Nucl']
+2025-05-30 00:04:27,495 - DEBUG - Initializing conversational chain
+2025-05-30 00:04:27,500 - DEBUG - Conversational chain initialized successfully
+2025-05-30 00:04:27,500 - INFO - Invoking conversational chain
+2025-05-30 00:04:29,893 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-30 11:03:44,143 - INFO - Starting NITJ AI Chatbot backend
+2025-05-30 11:03:44,147 - DEBUG - Google API key configured
+2025-05-30 11:03:57,905 - INFO - Starting NITJ AI Chatbot backend
+2025-05-30 11:03:57,905 - DEBUG - Google API key configured
+2025-05-30 11:04:03,734 - DEBUG - Checking if FAISS index exists
+2025-05-30 11:04:03,734 - DEBUG - FAISS index exists: True
+2025-05-30 11:04:03,734 - DEBUG - Checking if FAISS index exists
+2025-05-30 11:04:03,734 - DEBUG - FAISS index exists: True
+2025-05-30 11:04:11,458 - DEBUG - Checking if FAISS index exists
+2025-05-30 11:04:11,458 - DEBUG - FAISS index exists: True
+2025-05-30 11:04:11,461 - DEBUG - Checking if FAISS index exists
+2025-05-30 11:04:11,461 - DEBUG - FAISS index exists: True
+2025-05-30 11:04:40,294 - INFO - Voice successfully converted to text: who is Dr Urvashi
+2025-05-30 11:04:40,308 - INFO - Received question: who is Dr Urvashi, offlineMode: False
+2025-05-30 11:04:40,313 - INFO - Loading FAISS vector store
+2025-05-30 11:04:40,643 - INFO - FAISS vector store loaded successfully
+2025-05-30 11:04:42,534 - DEBUG - Retrieved 5 documents for question
+2025-05-30 11:04:42,754 - DEBUG - Initializing conversational chain
+2025-05-30 11:04:42,760 - DEBUG - Conversational chain initialized successfully
+2025-05-30 11:04:42,761 - INFO - Invoking conversational chain
+2025-05-30 11:04:45,095 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-30 11:05:09,315 - INFO - Extracting text from 10 PDF documents
+2025-05-30 11:05:11,348 - DEBUG - Text extracted from PDF: dept and rest all data in one pdf.pdf
+2025-05-30 11:05:11,621 - DEBUG - Text extracted from PDF: students club and services offered to them.pdf
+2025-05-30 11:05:11,755 - DEBUG - Text extracted from PDF: admissions at NITJ.pdf
+2025-05-30 11:05:12,082 - DEBUG - Text extracted from PDF: contactsa and people.pdf
+2025-05-30 11:05:12,542 - DEBUG - Text extracted from PDF: about academics new.pdf
+2025-05-30 11:05:12,666 - DEBUG - Text extracted from PDF: ABOUT NITJ.pdf
+2025-05-30 11:05:12,708 - DEBUG - Text extracted from PDF: NITJ information administration.pdf
+2025-05-30 11:05:13,050 - DEBUG - Text extracted from PDF: health_samp_accomodation.pdf
+2025-05-30 11:05:13,288 - DEBUG - Text extracted from PDF: fest_amenties_scholarships.pdf
+2025-05-30 11:05:13,832 - DEBUG - Text extracted from PDF: life at nitj 2.pdf
+2025-05-30 11:05:13,833 - DEBUG - Cleaning text input
+2025-05-30 11:05:13,847 - DEBUG - Text cleaned successfully
+2025-05-30 11:05:13,847 - INFO - PDF text extraction completed, length: 338706 characters
+2025-05-30 11:05:13,847 - INFO - Splitting text into chunks
+2025-05-30 11:05:13,888 - DEBUG - Text split into 226 chunks
+2025-05-30 11:05:13,895 - DEBUG - Chunk 3: Computational Biology, Drug Delivery Systems, Aerogels and Hydrogels, Environmental Engineering, Bioinformatics, Proteomics, Environmental Remediation, Biofilms, Wastewater Treatment, and Applied Microbiology. Sponsored Projects The department has secured substantial funding from various government and industrial agencies to support a diverse range of projects. For example, Dr. S.S. Meena, along with colleagues Dr. Anee Mohanty, Dr. Anjireddy, and Dr. Nikhil G.N., is leading a project funded by the Department of Science and Technology (DST) to establish a Science Technology and Innovation (STI) Hub at NIT Jalandhar, with funding allocated for the period 2020 to 2023. Another notable project is led by Dr. Nitai Basak, funded by DST-SERB under the TARE scheme, with a budget of approximately 2.49 crore INR. This project focuses on the bioprospection of lignocellulose-rich agricultural waste using oleaginous fungi, targeting applications in the bioenergy sector, and is ongoing from 2022 to 2025. Dr. Jatinder Kumar Ratan, along with Dr. Nitin Naresh Pandhare, Dr. Sumer Singh Meena, and Dr. Nikhil G.N., is working on an industry-funded project with the Trident Group. This project aims at color reduction of effluents from the Effluent Treatment Plant (ETP) of dyeing units, spanning 2022 to 2024. The department has also collaborated with other premier institutes such as IIT Roorkee and international partners. For instance, Prof. Saugat Hazra from IIT Roorkee and Dr. M.K. Sah from NIT Jalandhar have secured funding from the Indian Council of Medical Research (ICMR) to develop and clinically validate an artificial intelligence-empowered antibiotic susceptibility device. This device aims to optimize antimicrobial therapy regimens for leukemia and bone marrow transplant patients. Dr. P.R. Rout is engaged in significant international and national projects. One such project funded by DST-IC-IMPACTs (an Indo-Canadian collaboration) worth about 4.8 crore INR focuses on phosphorus...
+2025-05-30 11:05:13,895 - DEBUG - Chunk 4: Jalandhar have secured funding from the Indian Council of Medical Research (ICMR) to develop and clinically validate an artificial intelligence-empowered antibiotic susceptibility device. This device aims to optimize antimicrobial therapy regimens for leukemia and bone marrow transplant patients. Dr. P.R. Rout is engaged in significant international and national projects. One such project funded by DST-IC-IMPACTs (an Indo-Canadian collaboration) worth about 4.8 crore INR focuses on phosphorus recovery from wastewater to ensure global phosphorus sustainability and food security, running from 2023 to 2025. Dr. Rout is also leading a SERB- funded project worth over 1.1 crore INR aimed at intensifying nitrogen removal and phosphorus recovery from low carbon-to-nitrogen ratio wastewater. This project adopts sustainable bioeconomy approaches like coupling archaeal ammonium oxidation with anammox and modified denitrifying phosphorus removal, scheduled for completion by 2024. Consultancy Projects In addition to sponsored research, the department is involved in consultancy projects that link academic research with industrial applications. For example, Dr. Indu Chauhan is leading a consultancy project with RICO Auto Industries on the in-situ immobilization of zinc oxide nanoparticles on natural and synthetic fibers. This project has received funding of approximately 17.6 lakh INR. Departmental Society: SOBER The department supports an active student society known as the Society of Biotech Engineers & Researchers (SOBER). This society includes faculty advisors and student office bearers, such as secretaries and joint secretaries. SOBER plays a vital role in organizing various events during the technical festival “TechNITi” and cultural fests. It also hosts fresher’s and farewell parties for students, faculty, and staff. SOBER is engaged in academic enrichment by organizing webinars and expert talks featuring keynote speakers from industries, national institutes, and...
+2025-05-30 11:05:13,896 - DEBUG - Chunk 5: of Biotech Engineers & Researchers (SOBER). This society includes faculty advisors and student office bearers, such as secretaries and joint secretaries. SOBER plays a vital role in organizing various events during the technical festival “TechNITi” and cultural fests. It also hosts fresher’s and farewell parties for students, faculty, and staff. SOBER is engaged in academic enrichment by organizing webinars and expert talks featuring keynote speakers from industries, national institutes, and international organizations. These events provide valuable exposure and professional development opportunities for students, enhancing their academic and career prospects. Student Achievements The Biotechnology Department has a strong record of student achievements in competitive exams and placements. For instance, Gurjant Singh secured an All India Rank (AIR) of 4 and Shreya achieved AIR 6 in GATE 2023. Faiz Ahmad attained AIR 35 in GATE 2024. Moreover, Shreshth Pal received the highest placement package of 11 lakhs per annum from Truminds Software Systems, reflecting the quality of education and training provided by the department. Chemical Engineering Department, NIT Jalandhar Department of Chemical Engineering Website: Chemical Engineering (nitj.ac.in) Faculty Members: 1. Dr. M. K. Jha is a Professor (HAG) currently on lien. He holds a PhD from IIT-ISM Dhanbad. 2. Dr. Ajay Bansal is a Professor with a PhD from Panjab University, Chandigarh. His email is jhamk@nitj.ac.in. 3. Dr. Renu Gupta is a Professor with a PhD from NIT Jalandhar. You can contact her at bansala@nitj.ac.in. 4. Dr. Poonam Gera is an Associate Professor and Head of the department with a PhD from NIT Jalandhar. Her email is bansuarr@nitj.ac.in. 5. Dr. Sangeeta Garg is a Professor with a PhD from NIT Jalandhar. Her contact email is gargs@nitj.ac.in. 6. Dr. S. Bajpai is a Professor with a PhD from NIT Jalandhar. You can reach her at bajpais@nitj.ac.in. 7. Dr. N. K. Srivastava is an Associate Professor with a...
+2025-05-30 11:05:13,896 - INFO - Creating FAISS vector store with 226 text chunks
+2025-05-30 11:05:37,323 - INFO - FAISS vector store created and saved to 'faiss_index'
+2025-05-30 11:05:52,710 - INFO - Voice successfully converted to text: who is Dr Urvashi
+2025-05-30 11:05:52,717 - INFO - Received question: who is Dr Urvashi, offlineMode: False
+2025-05-30 11:05:52,717 - INFO - Loading FAISS vector store
+2025-05-30 11:05:52,739 - INFO - FAISS vector store loaded successfully
+2025-05-30 11:05:54,487 - DEBUG - Retrieved 5 documents for question
+2025-05-30 11:05:54,490 - DEBUG - Initializing conversational chain
+2025-05-30 11:05:54,493 - DEBUG - Conversational chain initialized successfully
+2025-05-30 11:05:54,493 - INFO - Invoking conversational chain
+2025-05-30 11:05:56,936 - DEBUG - Online response generated: Dr. Urvashi is an Assistant Professor (Grade-1) an
+2025-05-30 11:06:09,575 - INFO - Voice successfully converted to text: who is Dr Amrit Pal Singh
+2025-05-30 11:06:09,579 - INFO - Received question: who is Dr Amrit Pal Singh, offlineMode: False
+2025-05-30 11:06:09,579 - INFO - Loading FAISS vector store
+2025-05-30 11:06:09,583 - INFO - FAISS vector store loaded successfully
+2025-05-30 11:06:11,348 - DEBUG - Retrieved 5 documents for question
+2025-05-30 11:06:11,348 - DEBUG - Retrieved documents content: ['activities such as workshops, seminars, competitions, industrial visits, and guest lectures, offering students opportunities to interact with industry professionals and gain real-world insights. Both ', '\uf0b7 Dr. Rajesh Singla Associate Professor PhD (NIT Jalandhar) Email: tiwaris@nitj.ac.in \uf0b7 Dr. Om Prakash Verma Assistant Professor PhD (NIT Jalandhar) Email: singlar@nitj.ac.in \uf0b7 Dr. Karan Veer Assistan', 'Professor, PhD (Inter University Accelerator Centre, New Delhi) \uf0b7 Dr. Arvind Kumar — Associate Professor, PhD (IIT Delhi), email: jaiswarsinghap@nitj.ac.in \uf0b7 Dr. Praveen Malik — Associate Professor, P', 'Intelligence, Evolutionary Computation, Fixed Point Theory and its applications, Fractal Geometry, Fractal Functions, and Artificial Neural Networks for solving partial differential equations. Dr. Jas', 'Laboratory \uf0b7 Advanced Synthesis and Catalysis Research Laboratory \uf0b7 Inorganic Green Chemistry Laboratory \uf0b7 Smart Materials Research Laboratory \uf0b7 Material Testing Laboratory \uf0b7 Analytical Chemistry Labo']
+2025-05-30 11:06:11,348 - DEBUG - Initializing conversational chain
+2025-05-30 11:06:11,350 - DEBUG - Conversational chain initialized successfully
+2025-05-30 11:06:11,351 - INFO - Invoking conversational chain
+2025-05-30 11:06:12,265 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-30 11:06:21,584 - INFO - Voice successfully converted to text: daw Amritpal
+2025-05-30 11:06:21,592 - INFO - Received question: daw Amritpal, offlineMode: False
+2025-05-30 11:06:21,592 - INFO - Loading FAISS vector store
+2025-05-30 11:06:21,598 - INFO - FAISS vector store loaded successfully
+2025-05-30 11:06:23,335 - DEBUG - Retrieved 5 documents for question
+2025-05-30 11:06:23,335 - DEBUG - Retrieved documents content: ['and IT under the SMDP-II project , featuring tools like Cadence, Mentor Graphics , Synopsys , Magma, CoWare, and Xilinx. These tools support both academic and sponsored research initiatives. Currently', 'Divya Singh \uf0b7 Overall Trophy: Won by B.Tech 2nd Year students Esteemed Guests Present: Prof. R. K. Garg, Prof. Ajay Bansal, Prof. Anish Sachdeva, Prof. Shubhash Chander, Prof. Harsh Verma, Prof. D. K.', 'by NIT Jamshedpur. \uf0b7 A student, along with three teammates, won second position and a cash prize of Rs. 25,000 in the National Level Debate Competition at PCTE Ludhiana in February 2024. \uf0b7 One student', 'Inventory A. Residential Quarters (Campus) Type Quantity Director Bungalow 1 Type V (A, AA) 60 Type IV (B) 27 Type III (C) 49 Type II (D) 36 Type I (E) 24 B. Hostels Hostel Name/Block Count Girls Host', 'Intelligence, Evolutionary Computation, Fixed Point Theory and its applications, Fractal Geometry, Fractal Functions, and Artificial Neural Networks for solving partial differential equations. Dr. Jas']
+2025-05-30 11:06:23,335 - DEBUG - Initializing conversational chain
+2025-05-30 11:06:23,338 - DEBUG - Conversational chain initialized successfully
+2025-05-30 11:06:23,338 - INFO - Invoking conversational chain
+2025-05-30 11:06:25,679 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-30 11:06:40,513 - INFO - Voice successfully converted to text: name some Faculty of ECE department
+2025-05-30 11:06:40,521 - INFO - Received question: name some Faculty of ECE department, offlineMode: False
+2025-05-30 11:06:40,522 - INFO - Loading FAISS vector store
+2025-05-30 11:06:40,526 - INFO - FAISS vector store loaded successfully
+2025-05-30 11:06:42,290 - DEBUG - Retrieved 5 documents for question
+2025-05-30 11:06:42,291 - DEBUG - Retrieved documents content: ['Jalandhar) – sainii@nitj.ac.in \uf0b7 Dr. Ashish Raman , Associate Professor (PhD from NIT Jalandhar) – ramana@nitj.ac.in \uf0b7 Dr. Neetu Sood , Associate Professor (PhD from NIT Jalandhar) – soodn@nitj.ac.in ', 'Academic Programmes Undergraduate Programmes \uf0b7 B.Tech in Electronics and Communication Engineering \uf0b7 B.Tech in Electronics and VLSI Engineering Postgraduate Programmes \uf0b7 M.Tech in VLSI Design \uf0b7 M.Tech', '\uf0b7 Dr. Harimurugan D Designation : Assistant Professor (Grade-I) Qualification : PhD (NIT Karnataka) Email: harimurugan@nitj.ac.in \uf0b7 Dr. Kailash Chand Sharma Designation : Assistant Professor (Grade-I)', 'circuits and systems. \uf0b7 Electric Drives Laboratory – designed for practical understanding of electric drive systems and control techniques. Research and Development The faculty members of the Electric', 'of 480 and AIR 6500. GATE 2024 Performance – Third Year Students Udaypartap Singh secured 32 marks with a GATE score of 433 and AIR 2300. Vishal Kumar scored 25.33 marks with a GATE score of 345 and A']
+2025-05-30 11:06:42,291 - DEBUG - Initializing conversational chain
+2025-05-30 11:06:42,294 - DEBUG - Conversational chain initialized successfully
+2025-05-30 11:06:42,294 - INFO - Invoking conversational chain
+2025-05-30 11:06:46,016 - DEBUG - Online response generated: **Faculty of ECE Department**
+
+* Dr. Arun K. Khosl
+2025-05-30 11:06:59,514 - INFO - Voice successfully converted to text: name some prominent Faculty of CSE
+2025-05-30 11:06:59,521 - INFO - Received question: name some prominent Faculty of CSE, offlineMode: False
+2025-05-30 11:06:59,521 - INFO - Loading FAISS vector store
+2025-05-30 11:06:59,638 - INFO - FAISS vector store loaded successfully
+2025-05-30 11:07:01,391 - DEBUG - Retrieved 5 documents for question
+2025-05-30 11:07:01,394 - DEBUG - Initializing conversational chain
+2025-05-30 11:07:01,397 - DEBUG - Conversational chain initialized successfully
+2025-05-30 11:07:01,397 - INFO - Invoking conversational chain
+2025-05-30 11:07:04,343 - DEBUG - Online response generated: * Dr Ajay K Sharma
+* Dr A L Sangal
+* Dr Harsh K Ve
+2025-05-30 11:07:25,258 - INFO - Voice successfully converted to text: Dr Jagdeep Kaur
+2025-05-30 11:07:25,262 - INFO - Received question: Dr Jagdeep Kaur, offlineMode: False
+2025-05-30 11:07:25,262 - INFO - Loading FAISS vector store
+2025-05-30 11:07:25,265 - INFO - FAISS vector store loaded successfully
+2025-05-30 11:07:27,262 - DEBUG - Retrieved 5 documents for question
+2025-05-30 11:07:27,263 - DEBUG - Retrieved documents content: ['Intelligence, Evolutionary Computation, Fixed Point Theory and its applications, Fractal Geometry, Fractal Functions, and Artificial Neural Networks for solving partial differential equations. Dr. Jas', '\uf0b7 Dr. Balbir Singh Kaith — Professor (HAG), PhD (Panjab University Chandigarh), email: kaithbs@nitj.ac.in \uf0b7 Dr. N C Kothiyal — Professor (HAG), PhD (IIT-ISM Dhanbad), email: kothiyalnc@nitj.ac.in \uf0b7 Dr', 'Professor, PhD (Inter University Accelerator Centre, New Delhi) \uf0b7 Dr. Arvind Kumar — Associate Professor, PhD (IIT Delhi), email: jaiswarsinghap@nitj.ac.in \uf0b7 Dr. Praveen Malik — Associate Professor, P', 'with a PhD from IIT Roorkee. \uf0b7 Dr. R. Sivaraj is an Assistant Professor (Grade-I), holding a Postdoc from UAEU, AlAin, and a PhD from VIT Vellore. \uf0b7 Dr. Ravinder Singh is an Assistant Professor (Grade', 'activities such as workshops, seminars, competitions, industrial visits, and guest lectures, offering students opportunities to interact with industry professionals and gain real-world insights. Both ']
+2025-05-30 11:07:27,263 - DEBUG - Initializing conversational chain
+2025-05-30 11:07:27,267 - DEBUG - Conversational chain initialized successfully
+2025-05-30 11:07:27,267 - INFO - Invoking conversational chain
+2025-05-30 11:07:29,763 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-30 11:07:38,592 - INFO - Voice successfully converted to text: daw Kumar Pal
+2025-05-30 11:07:38,598 - INFO - Received question: daw Kumar Pal, offlineMode: False
+2025-05-30 11:07:38,598 - INFO - Loading FAISS vector store
+2025-05-30 11:07:38,602 - INFO - FAISS vector store loaded successfully
+2025-05-30 11:07:40,336 - DEBUG - Retrieved 5 documents for question
+2025-05-30 11:07:40,339 - DEBUG - Initializing conversational chain
+2025-05-30 11:07:40,340 - DEBUG - Conversational chain initialized successfully
+2025-05-30 11:07:40,340 - INFO - Invoking conversational chain
+2025-05-30 11:07:42,679 - DEBUG - Online response generated: Answer is not available in the context.
+2025-05-30 11:07:56,545 - INFO - Voice successfully converted to text: contact number of bank
+2025-05-30 11:07:56,551 - INFO - Received question: contact number of bank, offlineMode: False
+2025-05-30 11:07:56,551 - INFO - Loading FAISS vector store
+2025-05-30 11:07:56,554 - INFO - FAISS vector store loaded successfully
+2025-05-30 11:07:58,277 - DEBUG - Retrieved 5 documents for question
+2025-05-30 11:07:58,278 - DEBUG - Retrieved documents content: ["The Women's Basketball Team of NIT Jalandhar got II position and received Silver medal and Trophy. 3. CAMPUS AMENITIES 1 Banks & ATMs 2 Canteens & Shops 3 Center Seminar Hall 4 Daily Commute Campus Am", 'Mr. Vijay Kumar Attendant 9417451454 Mr. Wattan Singh Attendant 9646799284 Mr. Prince Tiwari Attendant 8146199736 Boys Hostel - 04 Name Designation Contact No. Email ID Mr. Kailash Kumar Clerk 9997890', 'Mega Boys Hostel: Block - F Name Designation Contact No. Email ID Mr. Krishankant Tripathi Clerk 9779945241 mhbf@nitj.ac.in Mr. Bhuwan Chander Attendant 7888952464 Mr. Dev Raj Attendant 9113707652 Mr.', 'E. Withdrawal / Expulsion from Hostel \uf0b7 Withdrawal applications require guardian’s signature \uf0b7 Expulsion may occur for: o Staying away without intimation o Non-payment of dues \uf0b7 Students with dues can', 'physical activity and social interaction, which are crucial for balancing academic pressures. 7. Daily Commute Facilities Understanding the importance of smooth transportation, the institute provides ']
+2025-05-30 11:07:58,278 - DEBUG - Initializing conversational chain
+2025-05-30 11:07:58,282 - DEBUG - Conversational chain initialized successfully
+2025-05-30 11:07:58,282 - INFO - Invoking conversational chain
+2025-05-30 11:08:00,709 - DEBUG - Online response generated: **Bank Contact Numbers:**
+
+*   Canara Bank: +91 (1
+2025-05-30 11:08:10,664 - INFO - Saved like feedback for question: contact number of bank and response: **Bank Contact Numbers:**
+
+*   Canara Bank: +91 (1
+2025-05-30 11:09:05,768 - INFO - Voice successfully converted to text: about NIT gym
+2025-05-30 11:09:05,772 - INFO - Received question: about NIT gym, offlineMode: False
+2025-05-30 11:09:05,772 - INFO - Loading FAISS vector store
+2025-05-30 11:09:05,776 - INFO - FAISS vector store loaded successfully
+2025-05-30 11:09:07,569 - DEBUG - Retrieved 5 documents for question
+2025-05-30 11:09:07,569 - DEBUG - Retrieved documents content: ['action. Activities and Initiatives: \uf0b7 Blood donation drives, teaching underprivileged children, environmental campaigns, tree plantation, voter awareness, workshops (AIDS, self-defense, RTI). \uf0b7 Collab', 'The infrastructure added would serve to promote health consciousness, maintain the fitness and stress buster in modern-day stressful life. SPORTS AND RECREATION Sports And Recreation Being a technical', 'of Local health Authorities. Dispensary is also equipped with the Pathological lab to carry out different investigations. In case of medical emergency, the ambulance van is available 24 hours for taki', 'SHRC & Visiting Professor, Centre for Biomedical Engineering (IIT Delhi); Former Professor & Head, Department of Physiology, AIIMS, New Delhi Email: kkdeepak@gmail.com \uf0b7 Dr. G S Dhaliwal — Member, SHR', 'Participation 3 Inter Tech University Tennis (Boys) Lawn Tennis 20-22 Oct 2023 Participation 4 Inter Tech University Badminton (Boys) Badminton 20-22 Oct 2023 Participation 5 Inter Tech University Vol']
+2025-05-30 11:09:07,569 - DEBUG - Initializing conversational chain
+2025-05-30 11:09:07,570 - DEBUG - Conversational chain initialized successfully
+2025-05-30 11:09:07,571 - INFO - Invoking conversational chain
+2025-05-30 11:09:10,387 - DEBUG - Online response generated: **NIT Jalandhar Gym Facilities**
+
+NIT Jalandhar ha
+2025-05-30 11:09:20,452 - INFO - Voice successfully converted to text: about nitj
+2025-05-30 11:09:20,455 - INFO - Received question: about nitj, offlineMode: False
+2025-05-30 11:09:20,456 - INFO - Loading FAISS vector store
+2025-05-30 11:09:20,459 - INFO - FAISS vector store loaded successfully
+2025-05-30 11:09:22,978 - DEBUG - Retrieved 5 documents for question
+2025-05-30 11:09:22,978 - DEBUG - Retrieved documents content: ['as a Regional Engineering College (REC). On October 17, 2002, NITJ was granted the status of National Institute of Tech- nology (Deemed University) by the Government of India under the Ministry of Edu', 'for themselves. 1 3 Mission The mission of NITJ (Dr. B.R. Ambedkar National Institute of Technology) focuses on delivering high-quality education and research. The mission includes: •Generating and im', 'minds , and creating experiences that last a lifetime . Life is not merely a set of instructions; it is a series of experiences and continuous learning — and engineering education is no exception. Thi', 'learning. \uf0b7 Conduct impactful research in core and interdisciplinary areas by collaborating with respected industries, academics, and research organizations. \uf0b7 Foster creativity, innovation, and entre', 'an Institute of National Importance. 1995 \uf0b7 Introduced Leather Technology with an intake of 15 students (increased to 20 in 1996). 1990 \uf0b7 Introduced five new branches: o Mechanical Machine Design & Au']
+2025-05-30 11:09:22,978 - DEBUG - Initializing conversational chain
+2025-05-30 11:09:22,979 - DEBUG - Conversational chain initialized successfully
+2025-05-30 11:09:22,980 - INFO - Invoking conversational chain
+2025-05-30 11:09:28,760 - DEBUG - Online response generated: **Dr. B.R. Ambedkar National Institute of Technolo
+2025-05-30 11:09:48,167 - INFO - Saved like feedback for question: about nitj and response: **Dr. B.R. Ambedkar National Institute of Technolo
+2025-05-30 11:09:50,889 - INFO - Saved like feedback for question: about NIT gym and response: **NIT Jalandhar Gym Facilities**
+
+NIT Jalandhar ha
+2025-05-30 11:10:08,711 - INFO - Voice successfully converted to text: when was NIT Jalandhar established
+2025-05-30 11:10:08,716 - INFO - Received question: when was NIT Jalandhar established, offlineMode: False
+2025-05-30 11:10:08,716 - INFO - Loading FAISS vector store
+2025-05-30 11:10:08,719 - INFO - FAISS vector store loaded successfully
+2025-05-30 11:10:10,582 - DEBUG - Retrieved 5 documents for question
+2025-05-30 11:10:10,582 - DEBUG - Retrieved documents content: ['learning. \uf0b7 Conduct impactful research in core and interdisciplinary areas by collaborating with respected industries, academics, and research organizations. \uf0b7 Foster creativity, innovation, and entre', 'house, community center, dispensary, shopping center, banks, post office, sports complex, playgrounds, tennis courts, basketball courts, volleyball courts, an open- air theatre, central seminar hall, ', 'May 1986, emphasized removing disparities and equalizing educational opportunities. To promote social integration, new educa- tional institutions were established. The model of Regional Engineering Co', 'reputed industrial organizations recruit final year students as engineers and management trainees. NITJ offers a range of academic programs including Bachelor of Technology (B.Tech), Master of Technol', 'benchmarks. In 2023, NIT Jalandhar proudly re-entered the elite league of the top 50 engineering institutions in India, achieving the 46th rank in the NIRF Engineering category , 72nd overall , and 9t']
+2025-05-30 11:10:10,582 - DEBUG - Initializing conversational chain
+2025-05-30 11:10:10,587 - DEBUG - Conversational chain initialized successfully
+2025-05-30 11:10:10,587 - INFO - Invoking conversational chain
+2025-05-30 11:10:12,858 - DEBUG - Online response generated: NIT Jalandhar was established in 1987 as the Regio
+2025-05-30 11:10:32,465 - INFO - Saved like feedback for question: when was NIT Jalandhar established and response: NIT Jalandhar was established in 1987 as the Regio
