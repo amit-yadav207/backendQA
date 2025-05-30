@@ -371,5 +371,21 @@ async def save_feedback(feedback: dict):
         logger.error(f"Failed to save feedback: {e}")
         raise HTTPException(status_code=500, detail="Failed to save feedback")
 
+
+
+
+
+
+# --------------------------- Health Check Endpoint ----------------------------
+
+@app.get("/api/health")
+async def health_check():
+    return {"status": "ok", "message": "NITJ Chatbot backend is running"}
+
+# --------------------------- App Runner ----------------------------
+
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    import os
+    port = int(os.getenv("PORT", 8000))  # Get port from env, default to 8000
+    logger.info(f"Starting server on port {port}")
+    uvicorn.run(app, host="0.0.0.0", port=port)
