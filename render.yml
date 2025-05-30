@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: backendQA
+    env: python
+    runtime: python-3.12
+    buildCommand: |
+      apt-get update && apt-get install -y portaudio19-dev
+      pip install -r requirements3.txt
+    startCommand: "python app4.py"
