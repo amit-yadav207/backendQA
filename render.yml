@@ -4,6 +4,8 @@ services:
     env: python
     runtime: python-3.12
     buildCommand: |
-      apt-get update && apt-get install -y portaudio19-dev
+      apt-get update && apt-get install -y portaudio19-dev build-essential
+      pip install --upgrade pip
+      pip install --find-links https://github.com/intxcc/pyaudio_portaudio/releases pyaudio
       pip install -r requirements3.txt
     startCommand: "python app4.py"
