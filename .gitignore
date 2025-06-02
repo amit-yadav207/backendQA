@@ -3,3 +3,7 @@
 myenv/
 __pycache__
 .vscode
+*.sh
+.log
+chatbot.log
+feedback.json
