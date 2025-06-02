@@ -2563,3 +2563,258 @@ The provided text list
 2025-06-02 10:58:04,327 - DEBUG - FAISS index exists: True
 2025-06-02 10:58:04,327 - DEBUG - Checking if FAISS index exists
 2025-06-02 10:58:04,327 - DEBUG - FAISS index exists: True
+2025-06-02 17:37:20,613 - INFO - Starting NITJ AI Chatbot backend
+2025-06-02 17:37:20,613 - DEBUG - Google API key configured
+2025-06-02 17:37:20,633 - INFO - Scheduled periodic fetching every 60 minutes
+2025-06-02 17:37:20,633 - INFO - Starting periodic fetch job
+2025-06-02 17:37:20,633 - INFO - Fetching data from https://www.nitj.ac.in/today/
+2025-06-02 17:37:21,225 - WARNING - Main container not found on NITJ Today page
+2025-06-02 17:37:21,225 - WARNING - No events data fetched in this cycle
+2025-06-02 17:37:21,225 - INFO - Started periodic fetching thread
+2025-06-02 17:37:21,225 - INFO - Starting server on port 8000
+2025-06-02 17:37:36,863 - INFO - Extracting text from 25 PDF documents
+2025-06-02 17:37:37,280 - DEBUG - Text extracted from PDF: about academics new.pdf
+2025-06-02 17:37:37,329 - DEBUG - Text extracted from PDF: about faculty.pdf
+2025-06-02 17:37:37,390 - DEBUG - Text extracted from PDF: about IITS.pdf
+2025-06-02 17:37:37,547 - DEBUG - Text extracted from PDF: ABOUT NITJ.pdf
+2025-06-02 17:37:37,730 - DEBUG - Text extracted from PDF: about NITS.pdf
+2025-06-02 17:37:37,813 - DEBUG - Text extracted from PDF: admission at IIT.pdf
+2025-06-02 17:37:37,947 - DEBUG - Text extracted from PDF: admission2.pdf
+2025-06-02 17:37:38,097 - DEBUG - Text extracted from PDF: admissions at NITJ.pdf
+2025-06-02 17:37:38,130 - DEBUG - Text extracted from PDF: branch and fees.pdf
+2025-06-02 17:37:38,363 - DEBUG - Text extracted from PDF: clubs2.pdf
+2025-06-02 17:37:38,763 - DEBUG - Text extracted from PDF: contactsa and people.pdf
+2025-06-02 17:37:41,122 - DEBUG - Text extracted from PDF: dept and rest all data in one pdf.pdf
+2025-06-02 17:37:41,163 - DEBUG - Text extracted from PDF: emails details.pdf
+2025-06-02 17:37:41,209 - DEBUG - Text extracted from PDF: faculty data.pdf
+2025-06-02 17:37:41,480 - DEBUG - Text extracted from PDF: fest_amenties_scholarships.pdf
+2025-06-02 17:37:41,980 - DEBUG - Text extracted from PDF: health_samp_accomodation.pdf
+2025-06-02 17:37:42,097 - DEBUG - Text extracted from PDF: hostel LIfe at NITS.pdf
+2025-06-02 17:37:42,163 - DEBUG - Text extracted from PDF: IITs data.pdf
+2025-06-02 17:37:42,813 - DEBUG - Text extracted from PDF: life at nitj 2.pdf
+2025-06-02 17:37:42,908 - DEBUG - Text extracted from PDF: NEW JOINEE question.pdf
+2025-06-02 17:37:42,996 - DEBUG - Text extracted from PDF: nit iits fees.pdf
+2025-06-02 17:37:43,046 - DEBUG - Text extracted from PDF: NITJ information administration.pdf
+2025-06-02 17:37:43,180 - DEBUG - Text extracted from PDF: schedules.pdf
+2025-06-02 17:37:45,529 - DEBUG - Text extracted from PDF: sentences format docs.pdf
+2025-06-02 17:37:45,954 - DEBUG - Text extracted from PDF: students club and services offered to them.pdf
+2025-06-02 17:37:45,954 - DEBUG - Cleaning text input
+2025-06-02 17:37:45,979 - DEBUG - Text cleaned successfully
+2025-06-02 17:37:45,979 - INFO - PDF text extraction completed, length: 643196 characters
+2025-06-02 17:37:45,979 - INFO - Splitting text into chunks
+2025-06-02 17:37:46,074 - DEBUG - Text split into 429 chunks
+2025-06-02 17:37:46,362 - INFO - Creating FAISS vector store with 429 text chunks
+2025-06-02 17:38:27,260 - INFO - FAISS vector store created and saved to 'faiss_index'
+2025-06-02 17:39:30,123 - INFO - Received question: about btech admission, offlineMode: False
+2025-06-02 17:39:30,123 - INFO - Loading FAISS vector store
+2025-06-02 17:39:30,157 - INFO - FAISS vector store loaded successfully
+2025-06-02 17:39:31,023 - DEBUG - Retrieved 3 documents for question
+2025-06-02 17:39:31,023 - DEBUG - Retrieved documents content: ['January and April. Eligi- bility requires passing the 10+2 examination from a recognized board, such as the Central Board of Secondary Education (CBSE) or state boards, with Physics and Mathematics as', 'Chemistry, and Mathematics as core subjects. The minimum aggregate percentage required is 75% for General/OBC-NCL candidates and 65% for SC/ST/PwD candidates, or they must be in the top 20 percentile ', '\uf0b7 Open category (General): 40.5% \uf0b7 Scheduled Caste (SC): 15% \uf0b7 Scheduled Tribe (ST): 7.5% \uf0b7 Other Backward Classes (OBC-NCL): 27% \uf0b7 Economically Weaker Sections (EWS): 10% \uf0b7 Persons with Disabilities ']
+2025-06-02 17:39:31,023 - DEBUG - Initializing conversational chain
+2025-06-02 17:39:31,023 - DEBUG - Conversational chain initialized successfully
+2025-06-02 17:39:31,023 - INFO - Invoking conversational chain
+2025-06-02 17:39:36,737 - DEBUG - Online response generated: **B.Tech Admission at NITs**
+
+**Eligibility Criter
+2025-06-02 17:39:58,887 - INFO - Received question: write list of clubs at NITJ, offlineMode: False
+2025-06-02 17:39:58,887 - INFO - Loading FAISS vector store
+2025-06-02 17:39:58,903 - INFO - FAISS vector store loaded successfully
+2025-06-02 17:40:00,882 - DEBUG - Retrieved 3 documents for question
+2025-06-02 17:40:00,882 - DEBUG - Retrieved documents content: ['to maintaining a safe, inclusive, and respectful academic environment for all students LINKS OF NITJ : Follow NIT Jalandhar on: \uf0b7 Facebook: https://www.facebook.com/NITJofficial \uf0b7 Twitter: https://www', '17. Social Works & Rural Activity 18. Website Development & Management 19. Yodha 20. Yoga & Meditation ABOUT AROGYA CLUB: The Aarogya Club is a Health club dedicated to promoting holistic health and w', 'institute-of-technology-mumbai-54212/fees)[](https://www.shiksha.com/university/iit-delhi- indian-institute-of-technology-53938/fees) 5 LIFE AT NITJ CULTURAL CLUB \uf0b7 Aarogya \uf0b7 Chetna \uf0b7 Dance \uf0b7 Ek Bhara']
+2025-06-02 17:40:00,882 - DEBUG - Initializing conversational chain
+2025-06-02 17:40:00,898 - DEBUG - Conversational chain initialized successfully
+2025-06-02 17:40:00,898 - INFO - Invoking conversational chain
+2025-06-02 17:40:04,186 - DEBUG - Online response generated: **NITJ Clubs:**
+
+* Aarogya
+* Chetna
+* Dance
+* Ek B
+2025-06-02 17:40:13,697 - INFO - Received question: tell me about bharat dhawani, offlineMode: False
+2025-06-02 17:40:13,697 - INFO - Loading FAISS vector store
+2025-06-02 17:40:13,697 - INFO - FAISS vector store loaded successfully
+2025-06-02 17:40:16,368 - DEBUG - Retrieved 3 documents for question
+2025-06-02 17:40:16,368 - DEBUG - Retrieved documents content: ['Annual Foundation Day Introduction: Bharat Dhawani is the techno-managerial student festival of Dr. B. R. Ambedkar National Institute of Technology (NIT), Jalandhar , Punjab, India. It is celebrated a', 'Departmental Scholarship Provided by: Employer of the parents (Central/State Govt. or other agencies like Bank, Railway, Corporation, Defence, etc.) Web Link: Not specified 2. Sita Ram Jindal Foundati', 'institute’s commitment to academic excellence, holistic development, and fostering lifelong relationships. Ramanpreet Singh (1995, Chemical & Bio Engineering) is now the Director of Product Marketing ']
+2025-06-02 17:40:16,368 - DEBUG - Initializing conversational chain
+2025-06-02 17:40:16,368 - DEBUG - Conversational chain initialized successfully
+2025-06-02 17:40:16,368 - INFO - Invoking conversational chain
+2025-06-02 17:40:20,061 - DEBUG - Online response generated: **Bharat Dhawani: NIT Jalandhar's Annual Foundatio
+2025-06-02 17:40:54,147 - INFO - Voice successfully converted to text: who is director of NIT Jain
+2025-06-02 17:40:54,150 - INFO - Received question: who is director of NIT Jain, offlineMode: False
+2025-06-02 17:40:54,154 - INFO - Loading FAISS vector store
+2025-06-02 17:40:54,165 - INFO - FAISS vector store loaded successfully
+2025-06-02 17:40:56,512 - DEBUG - Retrieved 3 documents for question
+2025-06-02 17:40:56,512 - DEBUG - Retrieved documents content: ['sainijk@nitj.ac.in. For the Married Girls’ Hostel (MGH), Dr. Neelam Rani serves as the warden and can be contacted at 8630933324 or ranin@nitj.ac.in. MGH Phase II is looked after by Dr. Deepika Rani, ', 'memories, pursue their passions, and prepare themselves as future pioneers and leaders who will drive change. Nalin Chakoo, a Computer Science and Engineering graduate from 2006 and currently a Direct', 'Management Board. She recalls how NITJ nurtured her passion for textiles and molded her leadership skills. She emphasizes the importance of the relationships forged with faculty and peers, which playe']
+2025-06-02 17:40:56,515 - DEBUG - Initializing conversational chain
+2025-06-02 17:40:56,517 - DEBUG - Conversational chain initialized successfully
+2025-06-02 17:40:56,517 - INFO - Invoking conversational chain
+2025-06-02 17:40:59,309 - DEBUG - Online response generated: Answer is not available in the context.
+2025-06-02 17:40:59,309 - INFO - Answer not in context, initiating SerpAPI search
+2025-06-02 17:40:59,309 - INFO - Searching Google via SerpAPI for query: who is director of NIT Jain
+2025-06-02 17:41:01,739 - DEBUG - Extracted 2 results from SerpAPI
+2025-06-02 17:41:01,739 - INFO - Building context from 2 search results
+2025-06-02 17:41:01,739 - INFO - Extracting content from URL: https://in.linkedin.com/in/nitin-jain-01b6b265
+2025-06-02 17:41:02,749 - ERROR - Failed to fetch URL https://in.linkedin.com/in/nitin-jain-01b6b265: Status 999
+2025-06-02 17:41:02,749 - INFO - Extracting content from URL: https://in.linkedin.com/in/zennimit
+2025-06-02 17:41:03,444 - ERROR - Failed to fetch URL https://in.linkedin.com/in/zennimit: Status 999
+2025-06-02 17:41:03,444 - DEBUG - Built context, length: 0 characters
+2025-06-02 17:41:03,449 - WARNING - No content extracted from search results
+2025-06-02 17:41:11,858 - INFO - Voice successfully converted to text: who is director of NIT gym
+2025-06-02 17:41:11,859 - INFO - Received question: who is director of NIT gym, offlineMode: False
+2025-06-02 17:41:11,859 - INFO - Loading FAISS vector store
+2025-06-02 17:41:11,874 - INFO - FAISS vector store loaded successfully
+2025-06-02 17:41:14,024 - DEBUG - Retrieved 3 documents for question
+2025-06-02 17:41:14,024 - DEBUG - Retrieved documents content: ['\uf0b7 Participation in National Youth Festival 2024 (Nashik). \uf0b7 Participation in 7-day National Integration Camp (Sikar). \uf0b7 Participation in National Youth Parliament (Pune). National Sports Organization ', 'Team: \uf0b7 Dr. Kiran Singh (Associate Professor, PhD) – Coordinator Email: singhkp@nitj.ac.in \uf0b7 Dr. Harpreet Singh (Assistant Professor, PhD) – Co-coordinator \uf0b7 Dr. Narendra Kumar (Assistant Professor, P', 'M.P.Ed, an N.I.S Diploma in Basketball, UGC NET, SLET, and a PhD. He can be contacted at [mishravk@nitj.ac.in]. He actively oversees the National Sports Organization (NSO) activities at Dr. B. R. Ambe']
+2025-06-02 17:41:14,024 - DEBUG - Initializing conversational chain
+2025-06-02 17:41:14,024 - DEBUG - Conversational chain initialized successfully
+2025-06-02 17:41:14,024 - INFO - Invoking conversational chain
+2025-06-02 17:41:16,614 - DEBUG - Online response generated: Answer is not available in the context.
+2025-06-02 17:41:16,614 - INFO - Answer not in context, initiating SerpAPI search
+2025-06-02 17:41:16,614 - INFO - Searching Google via SerpAPI for query: who is director of NIT gym
+2025-06-02 17:41:18,416 - DEBUG - Extracted 2 results from SerpAPI
+2025-06-02 17:41:18,416 - INFO - Building context from 2 search results
+2025-06-02 17:41:18,419 - INFO - Extracting content from URL: https://www.onnitgym.com/team
+2025-06-02 17:41:19,347 - DEBUG - Cleaning text input
+2025-06-02 17:41:19,347 - DEBUG - Text cleaned successfully
+2025-06-02 17:41:19,347 - DEBUG - Extracted HTML text, length: 9820
+2025-06-02 17:41:19,347 - INFO - Extracting content from URL: https://www.onnitgym.com/service-providers
+2025-06-02 17:41:20,860 - DEBUG - Cleaning text input
+2025-06-02 17:41:20,860 - DEBUG - Text cleaned successfully
+2025-06-02 17:41:20,860 - DEBUG - Extracted HTML text, length: 8036
+2025-06-02 17:41:20,860 - DEBUG - Built context, length: 18000 characters
+2025-06-02 17:41:20,860 - INFO - Querying Gemini with context and question: who is director of NIT gym
+2025-06-02 17:41:24,559 - DEBUG - Gemini response generated: Answer is not available in the context.  The provi
+2025-06-02 17:41:24,559 - INFO - Received question: who is director of NIT gym NITJ, offlineMode: False
+2025-06-02 17:41:24,559 - INFO - Loading FAISS vector store
+2025-06-02 17:41:24,571 - INFO - FAISS vector store loaded successfully
+2025-06-02 17:41:26,603 - DEBUG - Retrieved 3 documents for question
+2025-06-02 17:41:26,603 - DEBUG - Retrieved documents content: ['Team: \uf0b7 Dr. Kiran Singh (Associate Professor, PhD) – Coordinator Email: singhkp@nitj.ac.in \uf0b7 Dr. Harpreet Singh (Assistant Professor, PhD) – Co-coordinator \uf0b7 Dr. Narendra Kumar (Assistant Professor, P', 'admission help desk across its website and prospectus documents. Below is a comprehensive compilation of available names, designations, short forms, abbreviations, and email contacts, as sourced from ', '\uf0b7 Participation in National Youth Festival 2024 (Nashik). \uf0b7 Participation in 7-day National Integration Camp (Sikar). \uf0b7 Participation in National Youth Parliament (Pune). National Sports Organization ']
+2025-06-02 17:41:26,603 - DEBUG - Initializing conversational chain
+2025-06-02 17:41:26,610 - DEBUG - Conversational chain initialized successfully
+2025-06-02 17:41:26,610 - INFO - Invoking conversational chain
+2025-06-02 17:41:29,239 - DEBUG - Online response generated: Answer is not available in the context.
+2025-06-02 17:41:29,239 - INFO - Answer not in context, initiating SerpAPI search
+2025-06-02 17:41:29,239 - INFO - Searching Google via SerpAPI for query: who is director of NIT gym NITJ
+2025-06-02 17:41:31,472 - DEBUG - Extracted 2 results from SerpAPI
+2025-06-02 17:41:31,472 - INFO - Building context from 2 search results
+2025-06-02 17:41:31,472 - INFO - Extracting content from URL: https://www.nitj.ac.in/admin/director.html
+2025-06-02 17:41:31,756 - DEBUG - Cleaning text input
+2025-06-02 17:41:31,756 - DEBUG - Text cleaned successfully
+2025-06-02 17:41:31,756 - DEBUG - Extracted HTML text, length: 3311
+2025-06-02 17:41:31,756 - INFO - Extracting content from URL: https://www.nitj.ac.in/admin/governors.html
+2025-06-02 17:41:32,288 - DEBUG - Cleaning text input
+2025-06-02 17:41:32,288 - DEBUG - Text cleaned successfully
+2025-06-02 17:41:32,288 - DEBUG - Extracted HTML text, length: 2189
+2025-06-02 17:41:32,288 - DEBUG - Built context, length: 5670 characters
+2025-06-02 17:41:32,288 - INFO - Querying Gemini with context and question: who is director of NIT gym NITJ
+2025-06-02 17:41:34,905 - DEBUG - Gemini response generated: Answer is not available in the context.
+2025-06-02 17:41:34,905 - INFO - Received question: who is director of NITJ, offlineMode: False
+2025-06-02 17:41:34,905 - INFO - Loading FAISS vector store
+2025-06-02 17:41:34,914 - INFO - FAISS vector store loaded successfully
+2025-06-02 17:41:37,476 - DEBUG - Retrieved 3 documents for question
+2025-06-02 17:41:37,476 - DEBUG - Retrieved documents content: ['admission help desk across its website and prospectus documents. Below is a comprehensive compilation of available names, designations, short forms, abbreviations, and email contacts, as sourced from ', 'and 78th overall by NIRF. \uf0b7 Rated AAAA+ among engineering colleges in the North zone, including a strong ranking among Punjab engineering colleges. \uf0b7 Positioned 22nd among top 30 government colleges a', 'assembly, rioting. \uf0b7 Public nuisance, violation of morals. \uf0b7 Physical injury, wrongful restraint/confinement. \uf0b7 Criminal force, assault, sexual or unnatural offences. \uf0b7 Extortion, trespass, intimidati']
+2025-06-02 17:41:37,476 - DEBUG - Initializing conversational chain
+2025-06-02 17:41:37,483 - DEBUG - Conversational chain initialized successfully
+2025-06-02 17:41:37,483 - INFO - Invoking conversational chain
+2025-06-02 17:41:40,750 - DEBUG - Online response generated: Dr. Binod Kumar Kanaujia and Prof. Rajiv Kumar Gar
+2025-06-02 17:42:05,087 - INFO - Received question: fees of obc student who is day scholar at NITTJ?, offlineMode: False
+2025-06-02 17:42:05,087 - INFO - Loading FAISS vector store
+2025-06-02 17:42:05,095 - INFO - FAISS vector store loaded successfully
+2025-06-02 17:42:07,676 - DEBUG - Retrieved 3 documents for question
+2025-06-02 17:42:07,676 - DEBUG - Retrieved documents content: ['visit the Institute website: www.nitj.ac.in . 3.4 International Students DASA (Direct Admission of Students Abroad) \uf0b7 Admissions to various UG and PG programmes under the DASA scheme for premier insti', 'in Mathematics focuses on advanced calculus, algebra, and computational mathematics, equipping students for analytical and research positions. These two-year, full-time programs require a Bachelor’s d', 'the Rs. 25,000 scholarship for that year. Terms and Conditions: 1. A student can only receive one scholarship at a time. 2. The student must sign an undertaking at the time of the scholarship award st']
+2025-06-02 17:42:07,676 - DEBUG - Initializing conversational chain
+2025-06-02 17:42:07,676 - DEBUG - Conversational chain initialized successfully
+2025-06-02 17:42:07,676 - INFO - Invoking conversational chain
+2025-06-02 17:42:10,950 - DEBUG - Online response generated: Answer is not available in the context.  The provi
+2025-06-02 17:42:10,950 - INFO - Answer not in context, initiating SerpAPI search
+2025-06-02 17:42:10,950 - INFO - Searching Google via SerpAPI for query: fees of obc student who is day scholar at NITTJ?
+2025-06-02 17:42:12,807 - DEBUG - Extracted 2 results from SerpAPI
+2025-06-02 17:42:12,807 - INFO - Building context from 2 search results
+2025-06-02 17:42:12,808 - INFO - Extracting content from URL: https://www.nitj.ac.in/nitj_files/links/Fee__structure_of_UG,PG_for_the_academic_year_2022-2023_compressed_3842.pdf
+2025-06-02 17:43:51,688 - DEBUG - Extracted text from PDF page 1
+2025-06-02 17:43:52,944 - DEBUG - Extracted text from PDF page 2
+2025-06-02 17:43:54,151 - DEBUG - Extracted text from PDF page 3
+2025-06-02 17:43:55,382 - DEBUG - Extracted text from PDF page 4
+2025-06-02 17:43:56,640 - DEBUG - Extracted text from PDF page 5
+2025-06-02 17:43:57,894 - DEBUG - Extracted text from PDF page 6
+2025-06-02 17:43:59,184 - DEBUG - Extracted text from PDF page 7
+2025-06-02 17:44:00,427 - DEBUG - Extracted text from PDF page 8
+2025-06-02 17:44:01,681 - DEBUG - Extracted text from PDF page 9
+2025-06-02 17:44:03,009 - DEBUG - Extracted text from PDF page 10
+2025-06-02 17:44:04,208 - DEBUG - Extracted text from PDF page 11
+2025-06-02 17:44:05,425 - DEBUG - Extracted text from PDF page 12
+2025-06-02 17:44:06,654 - DEBUG - Extracted text from PDF page 13
+2025-06-02 17:44:07,894 - DEBUG - Extracted text from PDF page 14
+2025-06-02 17:44:09,049 - DEBUG - Extracted text from PDF page 15
+2025-06-02 17:44:10,256 - DEBUG - Extracted text from PDF page 16
+2025-06-02 17:44:11,487 - DEBUG - Extracted text from PDF page 17
+2025-06-02 17:44:12,653 - DEBUG - Extracted text from PDF page 18
+2025-06-02 17:44:12,661 - DEBUG - Cleaning text input
+2025-06-02 17:44:12,661 - DEBUG - Text cleaned successfully
+2025-06-02 17:44:12,661 - DEBUG - Extracted PDF text, length: 27667
+2025-06-02 17:44:12,678 - INFO - Extracting content from URL: https://nitj.ac.in/files/1723089142169-Fee%20Structure%20for%20Scholarship%20and%20Loan%20Purpose.pdf
+2025-06-02 17:44:23,929 - DEBUG - Extracted text from PDF page 1
+2025-06-02 17:44:25,507 - DEBUG - Extracted text from PDF page 2
+2025-06-02 17:44:27,097 - DEBUG - Extracted text from PDF page 3
+2025-06-02 17:44:28,661 - DEBUG - Extracted text from PDF page 4
+2025-06-02 17:44:28,661 - DEBUG - Cleaning text input
+2025-06-02 17:44:28,661 - DEBUG - Text cleaned successfully
+2025-06-02 17:44:28,661 - DEBUG - Extracted PDF text, length: 10328
+2025-06-02 17:44:28,669 - DEBUG - Built context, length: 38378 characters
+2025-06-02 17:44:28,669 - INFO - Querying Gemini with context and question: fees of obc student who is day scholar at NITTJ?
+2025-06-02 17:44:35,738 - DEBUG - Gemini response generated: The provided text gives fee structures for OBC stu
+2025-06-02 17:45:24,809 - INFO - Received question: where to find degree in NITJ, offlineMode: False
+2025-06-02 17:45:24,811 - INFO - Loading FAISS vector store
+2025-06-02 17:45:24,817 - INFO - FAISS vector store loaded successfully
+2025-06-02 17:45:26,937 - DEBUG - Retrieved 3 documents for question
+2025-06-02 17:45:26,937 - DEBUG - Retrieved documents content: ['Institute of Technology Jalandhar (NITJ) – 144008, India 1. Introduction Dr B R Ambedkar National Institute of Technology was established in 1987 as Regional Engineering College (REC). On October 17, ', 'assembly, rioting. \uf0b7 Public nuisance, violation of morals. \uf0b7 Physical injury, wrongful restraint/confinement. \uf0b7 Criminal force, assault, sexual or unnatural offences. \uf0b7 Extortion, trespass, intimidati', 'admission help desk across its website and prospectus documents. Below is a comprehensive compilation of available names, designations, short forms, abbreviations, and email contacts, as sourced from ']
+2025-06-02 17:45:26,937 - DEBUG - Initializing conversational chain
+2025-06-02 17:45:26,941 - DEBUG - Conversational chain initialized successfully
+2025-06-02 17:45:26,941 - INFO - Invoking conversational chain
+2025-06-02 17:45:30,225 - DEBUG - Online response generated: NITJ offers a range of academic programs including
+2025-06-02 17:47:47,827 - INFO - Saved like feedback for question: about btech admission and response: **B.Tech Admission at NITs**
+
+**Eligibility Criter
+2025-06-02 21:48:21,377 - INFO - Starting periodic fetch job
+2025-06-02 21:48:21,380 - INFO - Fetching data from https://www.nitj.ac.in/today/
+2025-06-02 21:48:21,409 - ERROR - Error fetching data from NITJ Today: HTTPSConnectionPool(host='www.nitj.ac.in', port=443): Max retries exceeded with url: /today/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001527D241C40>: Failed to resolve 'www.nitj.ac.in' ([Errno 11001] getaddrinfo failed)"))
+2025-06-02 21:48:21,410 - WARNING - No events data fetched in this cycle
+2025-06-02 23:18:37,763 - DEBUG - Checking if FAISS index exists
+2025-06-02 23:18:37,763 - DEBUG - FAISS index exists: True
+2025-06-02 23:18:37,767 - DEBUG - Checking if FAISS index exists
+2025-06-02 23:18:37,767 - DEBUG - FAISS index exists: True
+2025-06-02 23:19:08,518 - INFO - Starting periodic fetch job
+2025-06-02 23:19:08,518 - INFO - Fetching data from https://www.nitj.ac.in/today/
+2025-06-02 23:19:08,722 - WARNING - Main container not found on NITJ Today page
+2025-06-02 23:19:08,722 - WARNING - No events data fetched in this cycle
+2025-06-02 23:53:55,873 - INFO - Starting NITJ AI Chatbot backend
+2025-06-02 23:53:55,873 - DEBUG - Google API key configured
+2025-06-02 23:53:55,879 - INFO - Scheduled periodic fetching every 60 minutes
+2025-06-02 23:53:55,879 - INFO - Starting periodic fetch job
+2025-06-02 23:53:55,879 - INFO - Fetching data from https://www.nitj.ac.in/today/
+2025-06-02 23:53:55,989 - WARNING - Main container not found on NITJ Today page
+2025-06-02 23:53:55,989 - WARNING - No events data fetched in this cycle
+2025-06-02 23:53:55,990 - INFO - Started periodic fetching thread
+2025-06-02 23:53:55,990 - INFO - Starting server on port 8000
+2025-06-02 23:53:59,420 - DEBUG - Checking if FAISS index exists
+2025-06-02 23:53:59,420 - DEBUG - FAISS index exists: True
+2025-06-02 23:53:59,420 - DEBUG - Checking if FAISS index exists
+2025-06-02 23:53:59,420 - DEBUG - FAISS index exists: True
+2025-06-02 23:54:07,800 - INFO - Received question: about NITJ, offlineMode: False
+2025-06-02 23:54:07,800 - INFO - Loading FAISS vector store
+2025-06-02 23:54:07,884 - INFO - FAISS vector store loaded successfully
+2025-06-02 23:54:10,245 - DEBUG - Retrieved 3 documents for question
+2025-06-02 23:54:10,245 - DEBUG - Retrieved documents content: ['in the band of 11th-25th rank in the ARIIA rankings by Ministry of Education. Ranked 4th among the top 100 tech-enabled T-schools. In zone-wise top 10 institutes, NITJ ranked 2nd in north zone. Ranked', 'global recognition, stronger research infrastructure, and more startup or international placement opportunities, NITs offer equally strong core education, especially in engineering disciplines. For ex', 'assembly, rioting. \uf0b7 Public nuisance, violation of morals. \uf0b7 Physical injury, wrongful restraint/confinement. \uf0b7 Criminal force, assault, sexual or unnatural offences. \uf0b7 Extortion, trespass, intimidati']
+2025-06-02 23:54:10,246 - DEBUG - Initializing conversational chain
+2025-06-02 23:54:10,254 - DEBUG - Conversational chain initialized successfully
+2025-06-02 23:54:10,254 - INFO - Invoking conversational chain
+2025-06-02 23:54:15,823 - DEBUG - Online response generated: **Dr. B.R. Ambedkar National Institute of Technolo
+2025-06-02 23:54:22,075 - INFO - Extracting text from 1 PDF documents
+2025-06-02 23:54:22,380 - DEBUG - Text extracted from PDF: ABOUT NITJ.pdf
+2025-06-02 23:54:22,380 - DEBUG - Cleaning text input
+2025-06-02 23:54:22,381 - DEBUG - Text cleaned successfully
+2025-06-02 23:54:22,381 - INFO - PDF text extraction completed, length: 10813 characters
+2025-06-02 23:54:22,381 - INFO - Splitting text into chunks
+2025-06-02 23:54:22,384 - DEBUG - Text split into 7 chunks
+2025-06-02 23:54:22,434 - INFO - Creating FAISS vector store with 7 text chunks
+2025-06-02 23:54:23,285 - INFO - FAISS vector store created and saved to 'faiss_index'
